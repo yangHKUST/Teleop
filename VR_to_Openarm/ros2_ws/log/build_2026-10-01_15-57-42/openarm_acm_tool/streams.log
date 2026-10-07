@@ -1,0 +1,22 @@
+[0.006s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_acm_tool': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_acm_tool -- -j24 -l24
+[0.066s] [100%] Built target openarm-generate-acm
+[0.067s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_acm_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_acm_tool -- -j24 -l24
+[0.068s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_acm_tool': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_acm_tool
+[0.071s] -- Install configuration: ""
+[0.071s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_acm_tool/lib/openarm_acm_tool/openarm-generate-acm
+[0.072s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_acm_tool/share/ament_index/resource_index/package_run_dependencies/openarm_acm_tool
+[0.072s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_acm_tool/share/ament_index/resource_index/parent_prefix_path/openarm_acm_tool
+[0.072s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/environment/ament_prefix_path.sh
+[0.072s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/environment/ament_prefix_path.dsv
+[0.072s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/environment/path.sh
+[0.072s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/environment/path.dsv
+[0.072s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/local_setup.bash
+[0.072s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/local_setup.sh
+[0.072s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/local_setup.zsh
+[0.072s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/local_setup.dsv
+[0.072s] -- Installing: /home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.dsv
+[0.072s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_acm_tool/share/ament_index/resource_index/packages/openarm_acm_tool
+[0.072s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/cmake/openarm_acm_toolConfig.cmake
+[0.072s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/cmake/openarm_acm_toolConfig-version.cmake
+[0.072s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.xml
+[0.073s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_acm_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_acm_tool

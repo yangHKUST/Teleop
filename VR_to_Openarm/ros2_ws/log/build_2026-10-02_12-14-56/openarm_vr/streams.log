@@ -1,0 +1,20 @@
+[0.322s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_vr': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description PYTHONPATH=/home/taoqiu/ros2_ws/build/openarm_vr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/install/openarm_vr/lib/python3.10/site-packages:${PYTHONPATH} /home/taoqiu/venv-openarm-ik/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taoqiu/ros2_ws/build/openarm_vr/build --no-deps symlink_data
+[0.453s] running develop
+[0.536s] running egg_info
+[0.536s] writing openarm_vr.egg-info/PKG-INFO
+[0.536s] writing dependency_links to openarm_vr.egg-info/dependency_links.txt
+[0.536s] writing entry points to openarm_vr.egg-info/entry_points.txt
+[0.536s] writing requirements to openarm_vr.egg-info/requires.txt
+[0.536s] writing top-level names to openarm_vr.egg-info/top_level.txt
+[0.537s] reading manifest file 'openarm_vr.egg-info/SOURCES.txt'
+[0.537s] writing manifest file 'openarm_vr.egg-info/SOURCES.txt'
+[0.538s] running build_ext
+[0.538s] Creating /home/taoqiu/ros2_ws/install/openarm_vr/lib/python3.10/site-packages/openarm-vr.egg-link (link to .)
+[0.538s] Installing vr_receiver script to /home/taoqiu/ros2_ws/install/openarm_vr/lib/openarm_vr
+[0.538s] Installing vr_record script to /home/taoqiu/ros2_ws/install/openarm_vr/lib/openarm_vr
+[0.538s] Installing vr_servo script to /home/taoqiu/ros2_ws/install/openarm_vr/lib/openarm_vr
+[0.538s] Installing vr_webxr script to /home/taoqiu/ros2_ws/install/openarm_vr/lib/openarm_vr
+[0.538s] 
+[0.538s] Installed /home/taoqiu/ros2_ws/build/openarm_vr
+[0.538s] running symlink_data
+[0.550s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_vr' returned '0': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description PYTHONPATH=/home/taoqiu/ros2_ws/build/openarm_vr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/install/openarm_vr/lib/python3.10/site-packages:${PYTHONPATH} /home/taoqiu/venv-openarm-ik/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taoqiu/ros2_ws/build/openarm_vr/build --no-deps symlink_data

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: openarm-umi-bridge
+Version: 1.0.0
+Summary: ZMQ bridge from the UMI teleop core (non-ROS) to the OpenArm right-arm forward-position controller
+Home-page: UNKNOWN
+Maintainer: Enactic, Inc.
+Maintainer-email: openarm_dev@enactic.ai
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

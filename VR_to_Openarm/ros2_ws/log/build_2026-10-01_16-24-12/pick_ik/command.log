@@ -1,0 +1,1 @@
+Invoking command in '/home/taoqiu/ros2_ws/build/pick_ik': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/taoqiu/ros2_ws/src/pick_ik -DCMAKE_INSTALL_PREFIX=/home/taoqiu/ros2_ws/install/pick_ik

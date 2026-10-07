@@ -1,0 +1,28 @@
+[0.329s] Invoking command in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/build/openarm_teleop_bridge': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/build/openarm_teleop_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/install/openarm_teleop_bridge/lib/python3.10/site-packages:${PYTHONPATH} /home/taoqiu/venv-openarm-ik/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/build/openarm_teleop_bridge/build --no-deps symlink_data
+[0.463s] running develop
+[0.546s] running egg_info
+[0.546s] creating openarm_teleop_bridge.egg-info
+[0.547s] writing openarm_teleop_bridge.egg-info/PKG-INFO
+[0.547s] writing dependency_links to openarm_teleop_bridge.egg-info/dependency_links.txt
+[0.547s] writing entry points to openarm_teleop_bridge.egg-info/entry_points.txt
+[0.547s] writing requirements to openarm_teleop_bridge.egg-info/requires.txt
+[0.547s] writing top-level names to openarm_teleop_bridge.egg-info/top_level.txt
+[0.547s] writing manifest file 'openarm_teleop_bridge.egg-info/SOURCES.txt'
+[0.548s] reading manifest file 'openarm_teleop_bridge.egg-info/SOURCES.txt'
+[0.548s] writing manifest file 'openarm_teleop_bridge.egg-info/SOURCES.txt'
+[0.549s] running build_ext
+[0.549s] Creating /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/install/openarm_teleop_bridge/lib/python3.10/site-packages/openarm-teleop-bridge.egg-link (link to .)
+[0.549s] Installing jt_bridge script to /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/install/openarm_teleop_bridge/lib/openarm_teleop_bridge
+[0.549s] 
+[0.549s] Installed /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/build/openarm_teleop_bridge
+[0.549s] running symlink_data
+[0.549s] creating /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/install/openarm_teleop_bridge/share/ament_index
+[0.549s] creating /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/install/openarm_teleop_bridge/share/ament_index/resource_index
+[0.549s] creating /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/install/openarm_teleop_bridge/share/ament_index/resource_index/packages
+[0.549s] symbolically linking /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/build/openarm_teleop_bridge/resource/openarm_teleop_bridge -> /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/install/openarm_teleop_bridge/share/ament_index/resource_index/packages
+[0.549s] symbolically linking /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/build/openarm_teleop_bridge/package.xml -> /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/install/openarm_teleop_bridge/share/openarm_teleop_bridge
+[0.550s] creating /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/install/openarm_teleop_bridge/share/openarm_teleop_bridge/launch
+[0.550s] symbolically linking /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/build/openarm_teleop_bridge/launch/bridge.launch.py -> /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/install/openarm_teleop_bridge/share/openarm_teleop_bridge/launch
+[0.550s] symbolically linking /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/build/openarm_teleop_bridge/launch/teleop.launch.py -> /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/install/openarm_teleop_bridge/share/openarm_teleop_bridge/launch
+[0.550s] symbolically linking /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/build/openarm_teleop_bridge/launch/teleop_real.launch.py -> /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/install/openarm_teleop_bridge/share/openarm_teleop_bridge/launch
+[0.562s] Invoked command in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/build/openarm_teleop_bridge' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/build/openarm_teleop_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/install/openarm_teleop_bridge/lib/python3.10/site-packages:${PYTHONPATH} /home/taoqiu/venv-openarm-ik/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/build/openarm_teleop_bridge/build --no-deps symlink_data

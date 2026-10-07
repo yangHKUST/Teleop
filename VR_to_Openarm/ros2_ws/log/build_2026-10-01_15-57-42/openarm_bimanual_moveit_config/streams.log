@@ -1,0 +1,51 @@
+[0.004s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config -- -j24 -l24
+[0.029s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config -- -j24 -l24
+[0.030s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config
+[0.034s] -- Install configuration: ""
+[0.034s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/ament_index/resource_index/package_run_dependencies/openarm_bimanual_moveit_config
+[0.034s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/ament_index/resource_index/parent_prefix_path/openarm_bimanual_moveit_config
+[0.034s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/environment/ament_prefix_path.sh
+[0.034s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/environment/ament_prefix_path.dsv
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/environment/path.sh
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/environment/path.dsv
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/local_setup.bash
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/local_setup.sh
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/local_setup.zsh
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/local_setup.dsv
+[0.035s] -- Installing: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.dsv
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/ament_index/resource_index/packages/openarm_bimanual_moveit_config
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/cmake/openarm_bimanual_moveit_configConfig.cmake
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/cmake/openarm_bimanual_moveit_configConfig-version.cmake
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.xml
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/launch
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/launch/move_group.launch.py
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/launch/moveit_rviz.launch.py
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/launch/spawn_controllers.launch.py
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/launch/__pycache__
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/launch/__pycache__/demo.launch.cpython-313.pyc
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/launch/demo.launch.py
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/launch/setup_assistant.launch.py
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v2.0
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v2.0/openarm_bimanual.urdf.xacro
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v2.0/ros2_controllers.yaml
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v2.0/kinematics.yaml
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v2.0/pilz_cartesian_limits.yaml
+[0.035s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v2.0/sensors_3d.yaml
+[0.036s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v2.0/moveit_controllers.yaml
+[0.036s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v2.0/joint_limits.yaml
+[0.036s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v2.0/openarm_bimanual.srdf
+[0.036s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v2.0/moveit.rviz
+[0.036s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v1.0
+[0.036s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v1.0/openarm_bimanual.urdf.xacro
+[0.036s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v1.0/ros2_controllers.yaml
+[0.036s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v1.0/kinematics.yaml
+[0.036s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v1.0/pilz_cartesian_limits.yaml
+[0.036s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v1.0/sensors_3d.yaml
+[0.036s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v1.0/moveit_controllers.yaml
+[0.036s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v1.0/joint_limits.yaml
+[0.036s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v1.0/openarm_bimanual.srdf
+[0.036s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/openarm_v1.0/moveit.rviz
+[0.036s] -- Up-to-date: /home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/.setup_assistant
+[0.036s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config

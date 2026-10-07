@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f558759dd6a1ddf1217a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "openarm_bimanual_planner_msgs__py",
+					"jsonFile" : "directory-openarm_bimanual_planner_msgs__py-1fb6ddd8e959a6dd2180.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/taoqiu/ros2_ws/build/openarm_bimanual_planner_msgs/openarm_bimanual_planner_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "openarm_bimanual_planner_msgs__rs",
+					"jsonFile" : "directory-openarm_bimanual_planner_msgs__rs-a83b9c258de4ed2b1e11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/taoqiu/ros2_ws/build/openarm_bimanual_planner_msgs/openarm_bimanual_planner_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "openarm_bimanual_planner_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_openarm_bimanual_planner_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_openarm_bimanual_planner_msgs_egg-e76bbdd10b107c3ddf5b.json",
+					"name" : "ament_cmake_python_build_openarm_bimanual_planner_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_openarm_bimanual_planner_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_openarm_bimanual_planner_msgs-7ceb25af468dfffaa1a7.json",
+					"name" : "ament_cmake_python_symlink_openarm_bimanual_planner_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarm_bimanual_planner_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs-3c458bed9df9f23867c3.json",
+					"name" : "openarm_bimanual_planner_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarm_bimanual_planner_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs__cpp-e1776906fdb414b7a1d9.json",
+					"name" : "openarm_bimanual_planner_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "openarm_bimanual_planner_msgs__py::@145396f0417f344be6cb",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs__py-09b3fb04609fc2f4ed75.json",
+					"name" : "openarm_bimanual_planner_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarm_bimanual_planner_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs__rosidl_generator_c-88a715c89a195392318c.json",
+					"name" : "openarm_bimanual_planner_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarm_bimanual_planner_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs__rosidl_generator_py-47035397e35bd1b7d88c.json",
+					"name" : "openarm_bimanual_planner_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarm_bimanual_planner_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs__rosidl_typesupport_c-0a6f805606bf3e1d2373.json",
+					"name" : "openarm_bimanual_planner_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarm_bimanual_planner_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs__rosidl_typesupport_c__pyext-cf8911e2fb3af6a05537.json",
+					"name" : "openarm_bimanual_planner_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarm_bimanual_planner_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs__rosidl_typesupport_cpp-4c489544fec4c50955d0.json",
+					"name" : "openarm_bimanual_planner_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarm_bimanual_planner_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs__rosidl_typesupport_fastrtps_c-60f49eefc9e3c41d9a1b.json",
+					"name" : "openarm_bimanual_planner_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarm_bimanual_planner_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs__rosidl_typesupport_fastrtps_c__pyext-004a737e5e412bd07fa6.json",
+					"name" : "openarm_bimanual_planner_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarm_bimanual_planner_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs__rosidl_typesupport_fastrtps_cpp-339f0b1db8ea3f99595a.json",
+					"name" : "openarm_bimanual_planner_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarm_bimanual_planner_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs__rosidl_typesupport_introspection_c-4023d9fe311bafd89519.json",
+					"name" : "openarm_bimanual_planner_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarm_bimanual_planner_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs__rosidl_typesupport_introspection_c__pyext-a8546dec5a80fbb7febc.json",
+					"name" : "openarm_bimanual_planner_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarm_bimanual_planner_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs__rosidl_typesupport_introspection_cpp-edcbe389aa4fba65fae2.json",
+					"name" : "openarm_bimanual_planner_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "openarm_bimanual_planner_msgs__rs::@216a8d6bf50396bff921",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs__rs-0bc733c2f9ea86a67c10.json",
+					"name" : "openarm_bimanual_planner_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openarm_bimanual_planner_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openarm_bimanual_planner_msgs_uninstall-8b8be3d9e29f1bd29ba2.json",
+					"name" : "openarm_bimanual_planner_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bd4adc64ff24bf12250f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/taoqiu/ros2_ws/build/openarm_bimanual_planner_msgs",
+		"source" : "/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_bimanual_planner_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

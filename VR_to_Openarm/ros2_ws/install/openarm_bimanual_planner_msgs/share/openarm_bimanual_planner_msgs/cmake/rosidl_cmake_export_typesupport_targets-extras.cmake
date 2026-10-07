@@ -1,0 +1,1 @@
+/home/taoqiu/ros2_ws/build/openarm_bimanual_planner_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

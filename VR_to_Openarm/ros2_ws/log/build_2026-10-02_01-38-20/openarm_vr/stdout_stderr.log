@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating openarm_vr.egg-info
+writing openarm_vr.egg-info/PKG-INFO
+writing dependency_links to openarm_vr.egg-info/dependency_links.txt
+writing entry points to openarm_vr.egg-info/entry_points.txt
+writing requirements to openarm_vr.egg-info/requires.txt
+writing top-level names to openarm_vr.egg-info/top_level.txt
+writing manifest file 'openarm_vr.egg-info/SOURCES.txt'
+reading manifest file 'openarm_vr.egg-info/SOURCES.txt'
+writing manifest file 'openarm_vr.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/taoqiu/ros2_ws/install/openarm_vr/lib/python3.10/site-packages/openarm-vr.egg-link (link to .)
+Installing vr_receiver script to /home/taoqiu/ros2_ws/install/openarm_vr/lib/openarm_vr
+Installing vr_record script to /home/taoqiu/ros2_ws/install/openarm_vr/lib/openarm_vr
+Installing vr_servo script to /home/taoqiu/ros2_ws/install/openarm_vr/lib/openarm_vr
+
+Installed /home/taoqiu/ros2_ws/build/openarm_vr
+running symlink_data
+creating /home/taoqiu/ros2_ws/install/openarm_vr/share/ament_index
+creating /home/taoqiu/ros2_ws/install/openarm_vr/share/ament_index/resource_index
+creating /home/taoqiu/ros2_ws/install/openarm_vr/share/ament_index/resource_index/packages
+symbolically linking /home/taoqiu/ros2_ws/build/openarm_vr/resource/openarm_vr -> /home/taoqiu/ros2_ws/install/openarm_vr/share/ament_index/resource_index/packages
+symbolically linking /home/taoqiu/ros2_ws/build/openarm_vr/package.xml -> /home/taoqiu/ros2_ws/install/openarm_vr/share/openarm_vr
+creating /home/taoqiu/ros2_ws/install/openarm_vr/share/openarm_vr/launch
+symbolically linking /home/taoqiu/ros2_ws/build/openarm_vr/launch/vr_teleop.launch.py -> /home/taoqiu/ros2_ws/install/openarm_vr/share/openarm_vr/launch

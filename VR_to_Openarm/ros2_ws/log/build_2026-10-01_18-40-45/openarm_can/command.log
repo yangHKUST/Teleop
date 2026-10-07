@@ -1,0 +1,4 @@
+Invoking command in '/home/taoqiu/ros2_ws/build/openarm_can': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_can -- -j24 -l24
+Invoked command in '/home/taoqiu/ros2_ws/build/openarm_can' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_can -- -j24 -l24
+Invoking command in '/home/taoqiu/ros2_ws/build/openarm_can': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_can
+Invoked command in '/home/taoqiu/ros2_ws/build/openarm_can' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_can

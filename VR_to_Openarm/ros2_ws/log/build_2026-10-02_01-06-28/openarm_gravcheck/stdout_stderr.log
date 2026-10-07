@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/gravcheck.dir/gravcheck.cpp.o[0m
+[01m[K/home/taoqiu/ros2_ws/tools/openarm_gravcheck/gravcheck.cpp:37:10:[m[K [01;31m[Kfatal error: [m[Kopenarm/config/openarm_v10_config.hpp: 没有那个文件或目录
+   37 | #include [01;31m[K<openarm/config/openarm_v10_config.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/gravcheck.dir/build.make:76：CMakeFiles/gravcheck.dir/gravcheck.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:83：CMakeFiles/gravcheck.dir/all] 错误 2
+gmake: *** [Makefile:91：all] 错误 2

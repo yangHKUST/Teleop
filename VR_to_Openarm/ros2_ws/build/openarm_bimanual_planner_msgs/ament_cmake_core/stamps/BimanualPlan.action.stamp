@@ -1,0 +1,11 @@
+# Coordinated bimanual B-spline planning goal.
+# Only the position of each pose is used in the first milestone; orientation is
+# ignored (the optimizer fits 3-D EE position tracks).
+geometry_msgs/Pose left_ee_pose
+geometry_msgs/Pose right_ee_pose
+float64 duration   # desired duration [s]; 0 = planner default (4.0 s)
+---
+bool success
+string message
+---
+float32 progress   # 0.0 .. 1.0

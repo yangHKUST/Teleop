@@ -1,0 +1,18 @@
+[0.326s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_bimanual_planner': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs/lib:${LD_LIBRARY_PATH} PS1=(venv-openarm-ik) PYTHONPATH=/home/taoqiu/ros2_ws/build/openarm_bimanual_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner/lib/python3.10/site-packages:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-openarm-ik) /home/taoqiu/venv-openarm-ik/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taoqiu/ros2_ws/build/openarm_bimanual_planner/build --no-deps symlink_data
+[0.454s] running develop
+[0.535s] running egg_info
+[0.535s] writing openarm_bimanual_planner.egg-info/PKG-INFO
+[0.535s] writing dependency_links to openarm_bimanual_planner.egg-info/dependency_links.txt
+[0.535s] writing entry points to openarm_bimanual_planner.egg-info/entry_points.txt
+[0.535s] writing requirements to openarm_bimanual_planner.egg-info/requires.txt
+[0.535s] writing top-level names to openarm_bimanual_planner.egg-info/top_level.txt
+[0.536s] reading manifest file 'openarm_bimanual_planner.egg-info/SOURCES.txt'
+[0.536s] writing manifest file 'openarm_bimanual_planner.egg-info/SOURCES.txt'
+[0.537s] running build_ext
+[0.537s] Creating /home/taoqiu/ros2_ws/install/openarm_bimanual_planner/lib/python3.10/site-packages/openarm-bimanual-planner.egg-link (link to .)
+[0.538s] Installing bimanual_plan_client script to /home/taoqiu/ros2_ws/install/openarm_bimanual_planner/lib/openarm_bimanual_planner
+[0.538s] Installing bimanual_plan_server script to /home/taoqiu/ros2_ws/install/openarm_bimanual_planner/lib/openarm_bimanual_planner
+[0.538s] 
+[0.538s] Installed /home/taoqiu/ros2_ws/build/openarm_bimanual_planner
+[0.538s] running symlink_data
+[0.549s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_bimanual_planner' returned '0': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs/lib:${LD_LIBRARY_PATH} PS1=(venv-openarm-ik) PYTHONPATH=/home/taoqiu/ros2_ws/build/openarm_bimanual_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner/lib/python3.10/site-packages:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-openarm-ik) /home/taoqiu/venv-openarm-ik/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taoqiu/ros2_ws/build/openarm_bimanual_planner/build --no-deps symlink_data

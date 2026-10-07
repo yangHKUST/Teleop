@@ -1,0 +1,1 @@
+Invoking command in '/home/taoqiu/ros2_ws/build/bio_ik': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/taoqiu/ros2_ws/install/pick_ik:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) VIRTUAL_ENV_PROMPT=(venv-openarm-ik) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/bio_ik -- -j24 -l24

@@ -1,0 +1,35 @@
+[0.006s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_hardware': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_can:/home/taoqiu/ros2_ws/install/openarm:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs:/home/taoqiu/ros2_ws/install/openarm_acm_tool:/home/taoqiu/ros2_ws/install/bio_ik:/home/taoqiu/ros2_ws/install/pick_ik:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_hardware -- -j24 -l24
+[0.063s] Consolidate compiler generated dependencies of target openarm_hardware
+[0.087s] [ 50%] Building CXX object CMakeFiles/openarm_hardware.dir/src/openarm_simple_hardware.cpp.o
+[7.556s] [100%] Linking CXX shared library libopenarm_hardware.so
+[7.755s] [100%] Built target openarm_hardware
+[7.764s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_can:/home/taoqiu/ros2_ws/install/openarm:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs:/home/taoqiu/ros2_ws/install/openarm_acm_tool:/home/taoqiu/ros2_ws/install/bio_ik:/home/taoqiu/ros2_ws/install/pick_ik:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_hardware -- -j24 -l24
+[7.770s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_hardware': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_can:/home/taoqiu/ros2_ws/install/openarm:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs:/home/taoqiu/ros2_ws/install/openarm_acm_tool:/home/taoqiu/ros2_ws/install/bio_ik:/home/taoqiu/ros2_ws/install/pick_ik:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_hardware
+[7.776s] -- Install configuration: ""
+[7.776s] -- Execute custom install script
+[7.776s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware//openarm_hardware.xml
+[7.777s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/lib/libopenarm_hardware.so
+[7.777s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/include/openarm_hardware/openarm_simple_hardware.hpp
+[7.777s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/include/openarm_hardware/visibility_control.h
+[7.777s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/library_path.sh
+[7.777s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/library_path.dsv
+[7.777s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/ament_index/resource_index/package_run_dependencies/openarm_hardware
+[7.777s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/ament_index/resource_index/parent_prefix_path/openarm_hardware
+[7.778s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/ament_prefix_path.sh
+[7.778s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/ament_prefix_path.dsv
+[7.778s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/path.sh
+[7.778s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/path.dsv
+[7.778s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/local_setup.bash
+[7.778s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/local_setup.sh
+[7.778s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/local_setup.zsh
+[7.778s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/local_setup.dsv
+[7.778s] -- Symlinking: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.dsv
+[7.784s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/ament_index/resource_index/packages/openarm_hardware
+[7.784s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/openarm_hardware
+[7.784s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.784s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[7.785s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.785s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/cmake/openarm_hardwareConfig.cmake
+[7.785s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/cmake/openarm_hardwareConfig-version.cmake
+[7.785s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.xml
+[7.786s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_can:/home/taoqiu/ros2_ws/install/openarm:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs:/home/taoqiu/ros2_ws/install/openarm_acm_tool:/home/taoqiu/ros2_ws/install/bio_ik:/home/taoqiu/ros2_ws/install/pick_ik:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_hardware

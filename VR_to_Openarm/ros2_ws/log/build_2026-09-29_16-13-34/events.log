@@ -1,0 +1,389 @@
+[0.000000] (-) TimerEvent: {}
+[0.000076] (-) JobUnselected: {'identifier': 'openarm'}
+[0.000097] (-) JobUnselected: {'identifier': 'openarm_bimanual_moveit_config'}
+[0.000119] (-) JobUnselected: {'identifier': 'openarm_bringup'}
+[0.000134] (-) JobUnselected: {'identifier': 'openarm_can'}
+[0.000181] (-) JobUnselected: {'identifier': 'openarm_description'}
+[0.000196] (-) JobUnselected: {'identifier': 'openarm_hardware'}
+[0.000212] (bio_ik) JobQueued: {'identifier': 'bio_ik', 'dependencies': OrderedDict()}
+[0.000228] (bio_ik) JobStarted: {'identifier': 'bio_ik'}
+[0.003393] (bio_ik) JobProgress: {'identifier': 'bio_ik', 'progress': 'cmake'}
+[0.003568] (bio_ik) Command: {'cmd': ['/usr/bin/cmake', '/home/taoqiu/ros2_ws/src/bio_ik', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/taoqiu/ros2_ws/install/bio_ik'], 'cwd': '/home/taoqiu/ros2_ws/build/bio_ik', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/taoqiu'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AI_AGENT', 'claude-code_2-1-284_agent'), ('LANGUAGE', 'zh_CN'), ('ANTHROPIC_DEFAULT_SONNET_MODEL_NAME', 'deepseek-v4-pro'), ('USER', 'taoqiu'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code-insiders/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","messagesFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/0035c783eccf8a2efbdb972dfe62becb51f11fc6/nls.messages.json","corruptMarkerFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"75539731208fa508a5b042c8fe051beb.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","_cacheRoot":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/0035c783eccf8a2efbdb972dfe62becb51f11fc6","_corruptedFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.284'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/taoqiu'), ('CHROME_DESKTOP', 'code-insiders.desktop'), ('CONDA_SHLVL', '1'), ('GIT_CONFIG_COUNT', '1'), ('OLDPWD', '/home/taoqiu/ros2_ws/src/bio_ik'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-afd1fbaf-1.12-main.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code-insiders.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '2133'), ('SYSTEMD_EXEC_PID', '2393'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CONDA_ROOT', '/home/taoqiu/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4392'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', 'file:///home/taoqiu/.vscode-insiders/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.131.2026090407/translations/extensions/vscode.json-language-features.i18n.json'), ('ANTHROPIC_DEFAULT_OPUS_MODEL_NAME', 'deepseek-v4-pro'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'taoqiu'), ('JOURNAL_STREAM', '8:30804'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'taoqiu'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('GIT_CONFIG_VALUE_0', 'explicit'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/taoqiu/miniconda3/bin:/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/cuda/bin:/usr/local/bin:/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/cuda/bin:/usr/local/bin:/opt/ros/humble/bin:/home/taoqiu/miniconda3/bin:/home/taoqiu/miniconda3/condabin:/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/1201:@/tmp/.ICE-unix/2364,unix/1201:/tmp/.ICE-unix/2364'), ('INVOCATION_ID', 'd5cc94249ceb463caeceafd5fde567c3'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':1'), ('CLAUDE_PID', '69146'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/taoqiu/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('GSETTINGS_SCHEMA_DIR', '/home/taoqiu/miniconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/taoqiu/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ANTHROPIC_AUTH_TOKEN', 'sk-0fdd435b48254add9fa0b526eac6b1ef'), ('MXC_BIN_DIR', '/usr/share/code-insiders/resources/app/node_modules/@microsoft/mxc-sdk/bin'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('GIT_CONFIG_KEY_0', 'safe.bareRepository'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '9cb6fae6-a5a8-4ca3-9a31-8f3f922386fb'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/taoqiu/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VIRTUAL_ENV', '/home/taoqiu/miniconda3'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/taoqiu/ros2_ws/build/bio_ik'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/taoqiu/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/taoqiu/.config/Code - Insiders/CachedData/0035c783eccf8a2efbdb972dfe62becb51f11fc6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/taoqiu/.vscode-insiders/extensions/anthropic.claude-code-2.1.284-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('CONDA_PREFIX', '/home/taoqiu/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '4392'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.054005] (bio_ik) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099799] (-) TimerEvent: {}
+[0.109011] (bio_ik) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.113992] (bio_ik) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.157786] (bio_ik) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.162879] (bio_ik) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.163035] (bio_ik) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.163182] (bio_ik) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.164605] (bio_ik) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199928] (-) TimerEvent: {}
+[0.210074] (bio_ik) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.213608] (bio_ik) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.213801] (bio_ik) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.213987] (bio_ik) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.215092] (bio_ik) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300020] (-) TimerEvent: {}
+[0.400182] (-) TimerEvent: {}
+[0.437067] (bio_ik) StdoutLine: {'line': b'-- Found Python3: /home/taoqiu/miniconda3/bin/python3 (found version "3.13.13") found components: Interpreter \n'}
+[0.496138] (bio_ik) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.500280] (-) TimerEvent: {}
+[0.507433] (bio_ik) StdoutLine: {'line': b'-- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)\n'}
+[0.600384] (-) TimerEvent: {}
+[0.611381] (bio_ik) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.640329] (bio_ik) StdoutLine: {'line': b'-- Found parameter_traits: 0.7.4 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.660193] (bio_ik) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.662890] (bio_ik) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.667658] (bio_ik) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.674191] (bio_ik) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.682678] (bio_ik) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700455] (-) TimerEvent: {}
+[0.706058] (bio_ik) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.707600] (bio_ik) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.773597] (bio_ik) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.799787] (bio_ik) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.800552] (-) TimerEvent: {}
+[0.834641] (bio_ik) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.841367] (bio_ik) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.876944] (bio_ik) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.900612] (-) TimerEvent: {}
+[0.955512] (bio_ik) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.000686] (-) TimerEvent: {}
+[1.003884] (bio_ik) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.004014] (bio_ik) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.100785] (-) TimerEvent: {}
+[1.133630] (bio_ik) StdoutLine: {'line': b'-- Found moveit_ros_planning: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning/cmake)\n'}
+[1.136410] (bio_ik) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[1.200891] (-) TimerEvent: {}
+[1.301074] (-) TimerEvent: {}
+[1.343242] (bio_ik) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[1.401229] (-) TimerEvent: {}
+[1.440723] (bio_ik) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[1.441390] (bio_ik) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[1.441852] (bio_ik) StdoutLine: {'line': b'-- OPENMP FOUND\n'}
+[1.454881] (bio_ik) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.501297] (-) TimerEvent: {}
+[1.517970] (bio_ik) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.534405] (bio_ik) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:104 (add_library):\n'}
+[1.534503] (bio_ik) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target bio_ik because files\n'}
+[1.534559] (bio_ik) StderrLine: {'line': b'  in some directories may conflict with libraries in implicit directories:\n'}
+[1.534610] (bio_ik) StderrLine: {'line': b'\n'}
+[1.534663] (bio_ik) StderrLine: {'line': b'    runtime library [libgomp.so.1] in /usr/lib/gcc/x86_64-linux-gnu/11 may be hidden by files in:\n'}
+[1.534717] (bio_ik) StderrLine: {'line': b'      /home/taoqiu/miniconda3/lib\n'}
+[1.534764] (bio_ik) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.534811] (bio_ik) StderrLine: {'line': b'      /home/taoqiu/miniconda3/lib\n'}
+[1.534858] (bio_ik) StderrLine: {'line': b'\n'}
+[1.534905] (bio_ik) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.534952] (bio_ik) StderrLine: {'line': b'\n'}
+[1.534998] (bio_ik) StderrLine: {'line': b'\n'}
+[1.539063] (bio_ik) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:127 (add_library):\n'}
+[1.539146] (bio_ik) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target bio_ik_plugin because\n'}
+[1.539200] (bio_ik) StderrLine: {'line': b'  files in some directories may conflict with libraries in implicit\n'}
+[1.539249] (bio_ik) StderrLine: {'line': b'  directories:\n'}
+[1.539296] (bio_ik) StderrLine: {'line': b'\n'}
+[1.539343] (bio_ik) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.539389] (bio_ik) StderrLine: {'line': b'      /home/taoqiu/miniconda3/lib\n'}
+[1.539434] (bio_ik) StderrLine: {'line': b'    runtime library [libgomp.so.1] in /usr/lib/gcc/x86_64-linux-gnu/11 may be hidden by files in:\n'}
+[1.539479] (bio_ik) StderrLine: {'line': b'      /home/taoqiu/miniconda3/lib\n'}
+[1.539525] (bio_ik) StderrLine: {'line': b'\n'}
+[1.539570] (bio_ik) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.539616] (bio_ik) StderrLine: {'line': b'\n'}
+[1.539665] (bio_ik) StderrLine: {'line': b'\n'}
+[1.543539] (bio_ik) StderrLine: {'line': b'CMake Warning at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.543618] (bio_ik) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target bio_ik_test because\n'}
+[1.543678] (bio_ik) StderrLine: {'line': b'  files in some directories may conflict with libraries in implicit\n'}
+[1.543736] (bio_ik) StderrLine: {'line': b'  directories:\n'}
+[1.543785] (bio_ik) StderrLine: {'line': b'\n'}
+[1.543830] (bio_ik) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.543877] (bio_ik) StderrLine: {'line': b'      /home/taoqiu/miniconda3/lib\n'}
+[1.543922] (bio_ik) StderrLine: {'line': b'    runtime library [libgomp.so.1] in /usr/lib/gcc/x86_64-linux-gnu/11 may be hidden by files in:\n'}
+[1.543970] (bio_ik) StderrLine: {'line': b'      /home/taoqiu/miniconda3/lib\n'}
+[1.544016] (bio_ik) StderrLine: {'line': b'\n'}
+[1.544061] (bio_ik) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.544109] (bio_ik) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.544155] (bio_ik) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.544202] (bio_ik) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.544249] (bio_ik) StderrLine: {'line': b'  CMakeLists.txt:178 (ament_add_gtest)\n'}
+[1.544296] (bio_ik) StderrLine: {'line': b'\n'}
+[1.544343] (bio_ik) StderrLine: {'line': b'\n'}
+[1.545595] (bio_ik) StdoutLine: {'line': b'-- Generating done\n'}
+[1.552805] (bio_ik) StdoutLine: {'line': b'-- Build files have been written to: /home/taoqiu/ros2_ws/build/bio_ik\n'}
+[1.560522] (bio_ik) CommandEnded: {'returncode': 0}
+[1.562026] (bio_ik) JobProgress: {'identifier': 'bio_ik', 'progress': 'build'}
+[1.562074] (bio_ik) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/taoqiu/ros2_ws/build/bio_ik', '--', '-j24', '-l24'], 'cwd': '/home/taoqiu/ros2_ws/build/bio_ik', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/taoqiu'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AI_AGENT', 'claude-code_2-1-284_agent'), ('LANGUAGE', 'zh_CN'), ('ANTHROPIC_DEFAULT_SONNET_MODEL_NAME', 'deepseek-v4-pro'), ('USER', 'taoqiu'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code-insiders/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","messagesFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/0035c783eccf8a2efbdb972dfe62becb51f11fc6/nls.messages.json","corruptMarkerFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"75539731208fa508a5b042c8fe051beb.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","_cacheRoot":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/0035c783eccf8a2efbdb972dfe62becb51f11fc6","_corruptedFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.284'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/taoqiu'), ('CHROME_DESKTOP', 'code-insiders.desktop'), ('CONDA_SHLVL', '1'), ('GIT_CONFIG_COUNT', '1'), ('OLDPWD', '/home/taoqiu/ros2_ws/src/bio_ik'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-afd1fbaf-1.12-main.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code-insiders.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '2133'), ('SYSTEMD_EXEC_PID', '2393'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CONDA_ROOT', '/home/taoqiu/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4392'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', 'file:///home/taoqiu/.vscode-insiders/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.131.2026090407/translations/extensions/vscode.json-language-features.i18n.json'), ('ANTHROPIC_DEFAULT_OPUS_MODEL_NAME', 'deepseek-v4-pro'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'taoqiu'), ('JOURNAL_STREAM', '8:30804'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'taoqiu'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('GIT_CONFIG_VALUE_0', 'explicit'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/taoqiu/miniconda3/bin:/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/cuda/bin:/usr/local/bin:/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/cuda/bin:/usr/local/bin:/opt/ros/humble/bin:/home/taoqiu/miniconda3/bin:/home/taoqiu/miniconda3/condabin:/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/1201:@/tmp/.ICE-unix/2364,unix/1201:/tmp/.ICE-unix/2364'), ('INVOCATION_ID', 'd5cc94249ceb463caeceafd5fde567c3'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':1'), ('CLAUDE_PID', '69146'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/taoqiu/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('GSETTINGS_SCHEMA_DIR', '/home/taoqiu/miniconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/taoqiu/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ANTHROPIC_AUTH_TOKEN', 'sk-0fdd435b48254add9fa0b526eac6b1ef'), ('MXC_BIN_DIR', '/usr/share/code-insiders/resources/app/node_modules/@microsoft/mxc-sdk/bin'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('GIT_CONFIG_KEY_0', 'safe.bareRepository'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '9cb6fae6-a5a8-4ca3-9a31-8f3f922386fb'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/taoqiu/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VIRTUAL_ENV', '/home/taoqiu/miniconda3'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/taoqiu/ros2_ws/build/bio_ik'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/taoqiu/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/taoqiu/.config/Code - Insiders/CachedData/0035c783eccf8a2efbdb972dfe62becb51f11fc6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/taoqiu/.vscode-insiders/extensions/anthropic.claude-code-2.1.284-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('CONDA_PREFIX', '/home/taoqiu/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '4392'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.601424] (-) TimerEvent: {}
+[1.604850] (bio_ik) StdoutLine: {'line': b'[  4%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\n'}
+[1.605854] (bio_ik) StdoutLine: {'line': b'[  9%] Building CXX object CMakeFiles/bio_ik.dir/src/goal_types.cpp.o\n'}
+[1.606808] (bio_ik) StdoutLine: {'line': b'[ 14%] Building CXX object CMakeFiles/bio_ik.dir/src/problem.cpp.o\n'}
+[1.606871] (bio_ik) StdoutLine: {'line': b'[ 19%] Building CXX object CMakeFiles/bio_ik.dir/src/ik_test.cpp.o\n'}
+[1.607004] (bio_ik) StdoutLine: {'line': b'[ 23%] Building CXX object CMakeFiles/bio_ik.dir/src/ik_evolution_1.cpp.o\n'}
+[1.607086] (bio_ik) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/bio_ik.dir/src/ik_evolution_2.cpp.o\n'}
+[1.607312] (bio_ik) StdoutLine: {'line': b'[ 33%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\n'}
+[1.608924] (bio_ik) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/bio_ik.dir/src/ik_gradient.cpp.o\n'}
+[1.701520] (-) TimerEvent: {}
+[1.801701] (-) TimerEvent: {}
+[1.901874] (-) TimerEvent: {}
+[2.002051] (-) TimerEvent: {}
+[2.044536] (bio_ik) StdoutLine: {'line': b'[ 42%] Linking CXX static library libgtest_main.a\n'}
+[2.085479] (bio_ik) StdoutLine: {'line': b'[ 42%] Built target gtest_main\n'}
+[2.102149] (-) TimerEvent: {}
+[2.202328] (-) TimerEvent: {}
+[2.302508] (-) TimerEvent: {}
+[2.402669] (-) TimerEvent: {}
+[2.502850] (-) TimerEvent: {}
+[2.603031] (-) TimerEvent: {}
+[2.703214] (-) TimerEvent: {}
+[2.803395] (-) TimerEvent: {}
+[2.903583] (-) TimerEvent: {}
+[3.003722] (-) TimerEvent: {}
+[3.103905] (-) TimerEvent: {}
+[3.204086] (-) TimerEvent: {}
+[3.304273] (-) TimerEvent: {}
+[3.404454] (-) TimerEvent: {}
+[3.504635] (-) TimerEvent: {}
+[3.604827] (-) TimerEvent: {}
+[3.705019] (-) TimerEvent: {}
+[3.805206] (-) TimerEvent: {}
+[3.905390] (-) TimerEvent: {}
+[4.005576] (-) TimerEvent: {}
+[4.105717] (-) TimerEvent: {}
+[4.205901] (-) TimerEvent: {}
+[4.306085] (-) TimerEvent: {}
+[4.406272] (-) TimerEvent: {}
+[4.506454] (-) TimerEvent: {}
+[4.606633] (-) TimerEvent: {}
+[4.706816] (-) TimerEvent: {}
+[4.806994] (-) TimerEvent: {}
+[4.907174] (-) TimerEvent: {}
+[5.007358] (-) TimerEvent: {}
+[5.107534] (-) TimerEvent: {}
+[5.207714] (-) TimerEvent: {}
+[5.307926] (-) TimerEvent: {}
+[5.408099] (-) TimerEvent: {}
+[5.508286] (-) TimerEvent: {}
+[5.512175] (bio_ik) StdoutLine: {'line': b'[ 47%] Linking CXX static library libgtest.a\n'}
+[5.571662] (bio_ik) StdoutLine: {'line': b'[ 47%] Built target gtest\n'}
+[5.608392] (-) TimerEvent: {}
+[5.708578] (-) TimerEvent: {}
+[5.808717] (-) TimerEvent: {}
+[5.908901] (-) TimerEvent: {}
+[6.009089] (-) TimerEvent: {}
+[6.109275] (-) TimerEvent: {}
+[6.209426] (-) TimerEvent: {}
+[6.309617] (-) TimerEvent: {}
+[6.409807] (-) TimerEvent: {}
+[6.509978] (-) TimerEvent: {}
+[6.610148] (-) TimerEvent: {}
+[6.710319] (-) TimerEvent: {}
+[6.810488] (-) TimerEvent: {}
+[6.910663] (-) TimerEvent: {}
+[7.010869] (-) TimerEvent: {}
+[7.111041] (-) TimerEvent: {}
+[7.211219] (-) TimerEvent: {}
+[7.311403] (-) TimerEvent: {}
+[7.411573] (-) TimerEvent: {}
+[7.511712] (-) TimerEvent: {}
+[7.611889] (-) TimerEvent: {}
+[7.712053] (-) TimerEvent: {}
+[7.812223] (-) TimerEvent: {}
+[7.912395] (-) TimerEvent: {}
+[8.012563] (-) TimerEvent: {}
+[8.112770] (-) TimerEvent: {}
+[8.212932] (-) TimerEvent: {}
+[8.313097] (-) TimerEvent: {}
+[8.413266] (-) TimerEvent: {}
+[8.513442] (-) TimerEvent: {}
+[8.613608] (-) TimerEvent: {}
+[8.713781] (-) TimerEvent: {}
+[8.813949] (-) TimerEvent: {}
+[8.914113] (-) TimerEvent: {}
+[9.014315] (-) TimerEvent: {}
+[9.114476] (-) TimerEvent: {}
+[9.214644] (-) TimerEvent: {}
+[9.314843] (-) TimerEvent: {}
+[9.415005] (-) TimerEvent: {}
+[9.515165] (-) TimerEvent: {}
+[9.615331] (-) TimerEvent: {}
+[9.715497] (-) TimerEvent: {}
+[9.815679] (-) TimerEvent: {}
+[9.915826] (-) TimerEvent: {}
+[10.015962] (-) TimerEvent: {}
+[10.116097] (-) TimerEvent: {}
+[10.216238] (-) TimerEvent: {}
+[10.316374] (-) TimerEvent: {}
+[10.416506] (-) TimerEvent: {}
+[10.516645] (-) TimerEvent: {}
+[10.616799] (-) TimerEvent: {}
+[10.716941] (-) TimerEvent: {}
+[10.817100] (-) TimerEvent: {}
+[10.917250] (-) TimerEvent: {}
+[11.017392] (-) TimerEvent: {}
+[11.117546] (-) TimerEvent: {}
+[11.217693] (-) TimerEvent: {}
+[11.317830] (-) TimerEvent: {}
+[11.417971] (-) TimerEvent: {}
+[11.518112] (-) TimerEvent: {}
+[11.618251] (-) TimerEvent: {}
+[11.718390] (-) TimerEvent: {}
+[11.740757] (bio_ik) StdoutLine: {'line': b'[ 52%] Linking CXX shared library libbio_ik.so\n'}
+[11.818477] (-) TimerEvent: {}
+[11.913130] (bio_ik) StdoutLine: {'line': b'[ 52%] Built target bio_ik\n'}
+[11.918530] (-) TimerEvent: {}
+[11.925993] (bio_ik) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/bio_ik_plugin.dir/src/goal_types.cpp.o\n'}
+[11.926479] (bio_ik) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/bio_ik_plugin.dir/src/problem.cpp.o\n'}
+[11.926941] (bio_ik) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/bio_ik_plugin.dir/src/ik_gradient.cpp.o\n'}
+[11.927753] (bio_ik) StdoutLine: {'line': b'[ 71%] Building CXX object CMakeFiles/bio_ik_plugin.dir/src/ik_evolution_2.cpp.o\n'}
+[11.927886] (bio_ik) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/bio_ik_plugin.dir/src/ik_evolution_1.cpp.o\n'}
+[11.929529] (bio_ik) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/bio_ik_plugin.dir/src/ik_test.cpp.o\n'}
+[11.929666] (bio_ik) StdoutLine: {'line': b'[ 85%] Building CXX object CMakeFiles/bio_ik_test.dir/test/utest.cpp.o\n'}
+[11.930633] (bio_ik) StdoutLine: {'line': b'[ 90%] Building CXX object CMakeFiles/bio_ik_plugin.dir/src/kinematics_plugin.cpp.o\n'}
+[12.018641] (-) TimerEvent: {}
+[12.118834] (-) TimerEvent: {}
+[12.219032] (-) TimerEvent: {}
+[12.319217] (-) TimerEvent: {}
+[12.419406] (-) TimerEvent: {}
+[12.519590] (-) TimerEvent: {}
+[12.619784] (-) TimerEvent: {}
+[12.719965] (-) TimerEvent: {}
+[12.820156] (-) TimerEvent: {}
+[12.920347] (-) TimerEvent: {}
+[13.020534] (-) TimerEvent: {}
+[13.120721] (-) TimerEvent: {}
+[13.220909] (-) TimerEvent: {}
+[13.321091] (-) TimerEvent: {}
+[13.421275] (-) TimerEvent: {}
+[13.521494] (-) TimerEvent: {}
+[13.621691] (-) TimerEvent: {}
+[13.721881] (-) TimerEvent: {}
+[13.822074] (-) TimerEvent: {}
+[13.922272] (-) TimerEvent: {}
+[14.022469] (-) TimerEvent: {}
+[14.122673] (-) TimerEvent: {}
+[14.222862] (-) TimerEvent: {}
+[14.323051] (-) TimerEvent: {}
+[14.423239] (-) TimerEvent: {}
+[14.523422] (-) TimerEvent: {}
+[14.623606] (-) TimerEvent: {}
+[14.723801] (-) TimerEvent: {}
+[14.823987] (-) TimerEvent: {}
+[14.924170] (-) TimerEvent: {}
+[15.024353] (-) TimerEvent: {}
+[15.124536] (-) TimerEvent: {}
+[15.224717] (-) TimerEvent: {}
+[15.324905] (-) TimerEvent: {}
+[15.331921] (bio_ik) StdoutLine: {'line': b'[ 95%] Linking CXX executable bio_ik_test\n'}
+[15.425003] (-) TimerEvent: {}
+[15.515637] (bio_ik) StdoutLine: {'line': b'[ 95%] Built target bio_ik_test\n'}
+[15.525036] (-) TimerEvent: {}
+[15.625206] (-) TimerEvent: {}
+[15.725404] (-) TimerEvent: {}
+[15.825622] (-) TimerEvent: {}
+[15.925824] (-) TimerEvent: {}
+[16.026028] (-) TimerEvent: {}
+[16.126223] (-) TimerEvent: {}
+[16.226384] (-) TimerEvent: {}
+[16.326577] (-) TimerEvent: {}
+[16.426701] (-) TimerEvent: {}
+[16.526847] (-) TimerEvent: {}
+[16.626993] (-) TimerEvent: {}
+[16.727146] (-) TimerEvent: {}
+[16.827289] (-) TimerEvent: {}
+[16.927426] (-) TimerEvent: {}
+[17.027562] (-) TimerEvent: {}
+[17.127701] (-) TimerEvent: {}
+[17.227841] (-) TimerEvent: {}
+[17.328006] (-) TimerEvent: {}
+[17.428190] (-) TimerEvent: {}
+[17.528362] (-) TimerEvent: {}
+[17.628541] (-) TimerEvent: {}
+[17.728713] (-) TimerEvent: {}
+[17.828888] (-) TimerEvent: {}
+[17.929069] (-) TimerEvent: {}
+[18.029250] (-) TimerEvent: {}
+[18.129423] (-) TimerEvent: {}
+[18.229599] (-) TimerEvent: {}
+[18.329773] (-) TimerEvent: {}
+[18.429938] (-) TimerEvent: {}
+[18.530103] (-) TimerEvent: {}
+[18.630275] (-) TimerEvent: {}
+[18.730452] (-) TimerEvent: {}
+[18.830630] (-) TimerEvent: {}
+[18.930803] (-) TimerEvent: {}
+[19.031029] (-) TimerEvent: {}
+[19.131196] (-) TimerEvent: {}
+[19.231396] (-) TimerEvent: {}
+[19.331593] (-) TimerEvent: {}
+[19.431792] (-) TimerEvent: {}
+[19.531958] (-) TimerEvent: {}
+[19.632120] (-) TimerEvent: {}
+[19.732310] (-) TimerEvent: {}
+[19.832514] (-) TimerEvent: {}
+[19.932724] (-) TimerEvent: {}
+[20.032958] (-) TimerEvent: {}
+[20.133151] (-) TimerEvent: {}
+[20.233385] (-) TimerEvent: {}
+[20.333610] (-) TimerEvent: {}
+[20.433797] (-) TimerEvent: {}
+[20.533973] (-) TimerEvent: {}
+[20.634138] (-) TimerEvent: {}
+[20.734296] (-) TimerEvent: {}
+[20.834465] (-) TimerEvent: {}
+[20.934642] (-) TimerEvent: {}
+[21.034816] (-) TimerEvent: {}
+[21.135031] (-) TimerEvent: {}
+[21.235214] (-) TimerEvent: {}
+[21.335418] (-) TimerEvent: {}
+[21.435644] (-) TimerEvent: {}
+[21.535847] (-) TimerEvent: {}
+[21.636028] (-) TimerEvent: {}
+[21.736178] (-) TimerEvent: {}
+[21.836342] (-) TimerEvent: {}
+[21.936504] (-) TimerEvent: {}
+[22.003482] (bio_ik) StdoutLine: {'line': b'[100%] Linking CXX shared library libbio_ik_plugin.so\n'}
+[22.036600] (-) TimerEvent: {}
+[22.134389] (bio_ik) StdoutLine: {'line': b'[100%] Built target bio_ik_plugin\n'}
+[22.136647] (-) TimerEvent: {}
+[22.141852] (bio_ik) CommandEnded: {'returncode': 0}
+[22.142277] (bio_ik) JobProgress: {'identifier': 'bio_ik', 'progress': 'install'}
+[22.145955] (bio_ik) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/taoqiu/ros2_ws/build/bio_ik'], 'cwd': '/home/taoqiu/ros2_ws/build/bio_ik', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/taoqiu'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AI_AGENT', 'claude-code_2-1-284_agent'), ('LANGUAGE', 'zh_CN'), ('ANTHROPIC_DEFAULT_SONNET_MODEL_NAME', 'deepseek-v4-pro'), ('USER', 'taoqiu'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code-insiders/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","messagesFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/0035c783eccf8a2efbdb972dfe62becb51f11fc6/nls.messages.json","corruptMarkerFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"75539731208fa508a5b042c8fe051beb.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","_cacheRoot":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/0035c783eccf8a2efbdb972dfe62becb51f11fc6","_corruptedFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.284'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/taoqiu'), ('CHROME_DESKTOP', 'code-insiders.desktop'), ('CONDA_SHLVL', '1'), ('GIT_CONFIG_COUNT', '1'), ('OLDPWD', '/home/taoqiu/ros2_ws/src/bio_ik'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-afd1fbaf-1.12-main.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code-insiders.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('COPILOT_OTEL_FILE_EXPORTER_PATH', '/dev/null'), ('MANAGERPID', '2133'), ('SYSTEMD_EXEC_PID', '2393'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CONDA_ROOT', '/home/taoqiu/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4392'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', 'file:///home/taoqiu/.vscode-insiders/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.131.2026090407/translations/extensions/vscode.json-language-features.i18n.json'), ('ANTHROPIC_DEFAULT_OPUS_MODEL_NAME', 'deepseek-v4-pro'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'taoqiu'), ('JOURNAL_STREAM', '8:30804'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'taoqiu'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('GIT_CONFIG_VALUE_0', 'explicit'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/taoqiu/miniconda3/bin:/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/cuda/bin:/usr/local/bin:/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/cuda/bin:/usr/local/bin:/opt/ros/humble/bin:/home/taoqiu/miniconda3/bin:/home/taoqiu/miniconda3/condabin:/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/1201:@/tmp/.ICE-unix/2364,unix/1201:/tmp/.ICE-unix/2364'), ('INVOCATION_ID', 'd5cc94249ceb463caeceafd5fde567c3'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'high'), ('DISPLAY', ':1'), ('CLAUDE_PID', '69146'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('COPILOT_OTEL_ENABLED', 'true'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/taoqiu/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('GSETTINGS_SCHEMA_DIR', '/home/taoqiu/miniconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/taoqiu/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ANTHROPIC_AUTH_TOKEN', 'sk-0fdd435b48254add9fa0b526eac6b1ef'), ('MXC_BIN_DIR', '/usr/share/code-insiders/resources/app/node_modules/@microsoft/mxc-sdk/bin'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('GIT_CONFIG_KEY_0', 'safe.bareRepository'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '9cb6fae6-a5a8-4ca3-9a31-8f3f922386fb'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/taoqiu/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VIRTUAL_ENV', '/home/taoqiu/miniconda3'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/taoqiu/ros2_ws/build/bio_ik'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/taoqiu/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/taoqiu/.config/Code - Insiders/CachedData/0035c783eccf8a2efbdb972dfe62becb51f11fc6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/taoqiu/.vscode-insiders/extensions/anthropic.claude-code-2.1.284-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('CONDA_PREFIX', '/home/taoqiu/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '4392'), ('COPILOT_OTEL_EXPORTER_TYPE', 'file'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[22.152348] (bio_ik) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[22.152511] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/include\n'}
+[22.152547] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik\n'}
+[22.152578] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik/goal_types.h\n'}
+[22.152607] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik/frame.h\n'}
+[22.152633] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik/goal.h\n'}
+[22.152698] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik/robot_info.h\n'}
+[22.152723] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik/bio_ik.h\n'}
+[22.152746] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/lib/libbio_ik.so\n'}
+[22.154093] (bio_ik) StdoutLine: {'line': b'-- Set runtime path of "/home/taoqiu/ros2_ws/install/bio_ik/lib/libbio_ik.so" to ""\n'}
+[22.154142] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/lib/libbio_ik_plugin.so\n'}
+[22.154705] (bio_ik) StdoutLine: {'line': b'-- Set runtime path of "/home/taoqiu/ros2_ws/install/bio_ik/lib/libbio_ik_plugin.so" to ""\n'}
+[22.154750] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/bio_ik_kinematics_description.xml\n'}
+[22.154796] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/library_path.sh\n'}
+[22.154837] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/library_path.dsv\n'}
+[22.154951] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/ament_index/resource_index/package_run_dependencies/bio_ik\n'}
+[22.155005] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/ament_index/resource_index/parent_prefix_path/bio_ik\n'}
+[22.155045] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/ament_prefix_path.sh\n'}
+[22.155082] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/ament_prefix_path.dsv\n'}
+[22.155121] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/path.sh\n'}
+[22.155162] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/path.dsv\n'}
+[22.155215] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/local_setup.bash\n'}
+[22.155241] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/local_setup.sh\n'}
+[22.155282] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/local_setup.zsh\n'}
+[22.155304] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/local_setup.dsv\n'}
+[22.155356] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.dsv\n'}
+[22.155376] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/ament_index/resource_index/packages/bio_ik\n'}
+[22.155412] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/ament_index/resource_index/moveit_core__pluginlib__plugin/bio_ik\n'}
+[22.155450] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/export_bio_ikExport.cmake\n'}
+[22.155491] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/export_bio_ikExport-release.cmake\n'}
+[22.155529] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.155569] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.155607] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.155659] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.155682] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/bio_ikConfig.cmake\n'}
+[22.155722] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/bio_ikConfig-version.cmake\n'}
+[22.155742] (bio_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.xml\n'}
+[22.156356] (bio_ik) CommandEnded: {'returncode': 0}
+[22.170582] (bio_ik) JobEnded: {'identifier': 'bio_ik', 'rc': 0}
+[22.170865] (-) EventReactorShutdown: {}

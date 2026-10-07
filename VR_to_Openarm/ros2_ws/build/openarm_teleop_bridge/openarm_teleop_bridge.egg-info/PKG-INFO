@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: openarm-teleop-bridge
+Version: 1.0.0
+Summary: Bridge teleop_xr JointTrajectory output to OpenArm forward-position controllers
+Home-page: UNKNOWN
+Maintainer: Enactic, Inc.
+Maintainer-email: openarm_dev@enactic.ai
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

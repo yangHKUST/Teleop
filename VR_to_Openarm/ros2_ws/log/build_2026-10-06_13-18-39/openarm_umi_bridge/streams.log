@@ -1,0 +1,37 @@
+[0.310s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_umi_bridge': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/taoqiu/ros2_ws/build/openarm_umi_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/install/openarm_umi_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/taoqiu/ros2_ws/build/openarm_umi_bridge/build
+[0.435s] running develop
+[0.517s] Removing /home/taoqiu/ros2_ws/install/openarm_umi_bridge/lib/python3.10/site-packages/openarm-umi-bridge.egg-link (link to .)
+[0.528s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_umi_bridge' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/taoqiu/ros2_ws/build/openarm_umi_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/install/openarm_umi_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/taoqiu/ros2_ws/build/openarm_umi_bridge/build
+[0.529s] Invoking command in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_umi_bridge': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/taoqiu/ros2_ws/build/openarm_umi_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/install/openarm_umi_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/openarm_umi_bridge build --build-base /home/taoqiu/ros2_ws/build/openarm_umi_bridge/build install --record /home/taoqiu/ros2_ws/build/openarm_umi_bridge/install.log --single-version-externally-managed install_data --force
+[0.640s] running egg_info
+[0.640s] writing ../../../build/openarm_umi_bridge/openarm_umi_bridge.egg-info/PKG-INFO
+[0.640s] writing dependency_links to ../../../build/openarm_umi_bridge/openarm_umi_bridge.egg-info/dependency_links.txt
+[0.640s] writing entry points to ../../../build/openarm_umi_bridge/openarm_umi_bridge.egg-info/entry_points.txt
+[0.640s] writing requirements to ../../../build/openarm_umi_bridge/openarm_umi_bridge.egg-info/requires.txt
+[0.640s] writing top-level names to ../../../build/openarm_umi_bridge/openarm_umi_bridge.egg-info/top_level.txt
+[0.641s] reading manifest file '../../../build/openarm_umi_bridge/openarm_umi_bridge.egg-info/SOURCES.txt'
+[0.641s] writing manifest file '../../../build/openarm_umi_bridge/openarm_umi_bridge.egg-info/SOURCES.txt'
+[0.642s] running build
+[0.642s] running build_py
+[0.642s] creating /home/taoqiu/ros2_ws/build/openarm_umi_bridge/build
+[0.642s] creating /home/taoqiu/ros2_ws/build/openarm_umi_bridge/build/lib
+[0.642s] creating /home/taoqiu/ros2_ws/build/openarm_umi_bridge/build/lib/openarm_umi_bridge
+[0.642s] copying openarm_umi_bridge/__init__.py -> /home/taoqiu/ros2_ws/build/openarm_umi_bridge/build/lib/openarm_umi_bridge
+[0.642s] copying openarm_umi_bridge/umi_bridge.py -> /home/taoqiu/ros2_ws/build/openarm_umi_bridge/build/lib/openarm_umi_bridge
+[0.642s] running install
+[0.642s] running install_lib
+[0.642s] creating /home/taoqiu/ros2_ws/install/openarm_umi_bridge/lib/python3.10/site-packages/openarm_umi_bridge
+[0.642s] copying /home/taoqiu/ros2_ws/build/openarm_umi_bridge/build/lib/openarm_umi_bridge/__init__.py -> /home/taoqiu/ros2_ws/install/openarm_umi_bridge/lib/python3.10/site-packages/openarm_umi_bridge
+[0.642s] copying /home/taoqiu/ros2_ws/build/openarm_umi_bridge/build/lib/openarm_umi_bridge/umi_bridge.py -> /home/taoqiu/ros2_ws/install/openarm_umi_bridge/lib/python3.10/site-packages/openarm_umi_bridge
+[0.642s] byte-compiling /home/taoqiu/ros2_ws/install/openarm_umi_bridge/lib/python3.10/site-packages/openarm_umi_bridge/__init__.py to __init__.cpython-310.pyc
+[0.643s] byte-compiling /home/taoqiu/ros2_ws/install/openarm_umi_bridge/lib/python3.10/site-packages/openarm_umi_bridge/umi_bridge.py to umi_bridge.cpython-310.pyc
+[0.644s] running install_data
+[0.644s] copying resource/openarm_umi_bridge -> /home/taoqiu/ros2_ws/install/openarm_umi_bridge/share/ament_index/resource_index/packages
+[0.644s] copying package.xml -> /home/taoqiu/ros2_ws/install/openarm_umi_bridge/share/openarm_umi_bridge
+[0.644s] copying launch/umi_bridge.launch.py -> /home/taoqiu/ros2_ws/install/openarm_umi_bridge/share/openarm_umi_bridge/launch
+[0.644s] running install_egg_info
+[0.645s] Copying ../../../build/openarm_umi_bridge/openarm_umi_bridge.egg-info to /home/taoqiu/ros2_ws/install/openarm_umi_bridge/lib/python3.10/site-packages/openarm_umi_bridge-1.0.0-py3.10.egg-info
+[0.645s] running install_scripts
+[0.654s] Installing umi_bridge script to /home/taoqiu/ros2_ws/install/openarm_umi_bridge/lib/openarm_umi_bridge
+[0.654s] writing list of installed files to '/home/taoqiu/ros2_ws/build/openarm_umi_bridge/install.log'
+[0.665s] Invoked command in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_umi_bridge' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/taoqiu/ros2_ws/build/openarm_umi_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/install/openarm_umi_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/openarm_umi_bridge build --build-base /home/taoqiu/ros2_ws/build/openarm_umi_bridge/build install --record /home/taoqiu/ros2_ws/build/openarm_umi_bridge/install.log --single-version-externally-managed install_data --force

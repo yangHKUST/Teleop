@@ -1,0 +1,10 @@
+[0.013s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_gravcheck': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_gravcheck -- -j24 -l24
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/gravcheck.dir/gravcheck.cpp.o[0m
+[0.088s] [01m[K/home/taoqiu/ros2_ws/tools/openarm_gravcheck/gravcheck.cpp:37:10:[m[K [01;31m[Kfatal error: [m[Kopenarm/config/openarm_v10_config.hpp: 没有那个文件或目录
+[0.089s]    37 | #include [01;31m[K<openarm/config/openarm_v10_config.hpp>[m[K
+[0.089s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.089s] compilation terminated.
+[0.089s] gmake[2]: *** [CMakeFiles/gravcheck.dir/build.make:76：CMakeFiles/gravcheck.dir/gravcheck.cpp.o] 错误 1
+[0.089s] gmake[1]: *** [CMakeFiles/Makefile2:83：CMakeFiles/gravcheck.dir/all] 错误 2
+[0.089s] gmake: *** [Makefile:91：all] 错误 2
+[0.095s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_gravcheck' returned '2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_gravcheck -- -j24 -l24

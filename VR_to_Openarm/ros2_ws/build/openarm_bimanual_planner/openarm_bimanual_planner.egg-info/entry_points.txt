@@ -1,0 +1,4 @@
+[console_scripts]
+bimanual_plan_client = openarm_bimanual_planner.plan_client:main
+bimanual_plan_server = openarm_bimanual_planner.plan_server:main
+

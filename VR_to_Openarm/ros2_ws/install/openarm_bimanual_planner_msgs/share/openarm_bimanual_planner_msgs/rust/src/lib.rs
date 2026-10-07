@@ -1,0 +1,1 @@
+/home/taoqiu/ros2_ws/build/openarm_bimanual_planner_msgs/rosidl_generator_rs/openarm_bimanual_planner_msgs/rust/src/lib.rs

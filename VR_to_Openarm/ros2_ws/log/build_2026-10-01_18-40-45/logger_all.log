@@ -1,0 +1,740 @@
+[0.051s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.051s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7cb45e43cdf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cb45e43c820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cb45e43c820>>)[0m
+[0.128s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.129s] [34mcolcon.colcon_metadata.package_discovery.colcon_meta[0m [1;30mINFO[0m Using configuration from '/home/taoqiu/ros2_ws/colcon.meta'
+[0.129s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.129s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.129s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.129s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.129s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.129s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/taoqiu/ros2_ws'
+[0.129s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.129s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.129s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.129s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.129s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.129s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.129s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.129s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extension 'ignore'
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extension 'ignore_ament_install'
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extensions ['colcon_pkg']
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extension 'colcon_pkg'
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extensions ['colcon_meta']
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extension 'colcon_meta'
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extensions ['ros']
+[0.140s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extension 'ros'
+[0.141s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/bio_ik' with type 'ros.ament_cmake' and name 'bio_ik'[0m
+[0.141s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extension 'ignore'
+[0.141s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extension 'ignore_ament_install'
+[0.141s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extensions ['colcon_pkg']
+[0.141s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extension 'colcon_pkg'
+[0.142s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extensions ['colcon_meta']
+[0.142s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extension 'colcon_meta'
+[0.142s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extensions ['ros']
+[0.142s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extension 'ros'
+[0.142s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_can' with type 'ros.cmake' and name 'openarm_can'[0m
+[0.142s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extension 'ignore'
+[0.142s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extension 'ignore_ament_install'
+[0.142s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extensions ['colcon_pkg']
+[0.142s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extension 'colcon_pkg'
+[0.142s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extensions ['colcon_meta']
+[0.142s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extension 'colcon_meta'
+[0.142s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extensions ['ros']
+[0.142s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extension 'ros'
+[0.142s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_description' with type 'ros.ament_cmake' and name 'openarm_description'[0m
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'ignore'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'ignore_ament_install'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extensions ['colcon_pkg']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'colcon_pkg'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extensions ['colcon_meta']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'colcon_meta'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extensions ['ros']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'ros'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extensions ['cmake', 'python']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'cmake'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'python'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extensions ['python_setup_py']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'python_setup_py'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'ignore'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'ignore_ament_install'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extensions ['colcon_pkg']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'colcon_pkg'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extensions ['colcon_meta']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'colcon_meta'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extensions ['ros']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'ros'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extensions ['cmake', 'python']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'cmake'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'python'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extensions ['python_setup_py']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'python_setup_py'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extension 'ignore'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extension 'ignore_ament_install'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extensions ['colcon_pkg']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extension 'colcon_pkg'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extensions ['colcon_meta']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extension 'colcon_meta'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extensions ['ros']
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extension 'ros'
+[0.143s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_ros2/openarm' with type 'ros.ament_cmake' and name 'openarm'[0m
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extension 'ignore'
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extension 'ignore_ament_install'
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extensions ['colcon_pkg']
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extension 'colcon_pkg'
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extensions ['colcon_meta']
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extension 'colcon_meta'
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extensions ['ros']
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extension 'ros'
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_ros2/openarm_acm_tool' with type 'ros.ament_cmake' and name 'openarm_acm_tool'[0m
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'ignore'
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'ignore_ament_install'
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['colcon_pkg']
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'colcon_pkg'
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['colcon_meta']
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'colcon_meta'
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['ros']
+[0.144s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'ros'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_ros2/openarm_bimanual_moveit_config' with type 'ros.ament_cmake' and name 'openarm_bimanual_moveit_config'[0m
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extension 'ignore'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extension 'ignore_ament_install'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extensions ['colcon_pkg']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extension 'colcon_pkg'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extensions ['colcon_meta']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extension 'colcon_meta'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extensions ['ros']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extension 'ros'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_ros2/openarm_bringup' with type 'ros.ament_cmake' and name 'openarm_bringup'[0m
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extension 'ignore'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extension 'ignore_ament_install'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extensions ['colcon_pkg']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extension 'colcon_pkg'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extensions ['colcon_meta']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extension 'colcon_meta'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extensions ['ros']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extension 'ros'
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_ros2/openarm_hardware' with type 'ros.ament_cmake' and name 'openarm_hardware'[0m
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extension 'ignore'
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extension 'ignore_ament_install'
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extensions ['colcon_pkg']
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extension 'colcon_pkg'
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extensions ['colcon_meta']
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extension 'colcon_meta'
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extensions ['ros']
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extension 'ros'
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/pick_ik' with type 'ros.ament_cmake' and name 'pick_ik'[0m
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'ignore'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'ignore_ament_install'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['colcon_pkg']
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'colcon_pkg'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['colcon_meta']
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'colcon_meta'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['ros']
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'ros'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['cmake', 'python']
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'cmake'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'python'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['python_setup_py']
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'python_setup_py'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extension 'ignore'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extension 'ignore_ament_install'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extensions ['colcon_pkg']
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extension 'colcon_pkg'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extensions ['colcon_meta']
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extension 'colcon_meta'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extensions ['ros']
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extension 'ros'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extensions ['cmake', 'python']
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extension 'cmake'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extension 'python'
+[0.148s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'tools/openarm_gravcheck' with type 'cmake' and name 'openarm_gravcheck'[0m
+[0.148s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.148s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.148s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.148s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.148s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.156s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.157s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.158s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 388 installed packages in /opt/ros/humble[0m
+[0.159s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.178s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bio_ik' build argument 'cmake_args' from command line to 'None'
+[0.178s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bio_ik' build argument 'cmake_target' from command line to 'None'
+[0.178s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bio_ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.178s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bio_ik' build argument 'cmake_clean_cache' from command line to 'False'
+[0.178s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bio_ik' build argument 'cmake_clean_first' from command line to 'False'
+[0.178s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bio_ik' build argument 'cmake_force_configure' from command line to 'False'
+[0.178s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bio_ik' build argument 'ament_cmake_args' from command line to 'None'
+[0.178s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bio_ik' build argument 'catkin_cmake_args' from command line to 'None'
+[0.178s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'bio_ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.178s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'bio_ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taoqiu/ros2_ws/build/bio_ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taoqiu/ros2_ws/install/bio_ik', 'merge_install': False, 'path': '/home/taoqiu/ros2_ws/src/bio_ik', 'symlink_install': False, 'test_result_base': None}[0m
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_acm_tool' build argument 'cmake_args' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_acm_tool' build argument 'cmake_target' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_acm_tool' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_acm_tool' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_acm_tool' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_acm_tool' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_acm_tool' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_acm_tool' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_acm_tool' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'openarm_acm_tool' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taoqiu/ros2_ws/build/openarm_acm_tool', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taoqiu/ros2_ws/install/openarm_acm_tool', 'merge_install': False, 'path': '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_acm_tool', 'symlink_install': False, 'test_result_base': None}[0m
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_can' build argument 'cmake_args' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_can' build argument 'cmake_target' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_can' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_can' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_can' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_can' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_can' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_can' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_can' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'openarm_can' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taoqiu/ros2_ws/build/openarm_can', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taoqiu/ros2_ws/install/openarm_can', 'merge_install': False, 'path': '/home/taoqiu/ros2_ws/src/openarm_can', 'symlink_install': False, 'test_result_base': None}[0m
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_description' build argument 'cmake_args' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_description' build argument 'cmake_target' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'openarm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taoqiu/ros2_ws/build/openarm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taoqiu/ros2_ws/install/openarm_description', 'merge_install': False, 'path': '/home/taoqiu/ros2_ws/src/openarm_description', 'symlink_install': False, 'test_result_base': None}[0m
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_gravcheck' build argument 'cmake_args' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_gravcheck' build argument 'cmake_target' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_gravcheck' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_gravcheck' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_gravcheck' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_gravcheck' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_gravcheck' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_gravcheck' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_gravcheck' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'openarm_gravcheck' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taoqiu/ros2_ws/build/openarm_gravcheck', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taoqiu/ros2_ws/install/openarm_gravcheck', 'merge_install': False, 'path': '/home/taoqiu/ros2_ws/tools/openarm_gravcheck', 'symlink_install': False, 'test_result_base': None}[0m
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pick_ik' build argument 'cmake_args' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m overwrite package 'pick_ik' build argument 'cmake_args' from package metadata with '['-DBUILD_TESTING=OFF', '-Dfmt_DIR=/usr/lib/x86_64-linux-gnu/cmake/fmt']' (before: 'None')
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pick_ik' build argument 'cmake_target' from command line to 'None'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pick_ik' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pick_ik' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pick_ik' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pick_ik' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pick_ik' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pick_ik' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pick_ik' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'pick_ik' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taoqiu/ros2_ws/build/pick_ik', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DBUILD_TESTING=OFF', '-Dfmt_DIR=/usr/lib/x86_64-linux-gnu/cmake/fmt'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taoqiu/ros2_ws/install/pick_ik', 'merge_install': False, 'path': '/home/taoqiu/ros2_ws/src/pick_ik', 'symlink_install': False, 'test_result_base': None}[0m
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bimanual_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bimanual_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bimanual_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bimanual_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bimanual_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bimanual_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bimanual_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bimanual_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bimanual_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'openarm_bimanual_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config', 'merge_install': False, 'path': '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_bimanual_moveit_config', 'symlink_install': False, 'test_result_base': None}[0m
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_hardware' build argument 'cmake_args' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_hardware' build argument 'cmake_target' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'openarm_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taoqiu/ros2_ws/build/openarm_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taoqiu/ros2_ws/install/openarm_hardware', 'merge_install': False, 'path': '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_hardware', 'symlink_install': False, 'test_result_base': None}[0m
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bringup' build argument 'cmake_args' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bringup' build argument 'cmake_target' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'openarm_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taoqiu/ros2_ws/build/openarm_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taoqiu/ros2_ws/install/openarm_bringup', 'merge_install': False, 'path': '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_bringup', 'symlink_install': False, 'test_result_base': None}[0m
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm' build argument 'cmake_args' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm' build argument 'cmake_target' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.180s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'openarm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taoqiu/ros2_ws/build/openarm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taoqiu/ros2_ws/install/openarm', 'merge_install': False, 'path': '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm', 'symlink_install': False, 'test_result_base': None}[0m
+[0.180s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.181s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.181s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/taoqiu/ros2_ws/src/openarm_description' with build type 'ament_cmake'
+[0.181s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/taoqiu/ros2_ws/src/openarm_description'
+[0.182s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.182s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.182s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.184s] [34mcolcon.colcon_ros.task.cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/taoqiu/ros2_ws/src/openarm_can' with build type 'cmake'
+[0.184s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/taoqiu/ros2_ws/src/openarm_can'
+[0.184s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.184s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.185s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/taoqiu/ros2_ws/src/bio_ik' with build type 'ament_cmake'
+[0.185s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/taoqiu/ros2_ws/src/bio_ik'
+[0.185s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.185s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.187s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_acm_tool' with build type 'ament_cmake'
+[0.187s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_acm_tool'
+[0.187s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.187s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.189s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/taoqiu/ros2_ws/tools/openarm_gravcheck'
+[0.189s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.189s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.192s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/taoqiu/ros2_ws/src/pick_ik' with build type 'ament_cmake'
+[0.192s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/taoqiu/ros2_ws/src/pick_ik'
+[0.192s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.192s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.198s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_description -- -j24 -l24[0m
+[0.200s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm_can': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_can -- -j24 -l24[0m
+[0.201s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/bio_ik': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/bio_ik -- -j24 -l24[0m
+[0.203s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm_acm_tool': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_acm_tool -- -j24 -l24[0m
+[0.205s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm_gravcheck': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/taoqiu/ros2_ws/tools/openarm_gravcheck -DCMAKE_INSTALL_PREFIX=/home/taoqiu/ros2_ws/install/openarm_gravcheck[0m
+[0.208s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/pick_ik': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/pick_ik -- -j24 -l24[0m
+[0.220s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_description -- -j24 -l24[0m
+[0.225s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_description[0m
+[0.237s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(openarm_description)
+[0.240s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_description[0m
+[0.242s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_description' for CMake module files
+[0.242s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_description' for CMake config files
+[0.243s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_description', 'cmake_prefix_path')
+[0.243s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/hook/cmake_prefix_path.ps1'
+[0.244s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/hook/cmake_prefix_path.dsv'
+[0.244s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/hook/cmake_prefix_path.sh'
+[0.244s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_description/bin'
+[0.244s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_description/lib/pkgconfig/openarm_description.pc'
+[0.245s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_description/lib/python3.10/site-packages'
+[0.245s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_description/bin'
+[0.245s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/package.ps1'
+[0.245s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/package.dsv'
+[0.246s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/package.sh'
+[0.246s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/package.bash'
+[0.246s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/package.zsh'
+[0.247s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_description/share/colcon-core/packages/openarm_description)
+[0.247s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(openarm_description)
+[0.247s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_description' for CMake module files
+[0.247s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_description' for CMake config files
+[0.248s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_description', 'cmake_prefix_path')
+[0.248s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/hook/cmake_prefix_path.ps1'
+[0.248s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/hook/cmake_prefix_path.dsv'
+[0.248s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/hook/cmake_prefix_path.sh'
+[0.249s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_description/bin'
+[0.249s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_description/lib/pkgconfig/openarm_description.pc'
+[0.249s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_description/lib/python3.10/site-packages'
+[0.249s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_description/bin'
+[0.249s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/package.ps1'
+[0.249s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/package.dsv'
+[0.250s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/package.sh'
+[0.250s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/package.bash'
+[0.250s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_description/share/openarm_description/package.zsh'
+[0.250s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_description/share/colcon-core/packages/openarm_description)
+[0.250s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_bimanual_moveit_config' with build type 'ament_cmake'
+[0.250s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_bimanual_moveit_config'
+[0.250s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.250s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.252s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm_can' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_can -- -j24 -l24[0m
+[0.253s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm_can': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_can[0m
+[0.254s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm_acm_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_acm_tool -- -j24 -l24[0m
+[0.254s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm_acm_tool': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_acm_tool[0m
+[0.256s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config -- -j24 -l24[0m
+[0.260s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm_can' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_can[0m
+[0.261s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_can', 'pkg_config_path')
+[0.261s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/hook/pkg_config_path.ps1'
+[0.261s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/hook/pkg_config_path.dsv'
+[0.261s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/hook/pkg_config_path.sh'
+[0.262s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_can', 'pkg_config_path_multiarch')
+[0.262s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/hook/pkg_config_path_multiarch.ps1'
+[0.262s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/hook/pkg_config_path_multiarch.dsv'
+[0.262s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/hook/pkg_config_path_multiarch.sh'
+[0.263s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(openarm_can)
+[0.263s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_can' for CMake module files
+[0.263s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_can' for CMake config files
+[0.263s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_can', 'cmake_prefix_path')
+[0.263s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/hook/cmake_prefix_path.ps1'
+[0.263s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/hook/cmake_prefix_path.dsv'
+[0.263s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/hook/cmake_prefix_path.sh'
+[0.263s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_can/lib'
+[0.264s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_can/bin'
+[0.264s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_can', 'path')
+[0.264s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/hook/path.ps1'
+[0.264s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/hook/path.dsv'
+[0.264s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/hook/path.sh'
+[0.264s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_can/lib/pkgconfig/openarm_can.pc'
+[0.264s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_can/lib/python3.10/site-packages'
+[0.265s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_can/bin'
+[0.265s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_can', 'pythonscriptspath')
+[0.265s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/hook/pythonscriptspath.ps1'
+[0.265s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/hook/pythonscriptspath.dsv'
+[0.265s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/hook/pythonscriptspath.sh'
+[0.265s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/package.ps1'
+[0.266s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/package.dsv'
+[0.266s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/package.sh'
+[0.266s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/package.bash'
+[0.267s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_can/share/openarm_can/package.zsh'
+[0.267s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_can/share/colcon-core/packages/openarm_can)
+[0.267s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_hardware' with build type 'ament_cmake'
+[0.267s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_hardware'
+[0.267s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.269s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(openarm_acm_tool)
+[0.269s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool' for CMake module files
+[0.269s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm_acm_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_acm_tool[0m
+[0.269s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool' for CMake config files
+[0.269s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_acm_tool', 'cmake_prefix_path')
+[0.270s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/hook/cmake_prefix_path.ps1'
+[0.270s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/hook/cmake_prefix_path.dsv'
+[0.270s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/hook/cmake_prefix_path.sh'
+[0.270s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/lib'
+[0.270s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/bin'
+[0.270s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/lib/pkgconfig/openarm_acm_tool.pc'
+[0.270s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/lib/python3.10/site-packages'
+[0.270s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/bin'
+[0.271s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.ps1'
+[0.271s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.dsv'
+[0.271s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.sh'
+[0.272s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.bash'
+[0.272s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.zsh'
+[0.272s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/colcon-core/packages/openarm_acm_tool)
+[0.273s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(openarm_acm_tool)
+[0.273s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool' for CMake module files
+[0.273s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool' for CMake config files
+[0.273s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_acm_tool', 'cmake_prefix_path')
+[0.274s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/hook/cmake_prefix_path.ps1'
+[0.274s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/hook/cmake_prefix_path.dsv'
+[0.274s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/hook/cmake_prefix_path.sh'
+[0.275s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/lib'
+[0.275s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/bin'
+[0.275s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/lib/pkgconfig/openarm_acm_tool.pc'
+[0.275s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/lib/python3.10/site-packages'
+[0.275s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/bin'
+[0.275s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.ps1'
+[0.276s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.dsv'
+[0.276s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.sh'
+[0.277s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.bash'
+[0.277s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.zsh'
+[0.277s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/colcon-core/packages/openarm_acm_tool)
+[0.279s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm_hardware': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_can:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) PATH=/home/taoqiu/ros2_ws/install/openarm_can/bin:${PATH} PKG_CONFIG_PATH=/home/taoqiu/ros2_ws/install/openarm_can/lib/x86_64-linux-gnu/pkgconfig:/home/taoqiu/ros2_ws/install/openarm_can/lib/pkgconfig /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_hardware -- -j24 -l24[0m
+[0.279s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/bio_ik' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/bio_ik -- -j24 -l24[0m
+[0.280s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/bio_ik': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/bio_ik[0m
+[0.281s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config -- -j24 -l24[0m
+[0.282s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config[0m
+[0.287s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(openarm_bimanual_moveit_config)
+[0.287s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config' for CMake module files
+[0.288s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config[0m
+[0.289s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config' for CMake config files
+[0.289s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_bimanual_moveit_config', 'cmake_prefix_path')
+[0.289s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.ps1'
+[0.289s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.dsv'
+[0.290s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.sh'
+[0.290s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/bin'
+[0.290s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/lib/pkgconfig/openarm_bimanual_moveit_config.pc'
+[0.290s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/lib/python3.10/site-packages'
+[0.291s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/bin'
+[0.291s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.ps1'
+[0.291s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.dsv'
+[0.292s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.sh'
+[0.292s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.bash'
+[0.292s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.zsh'
+[0.292s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/colcon-core/packages/openarm_bimanual_moveit_config)
+[0.293s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(openarm_bimanual_moveit_config)
+[0.293s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config' for CMake module files
+[0.293s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config' for CMake config files
+[0.294s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_bimanual_moveit_config', 'cmake_prefix_path')
+[0.294s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.ps1'
+[0.294s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.dsv'
+[0.294s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.sh'
+[0.295s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/bin'
+[0.295s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/lib/pkgconfig/openarm_bimanual_moveit_config.pc'
+[0.295s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/lib/python3.10/site-packages'
+[0.295s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/bin'
+[0.295s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.ps1'
+[0.296s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.dsv'
+[0.296s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.sh'
+[0.296s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.bash'
+[0.297s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.zsh'
+[0.297s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/colcon-core/packages/openarm_bimanual_moveit_config)
+[0.297s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_bringup' with build type 'ament_cmake'
+[0.297s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_bringup'
+[0.298s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.301s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/pick_ik' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/pick_ik -- -j24 -l24[0m
+[0.302s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/pick_ik': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/pick_ik[0m
+[0.302s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(bio_ik)
+[0.302s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/bio_ik' for CMake module files
+[0.302s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/bio_ik' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/bio_ik[0m
+[0.303s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/bio_ik' for CMake config files
+[0.303s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('bio_ik', 'cmake_prefix_path')
+[0.303s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/hook/cmake_prefix_path.ps1'
+[0.304s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/hook/cmake_prefix_path.dsv'
+[0.304s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/hook/cmake_prefix_path.sh'
+[0.304s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/bio_ik/lib'
+[0.304s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('bio_ik', 'ld_library_path_lib')
+[0.304s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/hook/ld_library_path_lib.ps1'
+[0.305s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/hook/ld_library_path_lib.dsv'
+[0.305s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/hook/ld_library_path_lib.sh'
+[0.305s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/bio_ik/bin'
+[0.305s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/bio_ik/lib/pkgconfig/bio_ik.pc'
+[0.306s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/bio_ik/lib/python3.10/site-packages'
+[0.306s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/bio_ik/bin'
+[0.306s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.ps1'
+[0.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.dsv'
+[0.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.sh'
+[0.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.bash'
+[0.307s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.zsh'
+[0.308s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/bio_ik/share/colcon-core/packages/bio_ik)
+[0.308s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(bio_ik)
+[0.308s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/bio_ik' for CMake module files
+[0.309s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/bio_ik' for CMake config files
+[0.309s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('bio_ik', 'cmake_prefix_path')
+[0.309s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/hook/cmake_prefix_path.ps1'
+[0.309s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/hook/cmake_prefix_path.dsv'
+[0.310s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/hook/cmake_prefix_path.sh'
+[0.310s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/bio_ik/lib'
+[0.310s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('bio_ik', 'ld_library_path_lib')
+[0.310s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/hook/ld_library_path_lib.ps1'
+[0.310s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/hook/ld_library_path_lib.dsv'
+[0.311s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/hook/ld_library_path_lib.sh'
+[0.311s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/bio_ik/bin'
+[0.311s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/bio_ik/lib/pkgconfig/bio_ik.pc'
+[0.311s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/bio_ik/lib/python3.10/site-packages'
+[0.311s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/bio_ik/bin'
+[0.312s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.ps1'
+[0.312s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.dsv'
+[0.313s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.sh'
+[0.313s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.bash'
+[0.313s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.zsh'
+[0.314s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/bio_ik/share/colcon-core/packages/bio_ik)
+[0.318s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(pick_ik)
+[0.318s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/pick_ik' for CMake module files
+[0.318s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm_bringup': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_bringup -- -j24 -l24[0m
+[0.319s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/pick_ik' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/pick_ik[0m
+[0.319s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/pick_ik' for CMake config files
+[0.319s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('pick_ik', 'cmake_prefix_path')
+[0.319s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/hook/cmake_prefix_path.ps1'
+[0.320s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/hook/cmake_prefix_path.dsv'
+[0.320s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/hook/cmake_prefix_path.sh'
+[0.320s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/pick_ik/lib'
+[0.320s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('pick_ik', 'ld_library_path_lib')
+[0.320s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/hook/ld_library_path_lib.ps1'
+[0.321s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/hook/ld_library_path_lib.dsv'
+[0.321s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/hook/ld_library_path_lib.sh'
+[0.321s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/pick_ik/bin'
+[0.321s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/pick_ik/lib/pkgconfig/pick_ik.pc'
+[0.322s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/pick_ik/lib/python3.10/site-packages'
+[0.322s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/pick_ik/bin'
+[0.322s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/package.ps1'
+[0.323s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/package.dsv'
+[0.323s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/package.sh'
+[0.323s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/package.bash'
+[0.323s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/package.zsh'
+[0.324s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/pick_ik/share/colcon-core/packages/pick_ik)
+[0.324s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(pick_ik)
+[0.324s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/pick_ik' for CMake module files
+[0.325s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/pick_ik' for CMake config files
+[0.325s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('pick_ik', 'cmake_prefix_path')
+[0.325s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/hook/cmake_prefix_path.ps1'
+[0.325s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/hook/cmake_prefix_path.dsv'
+[0.325s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/hook/cmake_prefix_path.sh'
+[0.326s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/pick_ik/lib'
+[0.326s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('pick_ik', 'ld_library_path_lib')
+[0.326s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/hook/ld_library_path_lib.ps1'
+[0.326s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/hook/ld_library_path_lib.dsv'
+[0.327s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/hook/ld_library_path_lib.sh'
+[0.327s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/pick_ik/bin'
+[0.327s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/pick_ik/lib/pkgconfig/pick_ik.pc'
+[0.327s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/pick_ik/lib/python3.10/site-packages'
+[0.327s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/pick_ik/bin'
+[0.328s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/package.ps1'
+[0.328s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/package.dsv'
+[0.328s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/package.sh'
+[0.329s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/package.bash'
+[0.329s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/package.zsh'
+[0.329s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/pick_ik/share/colcon-core/packages/pick_ik)
+[0.330s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_can:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) PATH=/home/taoqiu/ros2_ws/install/openarm_can/bin:${PATH} PKG_CONFIG_PATH=/home/taoqiu/ros2_ws/install/openarm_can/lib/x86_64-linux-gnu/pkgconfig:/home/taoqiu/ros2_ws/install/openarm_can/lib/pkgconfig /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_hardware -- -j24 -l24[0m
+[0.331s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm_hardware': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_can:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) PATH=/home/taoqiu/ros2_ws/install/openarm_can/bin:${PATH} PKG_CONFIG_PATH=/home/taoqiu/ros2_ws/install/openarm_can/lib/x86_64-linux-gnu/pkgconfig:/home/taoqiu/ros2_ws/install/openarm_can/lib/pkgconfig /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_hardware[0m
+[0.338s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(openarm_hardware)
+[0.338s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_can:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) PATH=/home/taoqiu/ros2_ws/install/openarm_can/bin:${PATH} PKG_CONFIG_PATH=/home/taoqiu/ros2_ws/install/openarm_can/lib/x86_64-linux-gnu/pkgconfig:/home/taoqiu/ros2_ws/install/openarm_can/lib/pkgconfig /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_hardware[0m
+[0.338s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_hardware' for CMake module files
+[0.339s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_hardware' for CMake config files
+[0.339s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_hardware', 'cmake_prefix_path')
+[0.339s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/cmake_prefix_path.ps1'
+[0.340s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/cmake_prefix_path.dsv'
+[0.340s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/cmake_prefix_path.sh'
+[0.340s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_hardware/lib'
+[0.340s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_hardware', 'ld_library_path_lib')
+[0.340s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/ld_library_path_lib.ps1'
+[0.341s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/ld_library_path_lib.dsv'
+[0.341s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/ld_library_path_lib.sh'
+[0.341s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_hardware/bin'
+[0.341s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_hardware/lib/pkgconfig/openarm_hardware.pc'
+[0.342s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_hardware/lib/python3.10/site-packages'
+[0.342s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_hardware/bin'
+[0.342s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.ps1'
+[0.342s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.dsv'
+[0.343s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.sh'
+[0.343s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.bash'
+[0.343s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.zsh'
+[0.343s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_hardware/share/colcon-core/packages/openarm_hardware)
+[0.343s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(openarm_hardware)
+[0.343s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_hardware' for CMake module files
+[0.343s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_hardware' for CMake config files
+[0.344s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_hardware', 'cmake_prefix_path')
+[0.344s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/cmake_prefix_path.ps1'
+[0.344s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/cmake_prefix_path.dsv'
+[0.344s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/cmake_prefix_path.sh'
+[0.344s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_hardware/lib'
+[0.344s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_hardware', 'ld_library_path_lib')
+[0.344s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/ld_library_path_lib.ps1'
+[0.344s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/ld_library_path_lib.dsv'
+[0.345s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/hook/ld_library_path_lib.sh'
+[0.345s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_hardware/bin'
+[0.345s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_hardware/lib/pkgconfig/openarm_hardware.pc'
+[0.345s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_hardware/lib/python3.10/site-packages'
+[0.345s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_hardware/bin'
+[0.345s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.ps1'
+[0.345s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.dsv'
+[0.346s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.sh'
+[0.346s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.bash'
+[0.346s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.zsh'
+[0.346s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_hardware/share/colcon-core/packages/openarm_hardware)
+[0.347s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm_bringup' returned '0': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_bringup -- -j24 -l24[0m
+[0.348s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm_bringup': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_bringup[0m
+[0.352s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(openarm_bringup)
+[0.353s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bringup' for CMake module files
+[0.353s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm_bringup' returned '0': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_bringup[0m
+[0.353s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bringup' for CMake config files
+[0.353s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_bringup', 'cmake_prefix_path')
+[0.353s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/hook/cmake_prefix_path.ps1'
+[0.354s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/hook/cmake_prefix_path.dsv'
+[0.354s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/hook/cmake_prefix_path.sh'
+[0.354s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bringup/bin'
+[0.354s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bringup/lib/pkgconfig/openarm_bringup.pc'
+[0.354s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bringup/lib/python3.10/site-packages'
+[0.354s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bringup/bin'
+[0.354s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.ps1'
+[0.355s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.dsv'
+[0.355s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.sh'
+[0.355s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.bash'
+[0.355s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.zsh'
+[0.355s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_bringup/share/colcon-core/packages/openarm_bringup)
+[0.355s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(openarm_bringup)
+[0.355s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bringup' for CMake module files
+[0.356s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bringup' for CMake config files
+[0.356s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_bringup', 'cmake_prefix_path')
+[0.356s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/hook/cmake_prefix_path.ps1'
+[0.356s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/hook/cmake_prefix_path.dsv'
+[0.356s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/hook/cmake_prefix_path.sh'
+[0.356s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bringup/bin'
+[0.356s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bringup/lib/pkgconfig/openarm_bringup.pc'
+[0.356s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bringup/lib/python3.10/site-packages'
+[0.357s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_bringup/bin'
+[0.357s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.ps1'
+[0.357s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.dsv'
+[0.357s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.sh'
+[0.357s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.bash'
+[0.357s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_bringup/share/openarm_bringup/package.zsh'
+[0.358s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_bringup/share/colcon-core/packages/openarm_bringup)
+[0.358s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm' with build type 'ament_cmake'
+[0.358s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm'
+[0.358s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.358s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.372s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/openarm_can:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/taoqiu/ros2_ws/install/openarm_hardware/lib:${LD_LIBRARY_PATH} PATH=/home/taoqiu/ros2_ws/install/openarm_can/bin:${PATH} PKG_CONFIG_PATH=/home/taoqiu/ros2_ws/install/openarm_can/lib/x86_64-linux-gnu/pkgconfig:/home/taoqiu/ros2_ws/install/openarm_can/lib/pkgconfig /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm -- -j24 -l24[0m
+[0.396s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm' returned '0': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/openarm_can:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/taoqiu/ros2_ws/install/openarm_hardware/lib:${LD_LIBRARY_PATH} PATH=/home/taoqiu/ros2_ws/install/openarm_can/bin:${PATH} PKG_CONFIG_PATH=/home/taoqiu/ros2_ws/install/openarm_can/lib/x86_64-linux-gnu/pkgconfig:/home/taoqiu/ros2_ws/install/openarm_can/lib/pkgconfig /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm -- -j24 -l24[0m
+[0.397s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/openarm_can:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/taoqiu/ros2_ws/install/openarm_hardware/lib:${LD_LIBRARY_PATH} PATH=/home/taoqiu/ros2_ws/install/openarm_can/bin:${PATH} PKG_CONFIG_PATH=/home/taoqiu/ros2_ws/install/openarm_can/lib/x86_64-linux-gnu/pkgconfig:/home/taoqiu/ros2_ws/install/openarm_can/lib/pkgconfig /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm[0m
+[0.403s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(openarm)
+[0.403s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm' for CMake module files
+[0.403s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm' returned '0': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/openarm_can:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/taoqiu/ros2_ws/install/openarm_hardware/lib:${LD_LIBRARY_PATH} PATH=/home/taoqiu/ros2_ws/install/openarm_can/bin:${PATH} PKG_CONFIG_PATH=/home/taoqiu/ros2_ws/install/openarm_can/lib/x86_64-linux-gnu/pkgconfig:/home/taoqiu/ros2_ws/install/openarm_can/lib/pkgconfig /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm[0m
+[0.404s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm' for CMake config files
+[0.404s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm', 'cmake_prefix_path')
+[0.404s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm/share/openarm/hook/cmake_prefix_path.ps1'
+[0.404s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm/share/openarm/hook/cmake_prefix_path.dsv'
+[0.404s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm/share/openarm/hook/cmake_prefix_path.sh'
+[0.405s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm/bin'
+[0.405s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm/lib/pkgconfig/openarm.pc'
+[0.405s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm/lib/python3.10/site-packages'
+[0.405s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm/bin'
+[0.405s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm/share/openarm/package.ps1'
+[0.406s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm/share/openarm/package.dsv'
+[0.406s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm/share/openarm/package.sh'
+[0.406s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm/share/openarm/package.bash'
+[0.406s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm/share/openarm/package.zsh'
+[0.406s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm/share/colcon-core/packages/openarm)
+[0.407s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(openarm)
+[0.407s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm' for CMake module files
+[0.407s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm' for CMake config files
+[0.407s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm', 'cmake_prefix_path')
+[0.407s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm/share/openarm/hook/cmake_prefix_path.ps1'
+[0.408s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm/share/openarm/hook/cmake_prefix_path.dsv'
+[0.408s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm/share/openarm/hook/cmake_prefix_path.sh'
+[0.408s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm/bin'
+[0.408s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm/lib/pkgconfig/openarm.pc'
+[0.408s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm/lib/python3.10/site-packages'
+[0.408s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm/bin'
+[0.408s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm/share/openarm/package.ps1'
+[0.409s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm/share/openarm/package.dsv'
+[0.409s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm/share/openarm/package.sh'
+[0.409s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm/share/openarm/package.bash'
+[0.409s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm/share/openarm/package.zsh'
+[0.410s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm/share/colcon-core/packages/openarm)
+[1.320s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm_gravcheck' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/taoqiu/ros2_ws/tools/openarm_gravcheck -DCMAKE_INSTALL_PREFIX=/home/taoqiu/ros2_ws/install/openarm_gravcheck[0m
+[1.321s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm_gravcheck': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_gravcheck -- -j24 -l24[0m
+[1.426s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm_gravcheck' returned '2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_gravcheck -- -j24 -l24[0m
+[1.436s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.436s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.436s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '2'[0m
+[1.436s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.439s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.439s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.439s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[1.449s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[1.449s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/taoqiu/ros2_ws/install/local_setup.ps1'
+[1.450s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/taoqiu/ros2_ws/install/_local_setup_util_ps1.py'
+[1.451s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/taoqiu/ros2_ws/install/setup.ps1'
+[1.451s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/taoqiu/ros2_ws/install/local_setup.sh'
+[1.452s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/taoqiu/ros2_ws/install/_local_setup_util_sh.py'
+[1.452s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/taoqiu/ros2_ws/install/setup.sh'
+[1.452s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/taoqiu/ros2_ws/install/local_setup.bash'
+[1.453s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/taoqiu/ros2_ws/install/setup.bash'
+[1.453s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/taoqiu/ros2_ws/install/local_setup.zsh'
+[1.453s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/taoqiu/ros2_ws/install/setup.zsh'

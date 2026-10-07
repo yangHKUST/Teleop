@@ -1,0 +1,35 @@
+[0.005s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_hardware': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_can:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) PATH=/home/taoqiu/ros2_ws/install/openarm_can/bin:${PATH} PKG_CONFIG_PATH=/home/taoqiu/ros2_ws/install/openarm_can/lib/x86_64-linux-gnu/pkgconfig:/home/taoqiu/ros2_ws/install/openarm_can/lib/pkgconfig /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_hardware -- -j24 -l24
+[0.044s] Consolidate compiler generated dependencies of target openarm_hardware
+[0.058s] [ 50%] Building CXX object CMakeFiles/openarm_hardware.dir/src/openarm_simple_hardware.cpp.o
+[7.543s] [100%] Linking CXX shared library libopenarm_hardware.so
+[7.749s] [100%] Built target openarm_hardware
+[7.756s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_can:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) PATH=/home/taoqiu/ros2_ws/install/openarm_can/bin:${PATH} PKG_CONFIG_PATH=/home/taoqiu/ros2_ws/install/openarm_can/lib/x86_64-linux-gnu/pkgconfig:/home/taoqiu/ros2_ws/install/openarm_can/lib/pkgconfig /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_hardware -- -j24 -l24
+[7.757s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_hardware': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_can:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) PATH=/home/taoqiu/ros2_ws/install/openarm_can/bin:${PATH} PKG_CONFIG_PATH=/home/taoqiu/ros2_ws/install/openarm_can/lib/x86_64-linux-gnu/pkgconfig:/home/taoqiu/ros2_ws/install/openarm_can/lib/pkgconfig /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_hardware
+[7.760s] -- Install configuration: ""
+[7.760s] -- Execute custom install script
+[7.761s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware//openarm_hardware.xml
+[7.761s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/lib/libopenarm_hardware.so
+[7.761s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/include/openarm_hardware/openarm_simple_hardware.hpp
+[7.761s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/include/openarm_hardware/visibility_control.h
+[7.761s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/library_path.sh
+[7.761s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/library_path.dsv
+[7.761s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/ament_index/resource_index/package_run_dependencies/openarm_hardware
+[7.761s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/ament_index/resource_index/parent_prefix_path/openarm_hardware
+[7.761s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/ament_prefix_path.sh
+[7.761s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/ament_prefix_path.dsv
+[7.761s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/path.sh
+[7.761s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/environment/path.dsv
+[7.761s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/local_setup.bash
+[7.762s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/local_setup.sh
+[7.762s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/local_setup.zsh
+[7.762s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/local_setup.dsv
+[7.762s] -- Symlinking: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.dsv
+[7.769s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/ament_index/resource_index/packages/openarm_hardware
+[7.770s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/openarm_hardware
+[7.770s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.770s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[7.770s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.770s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/cmake/openarm_hardwareConfig.cmake
+[7.770s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/cmake/openarm_hardwareConfig-version.cmake
+[7.770s] -- Up-to-date symlink: /home/taoqiu/ros2_ws/install/openarm_hardware/share/openarm_hardware/package.xml
+[7.771s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_hardware' returned '0': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_can:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) PATH=/home/taoqiu/ros2_ws/install/openarm_can/bin:${PATH} PKG_CONFIG_PATH=/home/taoqiu/ros2_ws/install/openarm_can/lib/x86_64-linux-gnu/pkgconfig:/home/taoqiu/ros2_ws/install/openarm_can/lib/pkgconfig /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_hardware

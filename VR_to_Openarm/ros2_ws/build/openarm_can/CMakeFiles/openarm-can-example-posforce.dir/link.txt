@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/openarm-can-example-posforce.dir/examples/posforce.cpp.o -o openarm-can-example-posforce  libopenarm_can.a 

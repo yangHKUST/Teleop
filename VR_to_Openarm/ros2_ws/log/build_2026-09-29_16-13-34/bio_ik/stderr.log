@@ -1,0 +1,42 @@
+CMake Warning at CMakeLists.txt:104 (add_library):
+  Cannot generate a safe runtime search path for target bio_ik because files
+  in some directories may conflict with libraries in implicit directories:
+
+    runtime library [libgomp.so.1] in /usr/lib/gcc/x86_64-linux-gnu/11 may be hidden by files in:
+      /home/taoqiu/miniconda3/lib
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/taoqiu/miniconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:127 (add_library):
+  Cannot generate a safe runtime search path for target bio_ik_plugin because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/taoqiu/miniconda3/lib
+    runtime library [libgomp.so.1] in /usr/lib/gcc/x86_64-linux-gnu/11 may be hidden by files in:
+      /home/taoqiu/miniconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+  Cannot generate a safe runtime search path for target bio_ik_test because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/taoqiu/miniconda3/lib
+    runtime library [libgomp.so.1] in /usr/lib/gcc/x86_64-linux-gnu/11 may be hidden by files in:
+      /home/taoqiu/miniconda3/lib
+
+  Some of these libraries may not be found correctly.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+  CMakeLists.txt:178 (ament_add_gtest)
+
+

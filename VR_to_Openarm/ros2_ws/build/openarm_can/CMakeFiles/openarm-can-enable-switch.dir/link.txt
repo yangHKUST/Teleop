@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/openarm-can-enable-switch.dir/examples/enable_switch.cpp.o -o openarm-can-enable-switch  libopenarm_can.a 

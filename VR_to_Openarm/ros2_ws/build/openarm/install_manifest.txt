@@ -1,0 +1,15 @@
+/home/taoqiu/ros2_ws/install/openarm/share/ament_index/resource_index/package_run_dependencies/openarm
+/home/taoqiu/ros2_ws/install/openarm/share/ament_index/resource_index/parent_prefix_path/openarm
+/home/taoqiu/ros2_ws/install/openarm/share/openarm/environment/ament_prefix_path.sh
+/home/taoqiu/ros2_ws/install/openarm/share/openarm/environment/ament_prefix_path.dsv
+/home/taoqiu/ros2_ws/install/openarm/share/openarm/environment/path.sh
+/home/taoqiu/ros2_ws/install/openarm/share/openarm/environment/path.dsv
+/home/taoqiu/ros2_ws/install/openarm/share/openarm/local_setup.bash
+/home/taoqiu/ros2_ws/install/openarm/share/openarm/local_setup.sh
+/home/taoqiu/ros2_ws/install/openarm/share/openarm/local_setup.zsh
+/home/taoqiu/ros2_ws/install/openarm/share/openarm/local_setup.dsv
+/home/taoqiu/ros2_ws/install/openarm/share/openarm/package.dsv
+/home/taoqiu/ros2_ws/install/openarm/share/ament_index/resource_index/packages/openarm
+/home/taoqiu/ros2_ws/install/openarm/share/openarm/cmake/openarmConfig.cmake
+/home/taoqiu/ros2_ws/install/openarm/share/openarm/cmake/openarmConfig-version.cmake
+/home/taoqiu/ros2_ws/install/openarm/share/openarm/package.xml

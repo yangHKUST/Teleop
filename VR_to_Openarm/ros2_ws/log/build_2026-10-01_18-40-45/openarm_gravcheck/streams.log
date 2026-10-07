@@ -1,0 +1,55 @@
+[0.016s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_gravcheck': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/taoqiu/ros2_ws/tools/openarm_gravcheck -DCMAKE_INSTALL_PREFIX=/home/taoqiu/ros2_ws/install/openarm_gravcheck
+[0.051s] -- The CXX compiler identification is GNU 11.4.0
+[0.055s] -- Detecting CXX compiler ABI info
+[0.099s] -- Detecting CXX compiler ABI info - done
+[0.102s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.102s] -- Detecting CXX compile features
+[0.102s] -- Detecting CXX compile features - done
+[0.129s] -- Found Boost: /usr/include (found version "1.74.0") found components: filesystem serialization 
+[0.132s] -- eigenpy not FOUND.
+[0.154s] -- Checking for NumPy
+[0.351s] --   NUMPY_INCLUDE_DIRS=/home/taoqiu/miniconda3/lib/python3.13/site-packages/numpy/_core/include
+[0.417s] --   NUMPY_VERSION=2.5.1
+[0.775s] -- Found Python3: /home/taoqiu/miniconda3/bin/python (found version "3.13.13") found components: Interpreter Development.Module NumPy 
+[0.775s] -- PythonLibraryDirs: 
+[0.775s] -- PythonLibVersionString: 3.13.13
+[0.795s] -- Python site lib: lib/python3.13/site-packages
+[0.795s] -- Python include dirs: /home/taoqiu/miniconda3/include/python3.13
+[0.831s] -- Checking for NumPy
+[0.901s] --   NUMPY_INCLUDE_DIRS=/home/taoqiu/miniconda3/lib/python3.13/site-packages/numpy/_core/include
+[0.955s] --   NUMPY_VERSION=2.5.1
+[0.955s] -- NumPy include dir: /home/taoqiu/miniconda3/lib/python3.13/site-packages/numpy/_core/include
+[0.957s] [33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+[0.957s]   No header defined for python310; skipping header check (note: header-only
+[0.957s]   libraries have no designated component)
+[0.957s] Call Stack (most recent call first):
+[0.957s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:146 (find_package)
+[0.957s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:172 (SEARCH_FOR_BOOST_PYTHON)
+[0.957s]   /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+[0.957s]   /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:184 (find_dependency)
+[0.957s]   CMakeLists.txt:7 (find_package)
+[0.957s] 
+[0.957s] [0m
+[0.959s] -- Found Boost: /usr/include (found version "1.74.0") found components: python310 
+[1.117s] -- Default C++ standard: 201703
+[1.117s] -- Minimal C++ standard upgraded to 11
+[1.117s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.118s] -- coal not FOUND.
+[1.121s] -- Found Boost: /usr/include (found version "1.74.0") found components: serialization filesystem 
+[1.123s] -- C++ standard sufficient: Minimal required 11, currently defined: 17
+[1.123s] -- Minimal C++ standard upgraded to 17
+[1.123s] -- C++ standard sufficient: Minimal required 17, currently defined: 17
+[1.126s] -- Configuring done
+[1.127s] -- Generating done
+[1.128s] -- Build files have been written to: /home/taoqiu/ros2_ws/build/openarm_gravcheck
+[1.130s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_gravcheck' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/taoqiu/ros2_ws/tools/openarm_gravcheck -DCMAKE_INSTALL_PREFIX=/home/taoqiu/ros2_ws/install/openarm_gravcheck
+[1.131s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_gravcheck': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_gravcheck -- -j24 -l24
+[1.181s] [ 50%] [32mBuilding CXX object CMakeFiles/gravcheck.dir/gravcheck.cpp.o[0m
+[1.234s] [01m[K/home/taoqiu/ros2_ws/tools/openarm_gravcheck/gravcheck.cpp:37:10:[m[K [01;31m[Kfatal error: [m[Kopenarm/config/openarm_v10_config.hpp: 没有那个文件或目录
+[1.234s]    37 | #include [01;31m[K<openarm/config/openarm_v10_config.hpp>[m[K
+[1.234s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.234s] compilation terminated.
+[1.234s] gmake[2]: *** [CMakeFiles/gravcheck.dir/build.make:76：CMakeFiles/gravcheck.dir/gravcheck.cpp.o] 错误 1
+[1.235s] gmake[1]: *** [CMakeFiles/Makefile2:83：CMakeFiles/gravcheck.dir/all] 错误 2
+[1.235s] gmake: *** [Makefile:91：all] 错误 2
+[1.236s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_gravcheck' returned '2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_gravcheck -- -j24 -l24

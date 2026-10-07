@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "openarm_bimanual_planner_msgs__py",
+		"source" : "/home/taoqiu/ros2_ws/build/openarm_bimanual_planner_msgs/openarm_bimanual_planner_msgs__py"
+	}
+}

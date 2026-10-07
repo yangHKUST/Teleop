@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.000279] (-) JobUnselected: {'identifier': 'bio_ik'}
+[0.000362] (-) JobUnselected: {'identifier': 'openarm'}
+[0.000416] (-) JobUnselected: {'identifier': 'openarm_acm_tool'}
+[0.000493] (-) JobUnselected: {'identifier': 'openarm_bimanual_moveit_config'}
+[0.000520] (-) JobUnselected: {'identifier': 'openarm_bringup'}
+[0.000935] (-) JobUnselected: {'identifier': 'openarm_can'}
+[0.001056] (-) JobUnselected: {'identifier': 'openarm_description'}
+[0.001091] (-) JobUnselected: {'identifier': 'openarm_hardware'}
+[0.001116] (pick_ik) JobQueued: {'identifier': 'pick_ik', 'dependencies': OrderedDict()}
+[0.001209] (pick_ik) JobStarted: {'identifier': 'pick_ik'}
+[0.003930] (pick_ik) JobProgress: {'identifier': 'pick_ik', 'progress': 'cmake'}
+[0.004118] (pick_ik) Command: {'cmd': ['/usr/bin/cmake', '/home/taoqiu/ros2_ws/src/pick_ik', '-DBUILD_TESTING=OFF', '-DCMAKE_INSTALL_PREFIX=/home/taoqiu/ros2_ws/install/pick_ik'], 'cwd': '/home/taoqiu/ros2_ws/build/pick_ik', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/taoqiu'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AI_AGENT', 'claude-code_2-1-285_agent'), ('LANGUAGE', 'zh_CN'), ('ANTHROPIC_DEFAULT_SONNET_MODEL_NAME', 'deepseek-v4-pro'), ('USER', 'taoqiu'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code-insiders/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","messagesFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/0035c783eccf8a2efbdb972dfe62becb51f11fc6/nls.messages.json","corruptMarkerFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"75539731208fa508a5b042c8fe051beb.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","_cacheRoot":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/0035c783eccf8a2efbdb972dfe62becb51f11fc6","_corruptedFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.285'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/taoqiu'), ('CHROME_DESKTOP', 'code-insiders.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/taoqiu/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-afd1fbaf-1.12-main.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code-insiders.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2130'), ('SYSTEMD_EXEC_PID', '2391'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CONDA_ROOT', '/home/taoqiu/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3391'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', 'file:///home/taoqiu/.vscode-insiders/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.131.2026090407/translations/extensions/vscode.markdown-language-features.i18n.json'), ('ANTHROPIC_DEFAULT_OPUS_MODEL_NAME', 'deepseek-v4-pro'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'taoqiu'), ('CLAUDE_CODE_EMIT_STARTUP_TIMING', '1'), ('JOURNAL_STREAM', '8:21954'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'taoqiu'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/cuda/bin:/usr/local/bin:/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/cuda/bin:/usr/local/bin:/opt/ros/humble/bin:/home/taoqiu/miniconda3/bin:/home/taoqiu/miniconda3/condabin:/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/1201:@/tmp/.ICE-unix/2364,unix/1201:/tmp/.ICE-unix/2364'), ('INVOCATION_ID', '662f016d38d44c159ffe6ced8334f631'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'xhigh'), ('DISPLAY', ':1'), ('CLAUDE_PID', '5265'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/taoqiu/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('GSETTINGS_SCHEMA_DIR', '/home/taoqiu/miniconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/taoqiu/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ANTHROPIC_AUTH_TOKEN', 'sk-0fdd435b48254add9fa0b526eac6b1ef'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '9cb6fae6-a5a8-4ca3-9a31-8f3f922386fb'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/taoqiu/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/taoqiu/ros2_ws/build/pick_ik'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/taoqiu/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/taoqiu/.config/Code - Insiders/CachedData/0035c783eccf8a2efbdb972dfe62becb51f11fc6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/taoqiu/.vscode-insiders/extensions/anthropic.claude-code-2.1.285-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('CONDA_PREFIX', '/home/taoqiu/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '3391'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.036293] (pick_ik) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.094767] (pick_ik) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099286] (pick_ik) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099846] (-) TimerEvent: {}
+[0.177043] (pick_ik) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.181154] (pick_ik) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.181259] (pick_ik) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.181445] (pick_ik) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.182863] (pick_ik) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199946] (-) TimerEvent: {}
+[0.224741] (pick_ik) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.228206] (pick_ik) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.228349] (pick_ik) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.228583] (pick_ik) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.229616] (pick_ik) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300074] (-) TimerEvent: {}
+[0.400235] (-) TimerEvent: {}
+[0.427329] (pick_ik) StdoutLine: {'line': b'-- Found Python3: /home/taoqiu/miniconda3/bin/python3 (found version "3.13.13") found components: Interpreter \n'}
+[0.475942] (pick_ik) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.480448] (pick_ik) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.7.4 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[0.481068] (pick_ik) StdoutLine: {'line': b'-- Found parameter_traits: 0.7.4 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.500282] (-) TimerEvent: {}
+[0.501773] (pick_ik) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.504020] (pick_ik) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.507969] (pick_ik) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.513467] (pick_ik) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.520819] (pick_ik) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.540896] (pick_ik) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.542047] (pick_ik) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.588879] (pick_ik) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.600343] (-) TimerEvent: {}
+[0.604258] (pick_ik) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.627111] (pick_ik) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.632058] (pick_ik) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.668191] (pick_ik) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.668325] (pick_ik) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700461] (-) TimerEvent: {}
+[0.742977] (pick_ik) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.744560] (pick_ik) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.792016] (pick_ik) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.800503] (-) TimerEvent: {}
+[0.801473] (pick_ik) StdoutLine: {'line': b'-- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)\n'}
+[0.817627] (pick_ik) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.892268] (pick_ik) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[0.900578] (-) TimerEvent: {}
+[0.927624] (pick_ik) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.927721] (pick_ik) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.000658] (-) TimerEvent: {}
+[1.100133] (pick_ik) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.100710] (-) TimerEvent: {}
+[1.109537] (pick_ik) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:26 (add_library):\n'}
+[1.109579] (pick_ik) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target pick_ik_plugin\n'}
+[1.109603] (pick_ik) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[1.109624] (pick_ik) StderrLine: {'line': b'  directories:\n'}
+[1.109645] (pick_ik) StderrLine: {'line': b'\n'}
+[1.109665] (pick_ik) StderrLine: {'line': b'    runtime library [libcurl.so.4] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.109685] (pick_ik) StderrLine: {'line': b'      /home/taoqiu/miniconda3/lib\n'}
+[1.109704] (pick_ik) StderrLine: {'line': b'\n'}
+[1.109723] (pick_ik) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.109742] (pick_ik) StderrLine: {'line': b'\n'}
+[1.109760] (pick_ik) StderrLine: {'line': b'\n'}
+[1.110332] (pick_ik) StdoutLine: {'line': b'-- Generating done\n'}
+[1.113213] (pick_ik) StdoutLine: {'line': b'-- Build files have been written to: /home/taoqiu/ros2_ws/build/pick_ik\n'}
+[1.119498] (pick_ik) CommandEnded: {'returncode': 0}
+[1.119816] (pick_ik) JobProgress: {'identifier': 'pick_ik', 'progress': 'build'}
+[1.120179] (pick_ik) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/taoqiu/ros2_ws/build/pick_ik', '--', '-j24', '-l24'], 'cwd': '/home/taoqiu/ros2_ws/build/pick_ik', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/taoqiu'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AI_AGENT', 'claude-code_2-1-285_agent'), ('LANGUAGE', 'zh_CN'), ('ANTHROPIC_DEFAULT_SONNET_MODEL_NAME', 'deepseek-v4-pro'), ('USER', 'taoqiu'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code-insiders/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","messagesFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/0035c783eccf8a2efbdb972dfe62becb51f11fc6/nls.messages.json","corruptMarkerFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"75539731208fa508a5b042c8fe051beb.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","_cacheRoot":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/0035c783eccf8a2efbdb972dfe62becb51f11fc6","_corruptedFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.285'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/taoqiu'), ('CHROME_DESKTOP', 'code-insiders.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/taoqiu/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-afd1fbaf-1.12-main.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code-insiders.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2130'), ('SYSTEMD_EXEC_PID', '2391'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CONDA_ROOT', '/home/taoqiu/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3391'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', 'file:///home/taoqiu/.vscode-insiders/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.131.2026090407/translations/extensions/vscode.markdown-language-features.i18n.json'), ('ANTHROPIC_DEFAULT_OPUS_MODEL_NAME', 'deepseek-v4-pro'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'taoqiu'), ('CLAUDE_CODE_EMIT_STARTUP_TIMING', '1'), ('JOURNAL_STREAM', '8:21954'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'taoqiu'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/cuda/bin:/usr/local/bin:/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/cuda/bin:/usr/local/bin:/opt/ros/humble/bin:/home/taoqiu/miniconda3/bin:/home/taoqiu/miniconda3/condabin:/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/1201:@/tmp/.ICE-unix/2364,unix/1201:/tmp/.ICE-unix/2364'), ('INVOCATION_ID', '662f016d38d44c159ffe6ced8334f631'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'xhigh'), ('DISPLAY', ':1'), ('CLAUDE_PID', '5265'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/taoqiu/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('GSETTINGS_SCHEMA_DIR', '/home/taoqiu/miniconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/taoqiu/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ANTHROPIC_AUTH_TOKEN', 'sk-0fdd435b48254add9fa0b526eac6b1ef'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '9cb6fae6-a5a8-4ca3-9a31-8f3f922386fb'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/taoqiu/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/taoqiu/ros2_ws/build/pick_ik'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/taoqiu/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/taoqiu/.config/Code - Insiders/CachedData/0035c783eccf8a2efbdb972dfe62becb51f11fc6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/taoqiu/.vscode-insiders/extensions/anthropic.claude-code-2.1.285-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('CONDA_PREFIX', '/home/taoqiu/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '3391'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.154355] (pick_ik) StdoutLine: {'line': b'[ 10%] Running `/opt/ros/humble/bin/generate_parameter_library_cpp /home/taoqiu/ros2_ws/build/pick_ik/include/pick_ik/pick_ik_parameters.hpp /home/taoqiu/ros2_ws/src/pick_ik/src/pick_ik_parameters.yaml `\n'}
+[1.200780] (-) TimerEvent: {}
+[1.300869] (-) TimerEvent: {}
+[1.400965] (-) TimerEvent: {}
+[1.501061] (-) TimerEvent: {}
+[1.528849] (pick_ik) StdoutLine: {'line': b'[ 20%] Creating deprecated header file /home/taoqiu/ros2_ws/build/pick_ik/include/pick_ik_parameters.hpp\n'}
+[1.540016] (pick_ik) StdoutLine: {'line': b'[ 20%] Built target pick_ik_parameters\n'}
+[1.559972] (pick_ik) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/pick_ik_plugin.dir/src/pick_ik_plugin.cpp.o\n'}
+[1.560087] (pick_ik) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/pick_ik_plugin.dir/src/ik_memetic.cpp.o\n'}
+[1.560115] (pick_ik) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/pick_ik_plugin.dir/src/ik_gradient.cpp.o\n'}
+[1.561511] (pick_ik) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/pick_ik_plugin.dir/src/fk_moveit.cpp.o\n'}
+[1.561632] (pick_ik) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/pick_ik_plugin.dir/src/forward_kinematics.cpp.o\n'}
+[1.561744] (pick_ik) StdoutLine: {'line': b'[ 80%] Building CXX object CMakeFiles/pick_ik_plugin.dir/src/goal.cpp.o\n'}
+[1.561968] (pick_ik) StdoutLine: {'line': b'[ 90%] Building CXX object CMakeFiles/pick_ik_plugin.dir/src/robot.cpp.o\n'}
+[1.601163] (-) TimerEvent: {}
+[1.701313] (-) TimerEvent: {}
+[1.801469] (-) TimerEvent: {}
+[1.831943] (pick_ik) StderrLine: {'line': b'In file included from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/robot.hpp:3,\n'}
+[1.832040] (pick_ik) StderrLine: {'line': b'                 from /home/taoqiu/ros2_ws/src/pick_ik/src/robot.cpp:1:\n'}
+[1.832069] (pick_ik) StderrLine: {'line': b'/opt/ros/humble/include/tl_expected/expected.hpp:19:167: note: \xe2\x80\x98#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.\xe2\x80\x99\n'}
+[1.832105] (pick_ik) StderrLine: {'line': b'   19 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.") // NOLINT\n'}
+[1.832129] (pick_ik) StderrLine: {'line': b'      |                                                                                                                                                                       ^\n'}
+[1.901544] (-) TimerEvent: {}
+[2.001660] (-) TimerEvent: {}
+[2.101788] (-) TimerEvent: {}
+[2.201931] (-) TimerEvent: {}
+[2.302100] (-) TimerEvent: {}
+[2.402277] (-) TimerEvent: {}
+[2.502456] (-) TimerEvent: {}
+[2.602634] (-) TimerEvent: {}
+[2.702793] (-) TimerEvent: {}
+[2.802994] (-) TimerEvent: {}
+[2.836262] (pick_ik) StderrLine: {'line': b'In file included from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/robot.hpp:3,\n'}
+[2.836393] (pick_ik) StderrLine: {'line': b'                 from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/goal.hpp:4,\n'}
+[2.836428] (pick_ik) StderrLine: {'line': b'                 from /home/taoqiu/ros2_ws/src/pick_ik/src/ik_gradient.cpp:1:\n'}
+[2.836453] (pick_ik) StderrLine: {'line': b'/opt/ros/humble/include/tl_expected/expected.hpp:19:167: note: \xe2\x80\x98#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.\xe2\x80\x99\n'}
+[2.836477] (pick_ik) StderrLine: {'line': b'   19 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.") // NOLINT\n'}
+[2.836502] (pick_ik) StderrLine: {'line': b'      |                                                                                                                                                                       ^\n'}
+[2.843406] (pick_ik) StderrLine: {'line': b'In file included from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/robot.hpp:3,\n'}
+[2.843456] (pick_ik) StderrLine: {'line': b'                 from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/goal.hpp:4,\n'}
+[2.843479] (pick_ik) StderrLine: {'line': b'                 from /home/taoqiu/ros2_ws/src/pick_ik/src/ik_memetic.cpp:1:\n'}
+[2.843503] (pick_ik) StderrLine: {'line': b'/opt/ros/humble/include/tl_expected/expected.hpp:19:167: note: \xe2\x80\x98#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.\xe2\x80\x99\n'}
+[2.843525] (pick_ik) StderrLine: {'line': b'   19 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.") // NOLINT\n'}
+[2.843547] (pick_ik) StderrLine: {'line': b'      |                                                                                                                                                                       ^\n'}
+[2.849829] (pick_ik) StderrLine: {'line': b'In file included from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/robot.hpp:3,\n'}
+[2.849880] (pick_ik) StderrLine: {'line': b'                 from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/goal.hpp:4,\n'}
+[2.849902] (pick_ik) StderrLine: {'line': b'                 from /home/taoqiu/ros2_ws/src/pick_ik/src/goal.cpp:2:\n'}
+[2.849923] (pick_ik) StderrLine: {'line': b'/opt/ros/humble/include/tl_expected/expected.hpp:19:167: note: \xe2\x80\x98#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.\xe2\x80\x99\n'}
+[2.849948] (pick_ik) StderrLine: {'line': b'   19 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.") // NOLINT\n'}
+[2.849969] (pick_ik) StderrLine: {'line': b'      |                                                                                                                                                                       ^\n'}
+[2.898906] (pick_ik) StderrLine: {'line': b'In file included from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/robot.hpp:3,\n'}
+[2.899031] (pick_ik) StderrLine: {'line': b'                 from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/goal.hpp:4,\n'}
+[2.899060] (pick_ik) StderrLine: {'line': b'                 from /home/taoqiu/ros2_ws/src/pick_ik/src/pick_ik_plugin.cpp:2:\n'}
+[2.899082] (pick_ik) StderrLine: {'line': b'/opt/ros/humble/include/tl_expected/expected.hpp:19:167: note: \xe2\x80\x98#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.\xe2\x80\x99\n'}
+[2.899114] (pick_ik) StderrLine: {'line': b'   19 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.") // NOLINT\n'}
+[2.899137] (pick_ik) StderrLine: {'line': b'      |                                                                                                                                                                       ^\n'}
+[2.903118] (-) TimerEvent: {}
+[2.935170] (pick_ik) StderrLine: {'line': b'In file included from /home/taoqiu/ros2_ws/src/pick_ik/src/pick_ik_plugin.cpp:7:\n'}
+[2.935300] (pick_ik) StderrLine: {'line': b'/home/taoqiu/ros2_ws/build/pick_ik/include/pick_ik_parameters.hpp:1:124: note: \xe2\x80\x98#pragma message: #include "pick_ik_parameters.hpp" is deprecated. Use #include <pick_ik/pick_ik_parameters.hpp> instead.\xe2\x80\x99\n'}
+[2.935335] (pick_ik) StderrLine: {'line': b'    1 | #pragma message("#include \\"pick_ik_parameters.hpp\\" is deprecated. Use #include <pick_ik/pick_ik_parameters.hpp> instead.")\n'}
+[2.935358] (pick_ik) StderrLine: {'line': b'      |                                                                                                                            ^\n'}
+[3.003252] (-) TimerEvent: {}
+[3.103454] (-) TimerEvent: {}
+[3.203666] (-) TimerEvent: {}
+[3.303880] (-) TimerEvent: {}
+[3.404091] (-) TimerEvent: {}
+[3.504298] (-) TimerEvent: {}
+[3.604499] (-) TimerEvent: {}
+[3.633634] (pick_ik) StderrLine: {'line': b'In file included from /home/taoqiu/ros2_ws/src/pick_ik/src/robot.cpp:6:\n'}
+[3.633759] (pick_ik) StderrLine: {'line': b'/opt/ros/humble/include/tl_expected/expected.hpp:19:167: note: \xe2\x80\x98#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.\xe2\x80\x99\n'}
+[3.633788] (pick_ik) StderrLine: {'line': b'   19 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.") // NOLINT\n'}
+[3.633813] (pick_ik) StderrLine: {'line': b'      |                                                                                                                                                                       ^\n'}
+[3.704591] (-) TimerEvent: {}
+[3.804790] (-) TimerEvent: {}
+[3.904981] (-) TimerEvent: {}
+[4.005120] (-) TimerEvent: {}
+[4.105258] (-) TimerEvent: {}
+[4.205348] (-) TimerEvent: {}
+[4.305448] (-) TimerEvent: {}
+[4.405573] (-) TimerEvent: {}
+[4.505675] (-) TimerEvent: {}
+[4.605766] (-) TimerEvent: {}
+[4.705858] (-) TimerEvent: {}
+[4.805927] (-) TimerEvent: {}
+[4.906023] (-) TimerEvent: {}
+[5.006151] (-) TimerEvent: {}
+[5.106291] (-) TimerEvent: {}
+[5.206406] (-) TimerEvent: {}
+[5.306530] (-) TimerEvent: {}
+[5.379662] (pick_ik) StdoutLine: {'line': b'[100%] Linking CXX shared library libpick_ik_plugin.so\n'}
+[5.406595] (-) TimerEvent: {}
+[5.506707] (-) TimerEvent: {}
+[5.547248] (pick_ik) StdoutLine: {'line': b'[100%] Built target pick_ik_plugin\n'}
+[5.554972] (pick_ik) CommandEnded: {'returncode': 0}
+[5.555308] (pick_ik) JobProgress: {'identifier': 'pick_ik', 'progress': 'install'}
+[5.561669] (pick_ik) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/taoqiu/ros2_ws/build/pick_ik'], 'cwd': '/home/taoqiu/ros2_ws/build/pick_ik', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/taoqiu'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('AI_AGENT', 'claude-code_2-1-285_agent'), ('LANGUAGE', 'zh_CN'), ('ANTHROPIC_DEFAULT_SONNET_MODEL_NAME', 'deepseek-v4-pro'), ('USER', 'taoqiu'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code-insiders/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","messagesFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/0035c783eccf8a2efbdb972dfe62becb51f11fc6/nls.messages.json","corruptMarkerFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"75539731208fa508a5b042c8fe051beb.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/tcf.json","_cacheRoot":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn","_resolvedLanguagePackCoreLocation":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/0035c783eccf8a2efbdb972dfe62becb51f11fc6","_corruptedFile":"/home/taoqiu/.config/Code - Insiders/clp/75539731208fa508a5b042c8fe051beb.zh-cn/corrupted.info"}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.285'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/taoqiu'), ('CHROME_DESKTOP', 'code-insiders.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/taoqiu/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-afd1fbaf-1.12-main.sock'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code-insiders.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2130'), ('SYSTEMD_EXEC_PID', '2391'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CONDA_ROOT', '/home/taoqiu/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3391'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', 'file:///home/taoqiu/.vscode-insiders/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.131.2026090407/translations/extensions/vscode.markdown-language-features.i18n.json'), ('ANTHROPIC_DEFAULT_OPUS_MODEL_NAME', 'deepseek-v4-pro'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'taoqiu'), ('CLAUDE_CODE_EMIT_STARTUP_TIMING', '1'), ('JOURNAL_STREAM', '8:21954'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'taoqiu'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/cuda/bin:/usr/local/bin:/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/cuda/bin:/usr/local/bin:/opt/ros/humble/bin:/home/taoqiu/miniconda3/bin:/home/taoqiu/miniconda3/condabin:/home/taoqiu/.local/bin:/home/taoqiu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/1201:@/tmp/.ICE-unix/2364,unix/1201:/tmp/.ICE-unix/2364'), ('INVOCATION_ID', '662f016d38d44c159ffe6ced8334f631'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'xhigh'), ('DISPLAY', ':1'), ('CLAUDE_PID', '5265'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XML_CATALOG_FILES', 'file:///home/taoqiu/miniconda3/etc/xml/catalog file:///etc/xml/catalog'), ('GSETTINGS_SCHEMA_DIR', '/home/taoqiu/miniconda3/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/taoqiu/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('ANTHROPIC_AUTH_TOKEN', 'sk-0fdd435b48254add9fa0b526eac6b1ef'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '9cb6fae6-a5a8-4ca3-9a31-8f3f922386fb'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CLAUDECODE', '1'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/taoqiu/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/taoqiu/ros2_ws/build/pick_ik'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/taoqiu/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/taoqiu/.config/Code - Insiders/CachedData/0035c783eccf8a2efbdb972dfe62becb51f11fc6'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/taoqiu/.vscode-insiders/extensions/anthropic.claude-code-2.1.285-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('CONDA_PREFIX', '/home/taoqiu/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VSCODE_PID', '3391'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.568073] (pick_ik) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.568171] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/include/pick_ik\n'}
+[5.568289] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/include/pick_ik/pick_ik_parameters.hpp\n'}
+[5.568375] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/pick_ik_kinematics_description.xml\n'}
+[5.568498] (pick_ik) StdoutLine: {'line': b'-- Up-to-date: /home/taoqiu/ros2_ws/install/pick_ik/include/pick_ik\n'}
+[5.568588] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/include/pick_ik/pick_ik\n'}
+[5.568675] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/include/pick_ik/pick_ik/pick_ik_plugin.hpp\n'}
+[5.568758] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/include/pick_ik/pick_ik/robot.hpp\n'}
+[5.568791] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/include/pick_ik/pick_ik/ik_memetic.hpp\n'}
+[5.568824] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/include/pick_ik/pick_ik/forward_kinematics.hpp\n'}
+[5.568888] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/include/pick_ik/pick_ik/fk_moveit.hpp\n'}
+[5.568922] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/include/pick_ik/pick_ik/ik_gradient.hpp\n'}
+[5.568953] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/include/pick_ik/pick_ik/goal.hpp\n'}
+[5.568984] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/lib/libpick_ik_plugin.so\n'}
+[5.570398] (pick_ik) StdoutLine: {'line': b'-- Set runtime path of "/home/taoqiu/ros2_ws/install/pick_ik/lib/libpick_ik_plugin.so" to ""\n'}
+[5.570515] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/environment/library_path.sh\n'}
+[5.570572] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/environment/library_path.dsv\n'}
+[5.570656] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/ament_index/resource_index/package_run_dependencies/pick_ik\n'}
+[5.570716] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/ament_index/resource_index/parent_prefix_path/pick_ik\n'}
+[5.570775] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/environment/ament_prefix_path.sh\n'}
+[5.571083] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/environment/ament_prefix_path.dsv\n'}
+[5.571115] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/environment/path.sh\n'}
+[5.571142] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/environment/path.dsv\n'}
+[5.571202] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/local_setup.bash\n'}
+[5.571230] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/local_setup.sh\n'}
+[5.571256] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/local_setup.zsh\n'}
+[5.571310] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/local_setup.dsv\n'}
+[5.571339] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/package.dsv\n'}
+[5.571365] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/ament_index/resource_index/packages/pick_ik\n'}
+[5.571391] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/ament_index/resource_index/moveit_core__pluginlib__plugin/pick_ik\n'}
+[5.571417] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/cmake/export_pick_ikExport.cmake\n'}
+[5.571492] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/cmake/export_pick_ikExport-noconfig.cmake\n'}
+[5.571516] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.571541] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.571564] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/cmake/pick_ikConfig.cmake\n'}
+[5.571588] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/cmake/pick_ikConfig-version.cmake\n'}
+[5.571611] (pick_ik) StdoutLine: {'line': b'-- Installing: /home/taoqiu/ros2_ws/install/pick_ik/share/pick_ik/package.xml\n'}
+[5.572262] (pick_ik) CommandEnded: {'returncode': 0}
+[5.589013] (pick_ik) JobEnded: {'identifier': 'pick_ik', 'rc': 0}
+[5.589652] (-) EventReactorShutdown: {}

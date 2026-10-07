@@ -1,0 +1,1 @@
+/home/taoqiu/ros2_ws/build/openarm_bimanual_planner_msgs/rosidl_generator_c/openarm_bimanual_planner_msgs/msg/rosidl_generator_c__visibility_control.h

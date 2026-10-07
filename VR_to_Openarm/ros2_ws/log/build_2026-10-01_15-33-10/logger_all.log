@@ -1,0 +1,296 @@
+[0.050s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'openarm_bimanual_moveit_config', 'openarm_acm_tool']
+[0.050s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['openarm_bimanual_moveit_config', 'openarm_acm_tool'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76a2680cd060>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76a2680cca90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76a2680cca90>>)
+[0.127s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.127s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.127s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.127s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.127s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) discover
+[0.127s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.127s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/taoqiu/ros2_ws'
+[0.127s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore'
+[0.127s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore_ament_install'
+[0.127s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_pkg']
+[0.127s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_pkg'
+[0.127s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_meta']
+[0.127s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_meta'
+[0.128s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ros']
+[0.128s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ros'
+[0.137s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['cmake', 'python']
+[0.137s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'cmake'
+[0.137s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python'
+[0.137s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['python_setup_py']
+[0.137s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python_setup_py'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(build) by extension 'ignore'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(build) ignored
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(install) by extension 'ignore'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(install) ignored
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(log) by extension 'ignore'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(log) ignored
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore_ament_install'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_pkg']
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_pkg'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_meta']
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_meta'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ros']
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ros'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['cmake', 'python']
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'cmake'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['python_setup_py']
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python_setup_py'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src/bio_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src/bio_ik) by extension 'ignore'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src/bio_ik) by extension 'ignore_ament_install'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src/bio_ik) by extensions ['colcon_pkg']
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src/bio_ik) by extension 'colcon_pkg'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src/bio_ik) by extensions ['colcon_meta']
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src/bio_ik) by extension 'colcon_meta'
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src/bio_ik) by extensions ['ros']
+[0.138s] colcon.colcon_core.package_identification Level 1 _identify(src/bio_ik) by extension 'ros'
+[0.140s] colcon.colcon_core.package_identification DEBUG Package 'src/bio_ik' with type 'ros.ament_cmake' and name 'bio_ik'
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_can) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_can) by extension 'ignore'
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_can) by extension 'ignore_ament_install'
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_can) by extensions ['colcon_pkg']
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_can) by extension 'colcon_pkg'
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_can) by extensions ['colcon_meta']
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_can) by extension 'colcon_meta'
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_can) by extensions ['ros']
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_can) by extension 'ros'
+[0.140s] colcon.colcon_core.package_identification DEBUG Package 'src/openarm_can' with type 'ros.cmake' and name 'openarm_can'
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_description) by extension 'ignore'
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_description) by extension 'ignore_ament_install'
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_description) by extensions ['colcon_pkg']
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_description) by extension 'colcon_pkg'
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_description) by extensions ['colcon_meta']
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_description) by extension 'colcon_meta'
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_description) by extensions ['ros']
+[0.140s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_description) by extension 'ros'
+[0.141s] colcon.colcon_core.package_identification DEBUG Package 'src/openarm_description' with type 'ros.ament_cmake' and name 'openarm_description'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2) by extension 'ignore'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2) by extension 'ignore_ament_install'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2) by extensions ['colcon_pkg']
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2) by extension 'colcon_pkg'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2) by extensions ['colcon_meta']
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2) by extension 'colcon_meta'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2) by extensions ['ros']
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2) by extension 'ros'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2) by extensions ['cmake', 'python']
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2) by extension 'cmake'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2) by extension 'python'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2) by extensions ['python_setup_py']
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2) by extension 'python_setup_py'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/dev) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/dev) by extension 'ignore'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/dev) by extension 'ignore_ament_install'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/dev) by extensions ['colcon_pkg']
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/dev) by extension 'colcon_pkg'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/dev) by extensions ['colcon_meta']
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/dev) by extension 'colcon_meta'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/dev) by extensions ['ros']
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/dev) by extension 'ros'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/dev) by extensions ['cmake', 'python']
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/dev) by extension 'cmake'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/dev) by extension 'python'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/dev) by extensions ['python_setup_py']
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/dev) by extension 'python_setup_py'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm) by extension 'ignore'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm) by extension 'ignore_ament_install'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm) by extensions ['colcon_pkg']
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm) by extension 'colcon_pkg'
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm) by extensions ['colcon_meta']
+[0.141s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm) by extension 'colcon_meta'
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm) by extensions ['ros']
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm) by extension 'ros'
+[0.142s] colcon.colcon_core.package_identification DEBUG Package 'src/openarm_ros2/openarm' with type 'ros.ament_cmake' and name 'openarm'
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_acm_tool) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_acm_tool) by extension 'ignore'
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_acm_tool) by extension 'ignore_ament_install'
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_acm_tool) by extensions ['colcon_pkg']
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_acm_tool) by extension 'colcon_pkg'
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_acm_tool) by extensions ['colcon_meta']
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_acm_tool) by extension 'colcon_meta'
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_acm_tool) by extensions ['ros']
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_acm_tool) by extension 'ros'
+[0.142s] colcon.colcon_core.package_identification DEBUG Package 'src/openarm_ros2/openarm_acm_tool' with type 'ros.ament_cmake' and name 'openarm_acm_tool'
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'ignore'
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'ignore_ament_install'
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['colcon_pkg']
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'colcon_pkg'
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['colcon_meta']
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'colcon_meta'
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['ros']
+[0.142s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'ros'
+[0.143s] colcon.colcon_core.package_identification DEBUG Package 'src/openarm_ros2/openarm_bimanual_moveit_config' with type 'ros.ament_cmake' and name 'openarm_bimanual_moveit_config'
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bringup) by extension 'ignore'
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bringup) by extension 'ignore_ament_install'
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bringup) by extensions ['colcon_pkg']
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bringup) by extension 'colcon_pkg'
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bringup) by extensions ['colcon_meta']
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bringup) by extension 'colcon_meta'
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bringup) by extensions ['ros']
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_bringup) by extension 'ros'
+[0.143s] colcon.colcon_core.package_identification DEBUG Package 'src/openarm_ros2/openarm_bringup' with type 'ros.ament_cmake' and name 'openarm_bringup'
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_hardware) by extension 'ignore'
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_hardware) by extension 'ignore_ament_install'
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_hardware) by extensions ['colcon_pkg']
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_hardware) by extension 'colcon_pkg'
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_hardware) by extensions ['colcon_meta']
+[0.143s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_hardware) by extension 'colcon_meta'
+[0.144s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_hardware) by extensions ['ros']
+[0.144s] colcon.colcon_core.package_identification Level 1 _identify(src/openarm_ros2/openarm_hardware) by extension 'ros'
+[0.144s] colcon.colcon_core.package_identification DEBUG Package 'src/openarm_ros2/openarm_hardware' with type 'ros.ament_cmake' and name 'openarm_hardware'
+[0.144s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
+[0.144s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) discover
+[0.144s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) using defaults
+[0.144s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) discover
+[0.144s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) using defaults
+[0.152s] colcon.colcon_core.package_selection INFO Skipping not selected package 'bio_ik' in 'src/bio_ik'
+[0.152s] colcon.colcon_core.package_selection INFO Skipping not selected package 'openarm_can' in 'src/openarm_can'
+[0.152s] colcon.colcon_core.package_selection INFO Skipping not selected package 'openarm_description' in 'src/openarm_description'
+[0.152s] colcon.colcon_core.package_selection INFO Skipping not selected package 'openarm_hardware' in 'src/openarm_ros2/openarm_hardware'
+[0.152s] colcon.colcon_core.package_selection INFO Skipping not selected package 'openarm_bringup' in 'src/openarm_ros2/openarm_bringup'
+[0.152s] colcon.colcon_core.package_selection INFO Skipping not selected package 'openarm' in 'src/openarm_ros2/openarm'
+[0.152s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) check parameters
+[0.152s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) discover
+[0.153s] colcon.colcon_installed_package_information.package_discovery DEBUG Found 388 installed packages in /opt/ros/humble
+[0.154s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) using defaults
+[0.173s] colcon.colcon_core.verb Level 5 set package 'openarm_acm_tool' build argument 'cmake_args' from command line to 'None'
+[0.173s] colcon.colcon_core.verb Level 5 set package 'openarm_acm_tool' build argument 'cmake_target' from command line to 'None'
+[0.173s] colcon.colcon_core.verb Level 5 set package 'openarm_acm_tool' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.173s] colcon.colcon_core.verb Level 5 set package 'openarm_acm_tool' build argument 'cmake_clean_cache' from command line to 'False'
+[0.173s] colcon.colcon_core.verb Level 5 set package 'openarm_acm_tool' build argument 'cmake_clean_first' from command line to 'False'
+[0.173s] colcon.colcon_core.verb Level 5 set package 'openarm_acm_tool' build argument 'cmake_force_configure' from command line to 'False'
+[0.173s] colcon.colcon_core.verb Level 5 set package 'openarm_acm_tool' build argument 'ament_cmake_args' from command line to 'None'
+[0.173s] colcon.colcon_core.verb Level 5 set package 'openarm_acm_tool' build argument 'catkin_cmake_args' from command line to 'None'
+[0.173s] colcon.colcon_core.verb Level 5 set package 'openarm_acm_tool' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.173s] colcon.colcon_core.verb DEBUG Building package 'openarm_acm_tool' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taoqiu/ros2_ws/build/openarm_acm_tool', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taoqiu/ros2_ws/install/openarm_acm_tool', 'merge_install': False, 'path': '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_acm_tool', 'symlink_install': False, 'test_result_base': None}
+[0.174s] colcon.colcon_core.verb Level 5 set package 'openarm_bimanual_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.174s] colcon.colcon_core.verb Level 5 set package 'openarm_bimanual_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.174s] colcon.colcon_core.verb Level 5 set package 'openarm_bimanual_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.174s] colcon.colcon_core.verb Level 5 set package 'openarm_bimanual_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.174s] colcon.colcon_core.verb Level 5 set package 'openarm_bimanual_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.174s] colcon.colcon_core.verb Level 5 set package 'openarm_bimanual_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.174s] colcon.colcon_core.verb Level 5 set package 'openarm_bimanual_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.174s] colcon.colcon_core.verb Level 5 set package 'openarm_bimanual_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.174s] colcon.colcon_core.verb Level 5 set package 'openarm_bimanual_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.174s] colcon.colcon_core.verb DEBUG Building package 'openarm_bimanual_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config', 'merge_install': False, 'path': '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_bimanual_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.174s] colcon.colcon_core.executor INFO Executing jobs using 'parallel' executor
+[0.174s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete
+[0.174s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_acm_tool' with build type 'ament_cmake'
+[0.174s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_acm_tool'
+[0.175s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.175s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.175s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.177s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_bimanual_moveit_config' with build type 'ament_cmake'
+[0.177s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_bimanual_moveit_config'
+[0.177s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.177s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.181s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/taoqiu/ros2_ws/build/openarm_acm_tool': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_acm_tool -- -j24 -l24
+[0.181s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config -- -j24 -l24
+[0.207s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config -- -j24 -l24
+[0.218s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config
+[0.225s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(openarm_bimanual_moveit_config)
+[0.226s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_bimanual_moveit_config
+[0.228s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config' for CMake module files
+[0.229s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config' for CMake config files
+[0.229s] colcon.colcon_core.shell Level 1 create_environment_hook('openarm_bimanual_moveit_config', 'cmake_prefix_path')
+[0.229s] colcon.colcon_core.shell INFO Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.ps1'
+[0.230s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.dsv'
+[0.230s] colcon.colcon_core.shell INFO Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.sh'
+[0.231s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/bin'
+[0.231s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/lib/pkgconfig/openarm_bimanual_moveit_config.pc'
+[0.232s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/lib/python3.10/site-packages'
+[0.232s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/bin'
+[0.232s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.ps1'
+[0.233s] colcon.colcon_core.shell INFO Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.dsv'
+[0.234s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.sh'
+[0.234s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.bash'
+[0.235s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.zsh'
+[0.235s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/colcon-core/packages/openarm_bimanual_moveit_config)
+[0.236s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(openarm_bimanual_moveit_config)
+[0.236s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config' for CMake module files
+[0.236s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config' for CMake config files
+[0.236s] colcon.colcon_core.shell Level 1 create_environment_hook('openarm_bimanual_moveit_config', 'cmake_prefix_path')
+[0.237s] colcon.colcon_core.shell INFO Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.ps1'
+[0.237s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.dsv'
+[0.237s] colcon.colcon_core.shell INFO Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/hook/cmake_prefix_path.sh'
+[0.237s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/bin'
+[0.238s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/lib/pkgconfig/openarm_bimanual_moveit_config.pc'
+[0.238s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/lib/python3.10/site-packages'
+[0.238s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/bin'
+[0.238s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.ps1'
+[0.239s] colcon.colcon_core.shell INFO Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.dsv'
+[0.239s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.sh'
+[0.239s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.bash'
+[0.239s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/package.zsh'
+[0.239s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config/share/colcon-core/packages/openarm_bimanual_moveit_config)
+[0.251s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/taoqiu/ros2_ws/build/openarm_acm_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_acm_tool -- -j24 -l24
+[0.253s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/taoqiu/ros2_ws/build/openarm_acm_tool': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_acm_tool
+[0.272s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(openarm_acm_tool)
+[0.273s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool' for CMake module files
+[0.274s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/taoqiu/ros2_ws/build/openarm_acm_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/openarm_acm_tool
+[0.275s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool' for CMake config files
+[0.275s] colcon.colcon_core.shell Level 1 create_environment_hook('openarm_acm_tool', 'cmake_prefix_path')
+[0.276s] colcon.colcon_core.shell INFO Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/hook/cmake_prefix_path.ps1'
+[0.276s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/hook/cmake_prefix_path.dsv'
+[0.277s] colcon.colcon_core.shell INFO Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/hook/cmake_prefix_path.sh'
+[0.278s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/lib'
+[0.279s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/bin'
+[0.279s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/lib/pkgconfig/openarm_acm_tool.pc'
+[0.279s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/lib/python3.10/site-packages'
+[0.280s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/bin'
+[0.280s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.ps1'
+[0.282s] colcon.colcon_core.shell INFO Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.dsv'
+[0.282s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.sh'
+[0.283s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.bash'
+[0.284s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.zsh'
+[0.284s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/colcon-core/packages/openarm_acm_tool)
+[0.285s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(openarm_acm_tool)
+[0.285s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool' for CMake module files
+[0.286s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool' for CMake config files
+[0.286s] colcon.colcon_core.shell Level 1 create_environment_hook('openarm_acm_tool', 'cmake_prefix_path')
+[0.286s] colcon.colcon_core.shell INFO Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/hook/cmake_prefix_path.ps1'
+[0.287s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/hook/cmake_prefix_path.dsv'
+[0.288s] colcon.colcon_core.shell INFO Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/hook/cmake_prefix_path.sh'
+[0.288s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/lib'
+[0.288s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/bin'
+[0.288s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/lib/pkgconfig/openarm_acm_tool.pc'
+[0.289s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/lib/python3.10/site-packages'
+[0.289s] colcon.colcon_core.environment Level 1 checking '/home/taoqiu/ros2_ws/install/openarm_acm_tool/bin'
+[0.289s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.ps1'
+[0.290s] colcon.colcon_core.shell INFO Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.dsv'
+[0.291s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.sh'
+[0.291s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.bash'
+[0.292s] colcon.colcon_core.shell INFO Creating package script '/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/openarm_acm_tool/package.zsh'
+[0.292s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_acm_tool/share/colcon-core/packages/openarm_acm_tool)
+[0.293s] colcon.colcon_parallel_executor.executor.parallel DEBUG closing loop
+[0.293s] colcon.colcon_parallel_executor.executor.parallel DEBUG loop closed
+[0.293s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete finished with '0'
+[0.293s] colcon.colcon_core.event_reactor DEBUG joining thread
+[0.301s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.301s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.301s] colcon.colcon_notification.desktop_notification INFO Sending desktop notification using 'notify2'
+[0.312s] colcon.colcon_core.event_reactor DEBUG joined thread
+[0.313s] colcon.colcon_core.shell INFO Creating prefix script '/home/taoqiu/ros2_ws/install/local_setup.ps1'
+[0.314s] colcon.colcon_core.shell INFO Creating prefix util module '/home/taoqiu/ros2_ws/install/_local_setup_util_ps1.py'
+[0.317s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/taoqiu/ros2_ws/install/setup.ps1'
+[0.319s] colcon.colcon_core.shell INFO Creating prefix script '/home/taoqiu/ros2_ws/install/local_setup.sh'
+[0.319s] colcon.colcon_core.shell INFO Creating prefix util module '/home/taoqiu/ros2_ws/install/_local_setup_util_sh.py'
+[0.320s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/taoqiu/ros2_ws/install/setup.sh'
+[0.321s] colcon.colcon_core.shell INFO Creating prefix script '/home/taoqiu/ros2_ws/install/local_setup.bash'
+[0.322s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/taoqiu/ros2_ws/install/setup.bash'
+[0.323s] colcon.colcon_core.shell INFO Creating prefix script '/home/taoqiu/ros2_ws/install/local_setup.zsh'
+[0.323s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/taoqiu/ros2_ws/install/setup.zsh'

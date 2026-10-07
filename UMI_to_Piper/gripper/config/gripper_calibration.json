@@ -1,0 +1,9 @@
+{
+  "calibration_id": "gripper_DM3507_20260914",
+  "encoder_min": 38079,
+  "encoder_max": 34247,
+  "width_min_m": 0.00013,
+  "width_max_m": 0.07039,
+  "mapping": "linear",
+  "note": "实测(2026-09-14, motor_id=7)：全闭(0.13mm)=encoder 38079，全开(70.39mm)=encoder 34247。编码器随开度增大而递减（开=34247<闭=38079），线性映射 w = w_min + (c-c_min)/(c_max-c_min)*(w_max-w_min) 已正确处理该方向。旧标定(28850/24513)已随电机零点漂移失效。"
+}

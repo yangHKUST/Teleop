@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing openarm_teleop_bridge.egg-info/PKG-INFO
+writing dependency_links to openarm_teleop_bridge.egg-info/dependency_links.txt
+writing entry points to openarm_teleop_bridge.egg-info/entry_points.txt
+writing requirements to openarm_teleop_bridge.egg-info/requires.txt
+writing top-level names to openarm_teleop_bridge.egg-info/top_level.txt
+reading manifest file 'openarm_teleop_bridge.egg-info/SOURCES.txt'
+writing manifest file 'openarm_teleop_bridge.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/install/openarm_teleop_bridge/lib/python3.10/site-packages/openarm-teleop-bridge.egg-link (link to .)
+Installing jt_bridge script to /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/install/openarm_teleop_bridge/lib/openarm_teleop_bridge
+
+Installed /home/taoqiu/ros2_ws/src/openarm_ros2/openarm_teleop_bridge/build/openarm_teleop_bridge
+running symlink_data

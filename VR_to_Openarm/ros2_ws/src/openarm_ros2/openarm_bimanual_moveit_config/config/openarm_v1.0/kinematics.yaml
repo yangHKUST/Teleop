@@ -1,0 +1,45 @@
+# Copyright 2025 Enactic, Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+
+# Single-chain 7-DOF arm groups use pick_ik (Pinocchio-based) instead of KDL.
+#
+# both_arms intentionally has NO kinematics solver entry. MoveIt's RViz plugin
+# decides how many draggable end-effector markers to show from
+# JointModelGroup::getGroupKinematics(): a group with its *own* IK solver gets a
+# single marker (the fallback "last link" = right arm link7), whereas a group
+# whose *subgroups* have IK solvers gets one marker per subgroup. So to get TWO
+# draggable balls (drag both arms, then plan + execute together) both_arms must
+# NOT have its own solver: the per-arm pick_ik chains below handle the drag IK,
+# and OMPL plans the 14-DOF joint space directly. Named goals (home/hands_up)
+# are joint-space and never need IK, so they are unaffected.
+#
+# If you ever need programmatic setPoseTarget() on both_arms as a whole, restore:
+# both_arms:
+#   kinematics_solver: bio_ik/BioIKKinematicsPlugin
+#   kinematics_solver_search_resolution: 0.005
+#   kinematics_solver_timeout: 0.1
+#   mode: bio2_memetic
+
+left_arm:
+  kinematics_solver: pick_ik/PickIkPlugin
+  kinematics_solver_search_resolution: 0.005
+  kinematics_solver_timeout: 0.05
+  mode: global
+
+right_arm:
+  kinematics_solver: pick_ik/PickIkPlugin
+  kinematics_solver_search_resolution: 0.005
+  kinematics_solver_timeout: 0.05
+  mode: global

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-593811d4ed01540038e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pick_ik",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pick_ik_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick_ik_parameters-696459d96b4ba3648bc2.json",
+					"name" : "pick_ik_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pick_ik_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick_ik_plugin-90e314ebc2bc57accf7e.json",
+					"name" : "pick_ik_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pick_ik_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick_ik_uninstall-3a97dda1e980a6dd3e7d.json",
+					"name" : "pick_ik_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e279f94d856a5200007d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/taoqiu/ros2_ws/build/pick_ik",
+		"source" : "/home/taoqiu/ros2_ws/src/pick_ik"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,20 @@
+[0.338s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_vr': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/pick_ik:/home/taoqiu/ros2_ws/install/openarm:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_can:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs:/home/taoqiu/ros2_ws/install/openarm_acm_tool:/home/taoqiu/ros2_ws/install/bio_ik PYTHONPATH=/home/taoqiu/ros2_ws/build/openarm_vr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/install/openarm_vr/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-openarm-ik) /home/taoqiu/venv-openarm-ik/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taoqiu/ros2_ws/build/openarm_vr/build --no-deps symlink_data
+[0.477s] running develop
+[0.560s] running egg_info
+[0.560s] writing openarm_vr.egg-info/PKG-INFO
+[0.560s] writing dependency_links to openarm_vr.egg-info/dependency_links.txt
+[0.560s] writing entry points to openarm_vr.egg-info/entry_points.txt
+[0.560s] writing requirements to openarm_vr.egg-info/requires.txt
+[0.561s] writing top-level names to openarm_vr.egg-info/top_level.txt
+[0.561s] reading manifest file 'openarm_vr.egg-info/SOURCES.txt'
+[0.562s] writing manifest file 'openarm_vr.egg-info/SOURCES.txt'
+[0.562s] running build_ext
+[0.562s] Creating /home/taoqiu/ros2_ws/install/openarm_vr/lib/python3.10/site-packages/openarm-vr.egg-link (link to .)
+[0.563s] Installing vr_calibrate script to /home/taoqiu/ros2_ws/install/openarm_vr/lib/openarm_vr
+[0.563s] Installing vr_receiver script to /home/taoqiu/ros2_ws/install/openarm_vr/lib/openarm_vr
+[0.563s] Installing vr_record script to /home/taoqiu/ros2_ws/install/openarm_vr/lib/openarm_vr
+[0.563s] Installing vr_servo script to /home/taoqiu/ros2_ws/install/openarm_vr/lib/openarm_vr
+[0.563s] 
+[0.563s] Installed /home/taoqiu/ros2_ws/build/openarm_vr
+[0.563s] running symlink_data
+[0.576s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_vr' returned '0': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/pick_ik:/home/taoqiu/ros2_ws/install/openarm:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_can:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs:/home/taoqiu/ros2_ws/install/openarm_acm_tool:/home/taoqiu/ros2_ws/install/bio_ik PYTHONPATH=/home/taoqiu/ros2_ws/build/openarm_vr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/install/openarm_vr/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-openarm-ik) /home/taoqiu/venv-openarm-ik/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taoqiu/ros2_ws/build/openarm_vr/build --no-deps symlink_data

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: openarm-bimanual-planner
+Version: 1.0.0
+Summary: Coordinated 14-DOF bimanual B-spline planner (port of openarm_pinocchio_nsp)
+Home-page: UNKNOWN
+Maintainer: Enactic, Inc.
+Maintainer-email: openarm_dev@enactic.ai
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

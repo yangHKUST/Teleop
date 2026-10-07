@@ -1,0 +1,2 @@
+Invoking command in '/home/taoqiu/ros2_ws/build/openarm_gravcheck': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_gravcheck -- -j24 -l24
+Invoked command in '/home/taoqiu/ros2_ws/build/openarm_gravcheck' returned '2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/openarm_gravcheck -- -j24 -l24

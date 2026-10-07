@@ -1,0 +1,6 @@
+setup.py
+openarm_bimanual_planner_msgs/__init__.py
+openarm_bimanual_planner_msgs.egg-info/PKG-INFO
+openarm_bimanual_planner_msgs.egg-info/SOURCES.txt
+openarm_bimanual_planner_msgs.egg-info/dependency_links.txt
+openarm_bimanual_planner_msgs.egg-info/top_level.txt

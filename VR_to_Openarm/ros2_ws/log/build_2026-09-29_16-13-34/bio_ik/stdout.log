@@ -1,0 +1,106 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/taoqiu/miniconda3/bin/python3 (found version "3.13.13") found components: Interpreter 
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.7.4 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Threads: TRUE  
+-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- OPENMP FOUND
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/taoqiu/ros2_ws/build/bio_ik
+[  4%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[  9%] Building CXX object CMakeFiles/bio_ik.dir/src/goal_types.cpp.o
+[ 14%] Building CXX object CMakeFiles/bio_ik.dir/src/problem.cpp.o
+[ 19%] Building CXX object CMakeFiles/bio_ik.dir/src/ik_test.cpp.o
+[ 23%] Building CXX object CMakeFiles/bio_ik.dir/src/ik_evolution_1.cpp.o
+[ 28%] Building CXX object CMakeFiles/bio_ik.dir/src/ik_evolution_2.cpp.o
+[ 33%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 38%] Building CXX object CMakeFiles/bio_ik.dir/src/ik_gradient.cpp.o
+[ 42%] Linking CXX static library libgtest_main.a
+[ 42%] Built target gtest_main
+[ 47%] Linking CXX static library libgtest.a
+[ 47%] Built target gtest
+[ 52%] Linking CXX shared library libbio_ik.so
+[ 52%] Built target bio_ik
+[ 57%] Building CXX object CMakeFiles/bio_ik_plugin.dir/src/goal_types.cpp.o
+[ 61%] Building CXX object CMakeFiles/bio_ik_plugin.dir/src/problem.cpp.o
+[ 66%] Building CXX object CMakeFiles/bio_ik_plugin.dir/src/ik_gradient.cpp.o
+[ 71%] Building CXX object CMakeFiles/bio_ik_plugin.dir/src/ik_evolution_2.cpp.o
+[ 76%] Building CXX object CMakeFiles/bio_ik_plugin.dir/src/ik_evolution_1.cpp.o
+[ 80%] Building CXX object CMakeFiles/bio_ik_plugin.dir/src/ik_test.cpp.o
+[ 85%] Building CXX object CMakeFiles/bio_ik_test.dir/test/utest.cpp.o
+[ 90%] Building CXX object CMakeFiles/bio_ik_plugin.dir/src/kinematics_plugin.cpp.o
+[ 95%] Linking CXX executable bio_ik_test
+[ 95%] Built target bio_ik_test
+[100%] Linking CXX shared library libbio_ik_plugin.so
+[100%] Built target bio_ik_plugin
+-- Install configuration: "Release"
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/include
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik/goal_types.h
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik/frame.h
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik/goal.h
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik/robot_info.h
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik/bio_ik.h
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/lib/libbio_ik.so
+-- Set runtime path of "/home/taoqiu/ros2_ws/install/bio_ik/lib/libbio_ik.so" to ""
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/lib/libbio_ik_plugin.so
+-- Set runtime path of "/home/taoqiu/ros2_ws/install/bio_ik/lib/libbio_ik_plugin.so" to ""
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/bio_ik_kinematics_description.xml
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/library_path.sh
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/library_path.dsv
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/ament_index/resource_index/package_run_dependencies/bio_ik
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/ament_index/resource_index/parent_prefix_path/bio_ik
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/ament_prefix_path.sh
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/ament_prefix_path.dsv
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/path.sh
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/path.dsv
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/local_setup.bash
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/local_setup.sh
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/local_setup.zsh
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/local_setup.dsv
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.dsv
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/ament_index/resource_index/packages/bio_ik
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/ament_index/resource_index/moveit_core__pluginlib__plugin/bio_ik
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/export_bio_ikExport.cmake
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/export_bio_ikExport-release.cmake
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/bio_ikConfig.cmake
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/bio_ikConfig-version.cmake
+-- Installing: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.xml

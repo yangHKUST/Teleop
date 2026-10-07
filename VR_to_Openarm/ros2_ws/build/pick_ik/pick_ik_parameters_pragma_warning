@@ -1,0 +1,1 @@
+#pragma message("#include \"pick_ik_parameters.hpp\" is deprecated. Use #include <pick_ik/pick_ik_parameters.hpp> instead.")

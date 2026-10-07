@@ -1,0 +1,309 @@
+[0.063s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/lib/python3/dist-packages/colcon/__main__.py', 'build', '--packages-select', 'openarm_vr', '--symlink-install'][0m
+[0.064s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['openarm_vr'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a40fc024fa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a40fc0249d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a40fc0249d0>>)[0m
+[0.138s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.139s] [34mcolcon.colcon_metadata.package_discovery.colcon_meta[0m [1;30mINFO[0m Using configuration from '/home/taoqiu/ros2_ws/colcon.meta'
+[0.139s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.139s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.139s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.139s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.139s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.139s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/taoqiu/ros2_ws'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.139s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.145s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extension 'ignore'
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extension 'ignore_ament_install'
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extensions ['colcon_pkg']
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extension 'colcon_pkg'
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extensions ['colcon_meta']
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extension 'colcon_meta'
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extensions ['ros']
+[0.146s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/bio_ik) by extension 'ros'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/bio_ik' with type 'ros.ament_cmake' and name 'bio_ik'[0m
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extension 'ignore'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extension 'ignore_ament_install'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extensions ['colcon_pkg']
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extension 'colcon_pkg'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extensions ['colcon_meta']
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extension 'colcon_meta'
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extensions ['ros']
+[0.147s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_can) by extension 'ros'
+[0.148s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_can' with type 'ros.cmake' and name 'openarm_can'[0m
+[0.148s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extension 'ignore'
+[0.148s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extension 'ignore_ament_install'
+[0.148s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extensions ['colcon_pkg']
+[0.148s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extension 'colcon_pkg'
+[0.148s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extensions ['colcon_meta']
+[0.148s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extension 'colcon_meta'
+[0.148s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extensions ['ros']
+[0.148s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_description) by extension 'ros'
+[0.148s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_description' with type 'ros.ament_cmake' and name 'openarm_description'[0m
+[0.148s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'ignore'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'ignore_ament_install'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extensions ['colcon_pkg']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'colcon_pkg'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extensions ['colcon_meta']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'colcon_meta'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extensions ['ros']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'ros'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extensions ['cmake', 'python']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'cmake'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'python'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extensions ['python_setup_py']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2) by extension 'python_setup_py'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'ignore'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'ignore_ament_install'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extensions ['colcon_pkg']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'colcon_pkg'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extensions ['colcon_meta']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'colcon_meta'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extensions ['ros']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'ros'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extensions ['cmake', 'python']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'cmake'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'python'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extensions ['python_setup_py']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/dev) by extension 'python_setup_py'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extension 'ignore'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extension 'ignore_ament_install'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extensions ['colcon_pkg']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extension 'colcon_pkg'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extensions ['colcon_meta']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extension 'colcon_meta'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extensions ['ros']
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm) by extension 'ros'
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_ros2/openarm' with type 'ros.ament_cmake' and name 'openarm'[0m
+[0.149s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extension 'ignore'
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extension 'ignore_ament_install'
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extensions ['colcon_pkg']
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extension 'colcon_pkg'
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extensions ['colcon_meta']
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extension 'colcon_meta'
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extensions ['ros']
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_acm_tool) by extension 'ros'
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_ros2/openarm_acm_tool' with type 'ros.ament_cmake' and name 'openarm_acm_tool'[0m
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'ignore'
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'ignore_ament_install'
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['colcon_pkg']
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'colcon_pkg'
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['colcon_meta']
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'colcon_meta'
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extensions ['ros']
+[0.150s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_moveit_config) by extension 'ros'
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_ros2/openarm_bimanual_moveit_config' with type 'ros.ament_cmake' and name 'openarm_bimanual_moveit_config'[0m
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner) by extension 'ignore'
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner) by extension 'ignore_ament_install'
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner) by extensions ['colcon_pkg']
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner) by extension 'colcon_pkg'
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner) by extensions ['colcon_meta']
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner) by extension 'colcon_meta'
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner) by extensions ['ros']
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner) by extension 'ros'
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_ros2/openarm_bimanual_planner' with type 'ros.ament_python' and name 'openarm_bimanual_planner'[0m
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner_msgs) by extension 'ignore'
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner_msgs) by extension 'ignore_ament_install'
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner_msgs) by extensions ['colcon_pkg']
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner_msgs) by extension 'colcon_pkg'
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner_msgs) by extensions ['colcon_meta']
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner_msgs) by extension 'colcon_meta'
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner_msgs) by extensions ['ros']
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bimanual_planner_msgs) by extension 'ros'
+[0.151s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_ros2/openarm_bimanual_planner_msgs' with type 'ros.ament_cmake' and name 'openarm_bimanual_planner_msgs'[0m
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extension 'ignore'
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extension 'ignore_ament_install'
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extensions ['colcon_pkg']
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extension 'colcon_pkg'
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extensions ['colcon_meta']
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extension 'colcon_meta'
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extensions ['ros']
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_bringup) by extension 'ros'
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_ros2/openarm_bringup' with type 'ros.ament_cmake' and name 'openarm_bringup'[0m
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extension 'ignore'
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extension 'ignore_ament_install'
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extensions ['colcon_pkg']
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extension 'colcon_pkg'
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extensions ['colcon_meta']
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extension 'colcon_meta'
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extensions ['ros']
+[0.152s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_hardware) by extension 'ros'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_ros2/openarm_hardware' with type 'ros.ament_cmake' and name 'openarm_hardware'[0m
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_vr) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_vr) by extension 'ignore'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_vr) by extension 'ignore_ament_install'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_vr) by extensions ['colcon_pkg']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_vr) by extension 'colcon_pkg'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_vr) by extensions ['colcon_meta']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_vr) by extension 'colcon_meta'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_vr) by extensions ['ros']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/openarm_ros2/openarm_vr) by extension 'ros'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/openarm_ros2/openarm_vr' with type 'ros.ament_python' and name 'openarm_vr'[0m
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extension 'ignore'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extension 'ignore_ament_install'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extensions ['colcon_pkg']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extension 'colcon_pkg'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extensions ['colcon_meta']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extension 'colcon_meta'
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extensions ['ros']
+[0.153s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pick_ik) by extension 'ros'
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/pick_ik' with type 'ros.ament_cmake' and name 'pick_ik'[0m
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'ignore'
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'ignore_ament_install'
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['colcon_pkg']
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'colcon_pkg'
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['colcon_meta']
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'colcon_meta'
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['ros']
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'ros'
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['cmake', 'python']
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'cmake'
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'python'
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extensions ['python_setup_py']
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools) by extension 'python_setup_py'
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extension 'ignore'
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extension 'ignore_ament_install'
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extensions ['colcon_pkg']
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extension 'colcon_pkg'
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extensions ['colcon_meta']
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extension 'colcon_meta'
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extensions ['ros']
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extension 'ros'
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extensions ['cmake', 'python']
+[0.154s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extension 'cmake'
+[0.155s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(tools/openarm_gravcheck) by extension 'python'
+[0.155s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'tools/openarm_gravcheck' with type 'cmake' and name 'openarm_gravcheck'[0m
+[0.156s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.156s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.156s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.156s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.156s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.169s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'bio_ik' in 'src/bio_ik'
+[0.169s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'openarm_acm_tool' in 'src/openarm_ros2/openarm_acm_tool'
+[0.169s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'openarm_bimanual_planner_msgs' in 'src/openarm_ros2/openarm_bimanual_planner_msgs'
+[0.169s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'openarm_can' in 'src/openarm_can'
+[0.169s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'openarm_description' in 'src/openarm_description'
+[0.169s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'openarm_gravcheck' in 'tools/openarm_gravcheck'
+[0.169s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'pick_ik' in 'src/pick_ik'
+[0.169s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'openarm_bimanual_moveit_config' in 'src/openarm_ros2/openarm_bimanual_moveit_config'
+[0.170s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'openarm_bimanual_planner' in 'src/openarm_ros2/openarm_bimanual_planner'
+[0.170s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'openarm_hardware' in 'src/openarm_ros2/openarm_hardware'
+[0.170s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'openarm_bringup' in 'src/openarm_ros2/openarm_bringup'
+[0.170s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'openarm' in 'src/openarm_ros2/openarm'
+[0.170s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.170s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.171s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 12 installed packages in /home/taoqiu/ros2_ws/install[0m
+[0.171s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 388 installed packages in /opt/ros/humble[0m
+[0.172s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.200s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_vr' build argument 'cmake_args' from command line to 'None'
+[0.200s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_vr' build argument 'cmake_target' from command line to 'None'
+[0.200s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_vr' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.200s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_vr' build argument 'cmake_clean_cache' from command line to 'False'
+[0.200s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_vr' build argument 'cmake_clean_first' from command line to 'False'
+[0.200s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_vr' build argument 'cmake_force_configure' from command line to 'False'
+[0.200s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_vr' build argument 'ament_cmake_args' from command line to 'None'
+[0.200s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_vr' build argument 'catkin_cmake_args' from command line to 'None'
+[0.200s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'openarm_vr' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.201s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'openarm_vr' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/taoqiu/ros2_ws/build/openarm_vr', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/taoqiu/ros2_ws/install/openarm_vr', 'merge_install': False, 'path': '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_vr', 'symlink_install': True, 'test_result_base': None}[0m
+[0.201s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.201s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.201s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_vr' with build type 'ament_python'
+[0.201s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_vr', 'ament_prefix_path')
+[0.202s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.203s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_vr/share/openarm_vr/hook/ament_prefix_path.ps1'
+[0.203s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_vr/share/openarm_vr/hook/ament_prefix_path.dsv'
+[0.203s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_vr/share/openarm_vr/hook/ament_prefix_path.sh'
+[0.203s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.203s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.349s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/taoqiu/ros2_ws/src/openarm_ros2/openarm_vr'
+[0.349s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.540s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/taoqiu/ros2_ws/build/openarm_vr': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/pick_ik:/home/taoqiu/ros2_ws/install/openarm:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_can:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs:/home/taoqiu/ros2_ws/install/openarm_acm_tool:/home/taoqiu/ros2_ws/install/bio_ik PYTHONPATH=/home/taoqiu/ros2_ws/build/openarm_vr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/install/openarm_vr/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-openarm-ik) /home/taoqiu/venv-openarm-ik/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taoqiu/ros2_ws/build/openarm_vr/build --no-deps symlink_data[0m
+[0.777s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_vr', 'pythonpath_develop')
+[0.778s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/build/openarm_vr/share/openarm_vr/hook/pythonpath_develop.ps1'
+[0.778s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/taoqiu/ros2_ws/build/openarm_vr' returned '0': CMAKE_PREFIX_PATH=/home/taoqiu/ros2_ws/install/openarm_description:/home/taoqiu/ros2_ws/install/pick_ik:/home/taoqiu/ros2_ws/install/openarm:/home/taoqiu/ros2_ws/install/openarm_hardware:/home/taoqiu/ros2_ws/install/openarm_bringup:/home/taoqiu/ros2_ws/install/openarm_bimanual_moveit_config:/home/taoqiu/ros2_ws/install/openarm_can:/home/taoqiu/ros2_ws/install/openarm_bimanual_planner_msgs:/home/taoqiu/ros2_ws/install/openarm_acm_tool:/home/taoqiu/ros2_ws/install/bio_ik PYTHONPATH=/home/taoqiu/ros2_ws/build/openarm_vr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/install/openarm_vr/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv-openarm-ik) /home/taoqiu/venv-openarm-ik/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taoqiu/ros2_ws/build/openarm_vr/build --no-deps symlink_data[0m
+[0.778s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/build/openarm_vr/share/openarm_vr/hook/pythonpath_develop.dsv'
+[0.779s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/build/openarm_vr/share/openarm_vr/hook/pythonpath_develop.sh'
+[0.780s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_vr' for CMake module files
+[0.780s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_vr' for CMake config files
+[0.780s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_vr/lib'
+[0.780s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_vr/bin'
+[0.780s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_vr/lib/pkgconfig/openarm_vr.pc'
+[0.780s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_vr/lib/python3.10/site-packages'
+[0.780s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('openarm_vr', 'pythonpath')
+[0.780s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_vr/share/openarm_vr/hook/pythonpath.ps1'
+[0.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/taoqiu/ros2_ws/install/openarm_vr/share/openarm_vr/hook/pythonpath.dsv'
+[0.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/taoqiu/ros2_ws/install/openarm_vr/share/openarm_vr/hook/pythonpath.sh'
+[0.781s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/taoqiu/ros2_ws/install/openarm_vr/bin'
+[0.781s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(openarm_vr)
+[0.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_vr/share/openarm_vr/package.ps1'
+[0.782s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/taoqiu/ros2_ws/install/openarm_vr/share/openarm_vr/package.dsv'
+[0.782s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_vr/share/openarm_vr/package.sh'
+[0.782s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_vr/share/openarm_vr/package.bash'
+[0.782s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/taoqiu/ros2_ws/install/openarm_vr/share/openarm_vr/package.zsh'
+[0.783s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/taoqiu/ros2_ws/install/openarm_vr/share/colcon-core/packages/openarm_vr)
+[0.783s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[0.783s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[0.783s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[0.783s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[0.785s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.785s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.786s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[0.793s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[0.793s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/taoqiu/ros2_ws/install/local_setup.ps1'
+[0.794s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/taoqiu/ros2_ws/install/_local_setup_util_ps1.py'
+[0.795s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/taoqiu/ros2_ws/install/setup.ps1'
+[0.795s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/taoqiu/ros2_ws/install/local_setup.sh'
+[0.795s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/taoqiu/ros2_ws/install/_local_setup_util_sh.py'
+[0.796s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/taoqiu/ros2_ws/install/setup.sh'
+[0.796s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/taoqiu/ros2_ws/install/local_setup.bash'
+[0.796s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/taoqiu/ros2_ws/install/setup.bash'
+[0.797s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/taoqiu/ros2_ws/install/local_setup.zsh'
+[0.797s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/taoqiu/ros2_ws/install/setup.zsh'

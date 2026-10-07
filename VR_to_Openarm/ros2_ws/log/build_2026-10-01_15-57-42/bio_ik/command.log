@@ -1,0 +1,6 @@
+Invoking command in '/home/taoqiu/ros2_ws/build/bio_ik': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/taoqiu/ros2_ws/src/bio_ik -DCMAKE_INSTALL_PREFIX=/home/taoqiu/ros2_ws/install/bio_ik
+Invoked command in '/home/taoqiu/ros2_ws/build/bio_ik' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/taoqiu/ros2_ws/src/bio_ik -DCMAKE_INSTALL_PREFIX=/home/taoqiu/ros2_ws/install/bio_ik
+Invoking command in '/home/taoqiu/ros2_ws/build/bio_ik': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/bio_ik -- -j24 -l24
+Invoked command in '/home/taoqiu/ros2_ws/build/bio_ik' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/taoqiu/ros2_ws/build/bio_ik -- -j24 -l24
+Invoking command in '/home/taoqiu/ros2_ws/build/bio_ik': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/bio_ik
+Invoked command in '/home/taoqiu/ros2_ws/build/bio_ik' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/taoqiu/ros2_ws/build/bio_ik

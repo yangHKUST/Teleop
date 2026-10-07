@@ -1,0 +1,18 @@
+[0.321s] Invoking command in '/home/taoqiu/ros2_ws/build/openarm_teleop_bridge': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/taoqiu/ros2_ws/build/openarm_teleop_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/install/openarm_teleop_bridge/lib/python3.10/site-packages:${PYTHONPATH} /home/taoqiu/venv-openarm-ik/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taoqiu/ros2_ws/build/openarm_teleop_bridge/build --no-deps symlink_data
+[0.459s] running develop
+[0.549s] running egg_info
+[0.549s] writing openarm_teleop_bridge.egg-info/PKG-INFO
+[0.549s] writing dependency_links to openarm_teleop_bridge.egg-info/dependency_links.txt
+[0.549s] writing entry points to openarm_teleop_bridge.egg-info/entry_points.txt
+[0.550s] writing requirements to openarm_teleop_bridge.egg-info/requires.txt
+[0.550s] writing top-level names to openarm_teleop_bridge.egg-info/top_level.txt
+[0.550s] reading manifest file 'openarm_teleop_bridge.egg-info/SOURCES.txt'
+[0.551s] writing manifest file 'openarm_teleop_bridge.egg-info/SOURCES.txt'
+[0.551s] running build_ext
+[0.552s] Creating /home/taoqiu/ros2_ws/install/openarm_teleop_bridge/lib/python3.10/site-packages/openarm-teleop-bridge.egg-link (link to .)
+[0.552s] Installing jt_bridge script to /home/taoqiu/ros2_ws/install/openarm_teleop_bridge/lib/openarm_teleop_bridge
+[0.552s] 
+[0.552s] Installed /home/taoqiu/ros2_ws/build/openarm_teleop_bridge
+[0.552s] running symlink_data
+[0.552s] symbolically linking /home/taoqiu/ros2_ws/build/openarm_teleop_bridge/launch/teleop.launch.py -> /home/taoqiu/ros2_ws/install/openarm_teleop_bridge/share/openarm_teleop_bridge/launch
+[0.564s] Invoked command in '/home/taoqiu/ros2_ws/build/openarm_teleop_bridge' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/taoqiu/ros2_ws/build/openarm_teleop_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taoqiu/ros2_ws/install/openarm_teleop_bridge/lib/python3.10/site-packages:${PYTHONPATH} /home/taoqiu/venv-openarm-ik/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/taoqiu/ros2_ws/build/openarm_teleop_bridge/build --no-deps symlink_data

@@ -1,0 +1,4 @@
+/home/taoqiu/ros2_ws/src/openarm_can/setup/motor_sampling_check.cpp: In function ‘void {anonymous}::signal_handler(int)’:
+/home/taoqiu/ros2_ws/src/openarm_can/setup/motor_sampling_check.cpp:28:25: warning: unused parameter ‘signum’ [-Wunused-parameter]
+   28 | void signal_handler(int signum) { keep_running = 0; }
+      |                     ~~~~^~~~~~

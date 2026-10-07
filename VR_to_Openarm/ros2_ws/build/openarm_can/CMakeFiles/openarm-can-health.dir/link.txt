@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/openarm-can-health.dir/examples/health.cpp.o -o openarm-can-health  libopenarm_can.a 

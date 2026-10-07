@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/openarm-can-motor-sampling-check.dir/setup/motor_sampling_check.cpp.o -o openarm-can-motor-sampling-check  libopenarm_can.a 

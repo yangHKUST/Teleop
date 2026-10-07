@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/openarm-can-example-gripper-posforce.dir/examples/gripper_posforce.cpp.o -o openarm-can-example-gripper-posforce  libopenarm_can.a 

@@ -1,0 +1,1 @@
+/home/taoqiu/ros2_ws/build/openarm_bimanual_planner_msgs/rosidl_typesupport_introspection_c/openarm_bimanual_planner_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

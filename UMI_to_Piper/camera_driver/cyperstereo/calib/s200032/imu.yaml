@@ -1,0 +1,42 @@
+# ============================================================
+# Kalibr IMU 参数 —— Cyperstereo SmartSens duo (Bosch BMI088)
+#   设备序列号 : s200002
+#   固件版本   : 2/4  (7 IMU slots / frame)
+#   量程       : accel ±6 g (LSB 1.831e-4 g) / gyro ±2000 dps (LSB 0.061 dps)
+#   数值来源   : Allan 方差标定结果
+#
+# 用法:
+#   kalibr_calibrate_imu_camera \
+#     --bag cyper.bag --cam cam_chain.yaml --imu imu.yaml --target aprilgrid.yaml
+# ============================================================
+
+#Accelerometer
+accelerometer_noise_density: 0.0015177735193787072   # [ m / s^2 / sqrt(Hz) ]   白噪声
+accelerometer_random_walk:   5.800367172683552e-05   # [ m / s^3 / sqrt(Hz) ]   零偏随机游走
+
+#Gyroscope
+gyroscope_noise_density:     0.00021243046780248539  # [ rad / s / sqrt(Hz) ]   白噪声
+gyroscope_random_walk:       3.1742020064828066e-06  # [ rad / s^2 / sqrt(Hz) ] 零偏随机游走
+
+rostopic:                    /imu0                   # ros2 run data_cap capture_image_imu 发布的话题
+update_rate:                 200.0                   # [Hz]  实测 200.0000 Hz (3954 样本零丢失)
+
+# ------------------------------------------------------------
+# 备注
+#
+# 1. 若 kalibr_calibrate_imu_camera 不收敛或残差异常大，按 Kalibr 惯例把上面
+#    四个噪声值整体放大 5~10 倍再试。放大只影响优化器的权重，不代表器件变差。
+#
+# 2. 不要使用 slam/config/open_vins/CyperStereo/cyperstereo_imu_calibra-imu.yaml
+#    里的数值 —— 那是 752x480 老型号(MT9V034)的配置，且明显偏大:
+#       accel  0.02166  vs 本文件 0.00152   ->  14.3x
+#       gyro   0.00219  vs 本文件 0.00021   ->  10.3x
+#    本文件的数值与 BMI088 datasheet (accel 175 ug/sqrt(Hz) = 1.7e-3,
+#    gyro 0.014 dps/sqrt(Hz) = 2.4e-4) 吻合，可信。
+#
+# 3. IMU 时间戳由 FPGA 时钟生成，dt 恒为 5.000 ms 且零抖动。它反映的是 FPGA
+#    的读取节拍，不是 MEMS 的真实采样时刻，两者之间存在 0.25~2.5 ms 量级的
+#    未标定延迟(取决于 BMI088 的 ODR 与内部低通滤波器群延迟，SDK 无寄存器
+#    读接口、无法查询)。这部分延迟会被 Kalibr 吸收进 timeshift，标定后务必
+#    查看报告里的 "timeshift cam0 to imu0" 一项。
+# ------------------------------------------------------------

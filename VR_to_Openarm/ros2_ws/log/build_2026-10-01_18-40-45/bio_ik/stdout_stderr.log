@@ -1,0 +1,40 @@
+[  9%] Built target gtest_main
+[ 19%] Built target gtest
+[ 52%] Built target bio_ik
+[ 61%] Built target bio_ik_test
+[100%] Built target bio_ik_plugin
+-- Install configuration: "Release"
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/include
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik/goal_types.h
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik/frame.h
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik/goal.h
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik/robot_info.h
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/include/bio_ik/bio_ik.h
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/lib/libbio_ik.so
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/lib/libbio_ik_plugin.so
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/bio_ik_kinematics_description.xml
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/library_path.sh
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/library_path.dsv
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/ament_index/resource_index/package_run_dependencies/bio_ik
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/ament_index/resource_index/parent_prefix_path/bio_ik
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/ament_prefix_path.sh
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/path.sh
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/environment/path.dsv
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/local_setup.bash
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/local_setup.sh
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/local_setup.zsh
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/local_setup.dsv
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.dsv
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/ament_index/resource_index/packages/bio_ik
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/ament_index/resource_index/moveit_core__pluginlib__plugin/bio_ik
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/export_bio_ikExport.cmake
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/export_bio_ikExport-release.cmake
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/bio_ikConfig.cmake
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/cmake/bio_ikConfig-version.cmake
+-- Up-to-date: /home/taoqiu/ros2_ws/install/bio_ik/share/bio_ik/package.xml

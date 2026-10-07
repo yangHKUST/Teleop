@@ -1,0 +1,18 @@
+[33mCMake Warning at /usr/share/cmake-3.22/Modules/FindBoost.cmake:2201 (message):
+  No header defined for python310; skipping header check (note: header-only
+  libraries have no designated component)
+Call Stack (most recent call first):
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/boost.cmake:146 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/eigenpy/eigenpyConfig.cmake:172 (SEARCH_FOR_BOOST_PYTHON)
+  /usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake:47 (find_package)
+  /opt/ros/humble/lib/x86_64-linux-gnu/cmake/pinocchio/pinocchioConfig.cmake:184 (find_dependency)
+  CMakeLists.txt:7 (find_package)
+
+[0m
+[01m[K/home/taoqiu/ros2_ws/tools/openarm_gravcheck/gravcheck.cpp:37:10:[m[K [01;31m[Kfatal error: [m[Kopenarm/config/openarm_v10_config.hpp: 没有那个文件或目录
+   37 | #include [01;31m[K<openarm/config/openarm_v10_config.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/gravcheck.dir/build.make:76：CMakeFiles/gravcheck.dir/gravcheck.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:83：CMakeFiles/gravcheck.dir/all] 错误 2
+gmake: *** [Makefile:91：all] 错误 2

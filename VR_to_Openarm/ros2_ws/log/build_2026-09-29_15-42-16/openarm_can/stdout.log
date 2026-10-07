@@ -1,0 +1,95 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/taoqiu/ros2_ws/build/openarm_can
+[  5%] Building CXX object CMakeFiles/openarm_can.dir/src/openarm/canbus/can_socket.cpp.o
+[  5%] Building CXX object CMakeFiles/openarm_can.dir/src/openarm/canbus/can_device_collection.cpp.o
+[  7%] Building CXX object CMakeFiles/openarm_can.dir/src/openarm/damiao_motor/dm_motor_control.cpp.o
+[ 10%] Building CXX object CMakeFiles/openarm_can.dir/src/openarm/damiao_motor/dm_motor_device_collection.cpp.o
+[ 12%] Building CXX object CMakeFiles/openarm_can.dir/src/openarm/damiao_motor/dm_motor_device.cpp.o
+[ 17%] Building CXX object CMakeFiles/openarm_can.dir/src/openarm/can/socket/gripper_component.cpp.o
+[ 17%] Building CXX object CMakeFiles/openarm_can.dir/src/openarm/can/socket/arm_component.cpp.o
+[ 20%] Building CXX object CMakeFiles/openarm_can.dir/src/openarm/damiao_motor/dm_motor.cpp.o
+[ 23%] Building CXX object CMakeFiles/openarm_can.dir/src/openarm/can/socket/openarm.cpp.o
+[ 25%] Linking CXX static library libopenarm_can.a
+[ 25%] Built target openarm_can
+[ 30%] Building CXX object CMakeFiles/openarm-can-health.dir/examples/health.cpp.o
+[ 33%] Building CXX object CMakeFiles/openarm-can-example-gripper-posforce.dir/examples/gripper_posforce.cpp.o
+[ 28%] Building CXX object CMakeFiles/openarm-can-motor-sampling-check.dir/setup/motor_sampling_check.cpp.o
+[ 35%] Building CXX object CMakeFiles/openarm-can-demo.dir/examples/demo.cpp.o
+[ 38%] Building CXX object CMakeFiles/openarm-can-example-vel.dir/examples/vel.cpp.o
+[ 41%] Building CXX object CMakeFiles/openarm-can-example-posvel.dir/examples/posvel.cpp.o
+[ 43%] Building CXX object CMakeFiles/openarm-can-example-posforce.dir/examples/posforce.cpp.o
+[ 46%] Building CXX object CMakeFiles/openarm-can-cli.dir/setup/cli/commands/can_configure_commands.cpp.o
+[ 48%] Building CXX object CMakeFiles/openarm-can-cli.dir/setup/cli/commands/motor_status_commands.cpp.o
+[ 53%] Building CXX object CMakeFiles/openarm-can-cli.dir/setup/cli/commands/zero_position_commands.cpp.o
+[ 53%] Building CXX object CMakeFiles/openarm-can-cli.dir/setup/cli/commands/change_motor_baudrate_commands.cpp.o
+[ 56%] Building CXX object CMakeFiles/openarm-can-cli.dir/setup/cli/commands/motor_read_param_commands.cpp.o
+[ 58%] Building CXX object CMakeFiles/openarm-can-cli.dir/setup/cli/commands/monitor_motor_status_commands.cpp.o
+[ 64%] Building CXX object CMakeFiles/openarm-can-cli.dir/setup/cli/commands/discover_motor_commands.cpp.o
+[ 66%] Building CXX object CMakeFiles/openarm-can-cli.dir/setup/cli/commands/change_motor_id_commands.cpp.o
+[ 66%] Building CXX object CMakeFiles/openarm-can-example-mit.dir/examples/mit.cpp.o
+[ 69%] Building CXX object CMakeFiles/openarm-can-cli.dir/setup/cli/commands/write_motor_param_commands.cpp.o
+[ 71%] Building CXX object CMakeFiles/openarm-can-cli.dir/setup/cli/commands/diagnose_commands.cpp.o
+[ 74%] Building CXX object CMakeFiles/openarm-can-cli.dir/setup/cli/openarm_cli.cpp.o
+[ 76%] Building CXX object CMakeFiles/openarm-can-cli.dir/setup/cli/commands/clear_error_commands.cpp.o
+[ 79%] Linking CXX executable openarm-can-example-posforce
+[ 82%] Linking CXX executable openarm-can-example-mit
+[ 82%] Built target openarm-can-example-posforce
+[ 84%] Linking CXX executable openarm-can-motor-sampling-check
+[ 87%] Linking CXX executable openarm-can-example-posvel
+[ 89%] Linking CXX executable openarm-can-example-vel
+[ 89%] Built target openarm-can-example-mit
+[ 89%] Built target openarm-can-motor-sampling-check
+[ 89%] Built target openarm-can-example-posvel
+[ 89%] Built target openarm-can-example-vel
+[ 92%] Linking CXX executable openarm-can-demo
+[ 94%] Linking CXX executable openarm-can-example-gripper-posforce
+[ 94%] Built target openarm-can-demo
+[ 94%] Built target openarm-can-example-gripper-posforce
+[ 97%] Linking CXX executable openarm-can-health
+[ 97%] Built target openarm-can-health
+[100%] Linking CXX executable openarm-can-cli
+[100%] Built target openarm-can-cli
+-- Install configuration: ""
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/lib/libopenarm_can.a
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm/canbus
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm/canbus/can_device_collection.hpp
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm/canbus/can_socket.hpp
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm/canbus/can_device.hpp
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm/damiao_motor
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm/damiao_motor/dm_motor_constants.hpp
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm/damiao_motor/dm_motor_device.hpp
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm/damiao_motor/dm_motor_device_collection.hpp
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm/damiao_motor/dm_motor_control.hpp
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm/damiao_motor/dm_motor.hpp
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm/can
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm/can/socket
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm/can/socket/arm_component.hpp
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm/can/socket/openarm.hpp
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/include/openarm/can/socket/gripper_component.hpp
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/lib/cmake/OpenArmCAN/OpenArmCANTargets.cmake
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/lib/cmake/OpenArmCAN/OpenArmCANTargets-noconfig.cmake
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/lib/cmake/OpenArmCAN/OpenArmCANConfig.cmake
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/lib/cmake/OpenArmCAN/OpenArmCANConfigVersion.cmake
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/lib/pkgconfig/openarm-can.pc
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/bin/openarm-can-motor-sampling-check
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/bin/openarm-can-demo
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/bin/openarm-can-health
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/bin/openarm-can-cli
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/bin/openarm-can-calibration-in-cell
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/bin/openarm-can-configure-socketcan-4-arms
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/bin/openarm-can-zero-position-calibration
+-- Installing: /home/taoqiu/ros2_ws/install/openarm_can/share/bash-completion/completions/openarm-can-cli

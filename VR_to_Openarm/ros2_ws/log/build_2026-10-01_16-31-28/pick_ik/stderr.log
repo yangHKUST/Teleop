@@ -1,0 +1,37 @@
+In file included from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/robot.hpp:3,
+                 from /home/taoqiu/ros2_ws/src/pick_ik/src/robot.cpp:1:
+/opt/ros/humble/include/tl_expected/expected.hpp:19:167: note: ‘#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.’
+   19 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.") // NOLINT
+      |                                                                                                                                                                       ^
+In file included from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/robot.hpp:3,
+                 from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/goal.hpp:4,
+                 from /home/taoqiu/ros2_ws/src/pick_ik/src/ik_gradient.cpp:1:
+/opt/ros/humble/include/tl_expected/expected.hpp:19:167: note: ‘#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.’
+   19 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.") // NOLINT
+      |                                                                                                                                                                       ^
+In file included from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/robot.hpp:3,
+                 from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/goal.hpp:4,
+                 from /home/taoqiu/ros2_ws/src/pick_ik/src/goal.cpp:2:
+/opt/ros/humble/include/tl_expected/expected.hpp:19:167: note: ‘#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.’
+   19 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.") // NOLINT
+      |                                                                                                                                                                       ^
+In file included from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/robot.hpp:3,
+                 from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/goal.hpp:4,
+                 from /home/taoqiu/ros2_ws/src/pick_ik/src/ik_memetic.cpp:1:
+/opt/ros/humble/include/tl_expected/expected.hpp:19:167: note: ‘#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.’
+   19 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.") // NOLINT
+      |                                                                                                                                                                       ^
+In file included from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/robot.hpp:3,
+                 from /home/taoqiu/ros2_ws/src/pick_ik/include/pick_ik/goal.hpp:4,
+                 from /home/taoqiu/ros2_ws/src/pick_ik/src/pick_ik_plugin.cpp:2:
+/opt/ros/humble/include/tl_expected/expected.hpp:19:167: note: ‘#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.’
+   19 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.") // NOLINT
+      |                                                                                                                                                                       ^
+In file included from /home/taoqiu/ros2_ws/src/pick_ik/src/pick_ik_plugin.cpp:7:
+/home/taoqiu/ros2_ws/build/pick_ik/include/pick_ik_parameters.hpp:1:124: note: ‘#pragma message: #include "pick_ik_parameters.hpp" is deprecated. Use #include <pick_ik/pick_ik_parameters.hpp> instead.’
+    1 | #pragma message("#include \"pick_ik_parameters.hpp\" is deprecated. Use #include <pick_ik/pick_ik_parameters.hpp> instead.")
+      |                                                                                                                            ^
+In file included from /home/taoqiu/ros2_ws/src/pick_ik/src/robot.cpp:6:
+/opt/ros/humble/include/tl_expected/expected.hpp:19:167: note: ‘#pragma message: tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.’
+   19 |   "tl_expected/expected.hpp is deprecated. Use <tl/expected.hpp> from libexpected-dev, or <rcpputils/tl_expected/expected.hpp> if the system header is not available.") // NOLINT
+      |                                                                                                                                                                       ^

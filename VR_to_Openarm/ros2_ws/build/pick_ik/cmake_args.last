@@ -1,0 +1,1 @@
+['-DBUILD_TESTING=OFF', '-Dfmt_DIR=/usr/lib/x86_64-linux-gnu/cmake/fmt']

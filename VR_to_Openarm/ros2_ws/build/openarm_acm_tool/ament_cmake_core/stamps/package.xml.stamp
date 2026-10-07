@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>openarm_acm_tool</name>
+  <version>0.0.0</version>
+  <description>Generate the OpenArm bimanual self-collision (allowed collision) matrix by sampling reachable configurations.</description>
+  <maintainer email="taoqiu@example.com">taoqiu</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>moveit_core</depend>
+  <depend>srdfdom</depend>
+  <depend>random_numbers</depend>
+  <depend>urdf</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
