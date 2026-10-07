@@ -1,0 +1,62 @@
+{
+  "left_legacy": {
+    "max_command_acceleration_rad_s2": 489.1315991445574,
+    "accepted_fraction": 1.0,
+    "max_position_error_mm": 7.50526277856798e-05,
+    "max_orientation_error_deg": 1.4426393284139156e-05,
+    "max_joint_step_deg": 13.097079109365248,
+    "total_joint_travel_deg": 425.0346687679934,
+    "return_max_joint_error_deg": 16.033006702228136,
+    "solve_pair_p95_ms": 0.46738400124013424
+  },
+  "left_off": {
+    "max_command_acceleration_rad_s2": 24.001466838030208,
+    "accepted_fraction": 1.0,
+    "max_position_error_mm": 9.792650342484044e-06,
+    "max_orientation_error_deg": 2.1882997344316543e-06,
+    "max_joint_step_deg": 0.5718803982485388,
+    "total_joint_travel_deg": 354.5625705489217,
+    "return_max_joint_error_deg": 0.025533811751477647,
+    "solve_pair_p95_ms": 0.859136926010251
+  },
+  "left_posture": {
+    "max_command_acceleration_rad_s2": 24.000791661170776,
+    "accepted_fraction": 1.0,
+    "max_position_error_mm": 9.953360590231705e-06,
+    "max_orientation_error_deg": 2.3491291874668797e-06,
+    "max_joint_step_deg": 0.5690345346424678,
+    "total_joint_travel_deg": 357.6890758349708,
+    "return_max_joint_error_deg": 0.446392535080464,
+    "solve_pair_p95_ms": 0.9100300958380103
+  },
+  "right_legacy": {
+    "max_command_acceleration_rad_s2": 489.69385704827386,
+    "accepted_fraction": 1.0,
+    "max_position_error_mm": 7.72460475312805e-05,
+    "max_orientation_error_deg": 1.4835240268817274e-05,
+    "max_joint_step_deg": 13.05842297822323,
+    "total_joint_travel_deg": 418.0870008721127,
+    "return_max_joint_error_deg": 16.342109201996767,
+    "solve_pair_p95_ms": 0.4680720157921314
+  },
+  "right_off": {
+    "max_command_acceleration_rad_s2": 23.98074196171613,
+    "accepted_fraction": 1.0,
+    "max_position_error_mm": 9.990156069957279e-06,
+    "max_orientation_error_deg": 1.762055397745011e-06,
+    "max_joint_step_deg": 0.5526045121069229,
+    "total_joint_travel_deg": 361.66741029144083,
+    "return_max_joint_error_deg": 0.1811148665775941,
+    "solve_pair_p95_ms": 0.8467030711472034
+  },
+  "right_posture": {
+    "max_command_acceleration_rad_s2": 23.98005175756777,
+    "accepted_fraction": 1.0,
+    "max_position_error_mm": 9.809866137388584e-06,
+    "max_orientation_error_deg": 3.3891328206996225e-06,
+    "max_joint_step_deg": 0.5531696966386018,
+    "total_joint_travel_deg": 354.09852439004425,
+    "return_max_joint_error_deg": 0.6093700804090272,
+    "solve_pair_p95_ms": 0.9151160484179854
+  }
+}
