@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Optional, Tuple, Dict, Any
 
 import numpy as np
@@ -23,14 +23,14 @@ class VRMapperConfig:
 
     # VR relative rotation -> Robot relative rotation axis remap matrix
     # Same as your P matrix
-    P: np.ndarray = np.array(
+    P: np.ndarray = field(default_factory=lambda: np.array(
         [
             [0.0, 0.0, -1.0],  # X_robot <-  Z_vr
             [0.0, 1.0,  0.0],  # Y_robot <-  Y_vr
             [1.0, 0.0,  0.0],  # Z_robot <-  X_vr (note: sign depends on your convention)
         ],
         dtype=float,
-    )
+    ))
 
 
 class VRToRobotMapper:

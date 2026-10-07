@@ -13,6 +13,11 @@
 - [3. 检查手柄及按键映射](#3-检查手柄及按键映射)
 - [4. 先操作虚拟机械臂](#4-先操作虚拟机械臂)
 - [5. 连接和启动真机](#5-连接和启动真机)
+| BACK / START / HOME | button 6 / 7 / 8 |
+| L3 / R3（摇杆按下） | button 9 / 10，目前没有控制动作 |
+| 左摇杆左右 / 上下 | axis 0 / 1 |
+| 右摇杆左右 / 上下 | axis 3 / 4 |
+| LT / RT | axis 2 / 5 |
 - [6. 手柄操作速查](#6-手柄操作速查)
 - [7. 结束实验与再次启动](#7-结束实验与再次启动)
 - [8. 常见问题](#8-常见问题)
@@ -25,7 +30,12 @@
 | Ubuntu 电脑 | 必需 | 必需 | 建议使用有桌面环境的 Ubuntu 22.04/24.04；其他发行版需自行适配 |
 | Miniconda 或 Anaconda | 必需 | 必需 | 本文用 Conda 隔离 Python 依赖 |
 | PS2 风格手柄及 USB 接收器/转换器 | 必需 | 必需 | 必须能被电脑识别为游戏手柄；不同型号的按键编号可能不同 |
-| PiPER 机械臂及配套电源 | 无需 | 必需 | 固定在稳定台面上，按设备手册接线、上电 |
+| PiPER 机械臂及配套电源 | 无需 | 必需 | 固定在稳定台面上，按
+| BACK / START / HOME | button 6 / 7 / 8 |
+| L3 / R3（摇杆按下） | button 9 / 10，目前没有控制动作 |
+| 左摇杆左右 / 上下 | axis 0 / 1 |
+| 右摇杆左右 / 上下 | axis 3 / 4 |
+| LT / RT | axis 2 / 5 |设备手册接线、上电 |
 | 支持 Linux SocketCAN 的 USB-CAN 模块及线缆 | 无需 | 必需 | 优先用机械臂配套模块；本项目默认接口名 `can0`，速率 1 Mbps |
 | PiPER 电动夹爪 | 可看虚拟夹爪 | 使用夹爪功能时需要 | 当前代码会发送夹爪指令，其他末端工具需适配 |
 
@@ -72,7 +82,12 @@ cd Gamepad_PiPER
 conda --version
 ```
 
-若提示 `command not found`，按 [Conda 官方 Linux 安装说明](https://docs.conda.io/projects/conda/en/stable/user-guide/install/linux.html) 安装适合电脑架构的 Miniconda。本文的快捷启动脚本假定安装目录是 `~/miniconda3`，环境名是 `piper`；安装在其他目录也可用，按下文的手动启动方法运行。
+若提示 `command not found`，按 [Conda 官方 Linux 安装说明](https://docs.conda.io/projects/conda/en/stable/user-guide/install/linux.html
+| BACK / START / HOME | button 6 / 7 / 8 |
+| L3 / R3（摇杆按下） | button 9 / 10，目前没有控制动作 |
+| 左摇杆左右 / 上下 | axis 0 / 1 |
+| 右摇杆左右 / 上下 | axis 3 / 4 |
+| LT / RT | axis 2 / 5 |) 安装适合电脑架构的 Miniconda。本文的快捷启动脚本假定安装目录是 `~/miniconda3`，环境名是 `piper`；安装在其他目录也可用，按下文的手动启动方法运行。
 
 安装并初始化 Bash 后，关闭终端再重新打开，确认 `conda --version` 能输出版本。
 
@@ -99,7 +114,12 @@ python -m pip install scipy viser yourdfpy 'pygame<2.6.2' piper_sdk 'setuptools<
 
 ### 2.4 设置模型路径并检查环境
 
-URDF 是描述机械臂关节和几何模型的文件；STL 是外观网格。项目已附带它们，不必额外安装 `piper_ros`。
+URDF 是描述机械臂关节和几何模型的文件；STL 是外观网格。项目已附带
+| BACK / START / HOME | button 6 / 7 / 8 |
+| L3 / R3（摇杆按下） | button 9 / 10，目前没有控制动作 |
+| 左摇杆左右 / 上下 | axis 0 / 1 |
+| 右摇杆左右 / 上下 | axis 3 / 4 |
+| LT / RT | axis 2 / 5 |它们，不必额外安装 `piper_ros`。
 
 ```bash
 mkdir -p ros_packages/piper_description
@@ -117,6 +137,11 @@ ls ros_packages/piper_description/meshes/
 ln -s ../../piper/meshes ros_packages/piper_description/meshes
 ```
 
+| BACK / START / HOME | button 6 / 7 / 8 |
+| L3 / R3（摇杆按下） | button 9 / 10，目前没有控制动作 |
+| 左摇杆左右 / 上下 | axis 0 / 1 |
+| 右摇杆左右 / 上下 | axis 3 / 4 |
+| LT / RT | axis 2 / 5 |
 新终端中先激活环境，再清除可能由 ROS 带入的 Python/库路径，并设置本项目模型路径：
 
 ```bash
@@ -146,6 +171,11 @@ if pygame.joystick.get_count() == 0:
 j = pygame.joystick.Joystick(0)
 j.init()
 print('名称:', j.get_name())
+| BACK / START / HOME | button 6 / 7 / 8 |
+| L3 / R3（摇杆按下） | button 9 / 10，目前没有控制动作 |
+| 左摇杆左右 / 上下 | axis 0 / 1 |
+| 右摇杆左右 / 上下 | axis 3 / 4 |
+| LT / RT | axis 2 / 5 |
 print('按钮数:', j.get_numbuttons(), '轴数:', j.get_numaxes(), '方向键组数:', j.get_numhats())
 print('依次按键、移动摇杆和扳机；Ctrl+C 退出')
 try:
@@ -188,6 +218,8 @@ PY
 
 虚拟模式不需要机械臂、CAN 模块或 `sudo`。完成第 2 节环境设置后，选择一个入口：
 
+配套电源 → PiPER
+```
 ```bash
 # 原生窗口（需要桌面和可用的 OpenGL）
 python main_mujoco.py
@@ -220,7 +252,9 @@ python main_virtual.py
 CONDA_PREFIX="$HOME/miniconda3" bash run_mujoco.sh
 ```
 
-脚本会清理 ROS 路径并设置模型目录。这里显式指定 Conda 根目录，是因为脚本会把 `CONDA_PREFIX` 后接 `/envs/piper`；直接在已激活的 `piper` 环境里运行 `./run_mujoco.sh` 可能错误地查找 `envs/piper/envs/piper/bin/python`。
+脚本会清理 ROS 路径并设置模型目录。这里显式指定 Conda 根目录，是因为
+配套电源 → PiPER
+```脚本会把 `CONDA_PREFIX` 后接 `/envs/piper`；直接在已激活的 `piper` 环境里运行 `./run_mujoco.sh` 可能错误地查找 `envs/piper/envs/piper/bin/python`。
 
 ## 5. 连接和启动真机
 
@@ -371,6 +405,23 @@ HOME 再次按下也不是急停：它先发回零、关闭夹爪，再等待并
 向项目维护者反馈问题时，提供：启动命令、Python 路径、依赖版本、手柄名称/编号、CAN 状态、完整错误文本，以及是否在虚拟模式也能复现。不要只提供终端被刷新后的最后一行。
 
 ## 9. 项目结构与进阶开发
+解压缩后会消耗 33.7 MB 的额外空间。
+获取:1 http://mirror.sysu.edu.cn/ubuntu/ jammy/universe amd64 gh amd64 2.4.0+dfsg1-2 [6,242 kB]
+已下载 6,242 kB，耗时 2秒 (3,366 kB/s)
+正在选中未选择的软件包 gh。
+(正在读取数据库 ... 系统当前共安装有 345716 个文件和目录。)
+准备解压 .../gh_2.4.0+dfsg1-2_amd64.deb  ...
+正在解压 gh (2.4.0+dfsg1-2) ...
+正在设置 gh (2.4.0+dfsg1-2) ...
+正在处理用于 man-db (2.10.2-1) 的触发器 ...
+? What account do you want to log into? GitHub.com
+? What is your preferred protocol for Git operations? HTTPS
+? Authenticate Git with your GitHub credentials? Yes
+? How would you like to authenticate GitHub CLI? Login with a web browser
+
+! First copy your one-time code: 45EC-7B8B
+- Press Enter to open github.com in your browser... 
+Gtk-Message: 18:34:01.329: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
 
 ```text
 Gamepad_PiPER/

@@ -1,0 +1,8 @@
+# Keep the Pinocchio environment's NumPy ABI; do not use requirements_common.txt.
+numpy<3
+scipy
+viser==1.1.1
+yourdfpy==0.0.60
+pygame==2.6.1
+piper_sdk==0.6.2
+setuptools<80.9.0

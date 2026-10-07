@@ -1,0 +1,16 @@
+# 仅安装 VR 遥操作依赖，不安装 ACT 训练 / 推理环境。
+numpy>=1.26,<2
+mujoco==3.3.7
+mink==0.0.13
+daqp>=0.6,<0.8
+vuer[all]==0.0.70
+params-proto==2.13.1
+piper-sdk==0.6.2
+pytransform3d==3.5.0
+loop-rate-limiters==1.2.0
+opencv-python-headless>=4.9,<4.12
+pyzmq>=25,<28
+
+# Vuer 默认安装不包含 Web 服务依赖。
+aiohttp>=3.10.5,<4
+aiohttp-cors==0.7.0

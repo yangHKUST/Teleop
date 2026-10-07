@@ -1,5 +1,6 @@
 # teleop/runtime/init_viewer.py
 import queue
+import os
 import threading
 
 import mujoco
@@ -8,6 +9,9 @@ import mujoco.viewer
 
 def init_viewer(model, data, dry_run: bool):
     if not dry_run:
+        return None
+    if not os.environ.get("DISPLAY") and not os.environ.get("WAYLAND_DISPLAY"):
+        print("[DRY RUN] No display; skipping MuJoCo viewer. VR service remains available.")
         return None
 
     # 复刻 mujoco.viewer.launch_passive，但额外保留渲染线程的句柄。

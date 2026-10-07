@@ -135,7 +135,8 @@ class GamepadBase:
         self.joint_queue = None
         self.shutdown_event = None
 
-        if urdf_path is not None and mesh_path is not None and root_name is not None:
+        if (self.visualization_backend != "none" and urdf_path is not None
+                and mesh_path is not None and root_name is not None):
             try:
                 self.urdf = yourdfpy.URDF.load(urdf_path, mesh_dir=mesh_path)
 

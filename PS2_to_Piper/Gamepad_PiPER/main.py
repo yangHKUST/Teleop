@@ -90,16 +90,19 @@ def get_current_path():
     """Get current path"""
     return os.path.dirname(os.path.realpath(__file__))
 
-def main():
+def main(can_name="can0", visualization_backend="mujoco", movement_speed=100, speed_factor=1.0):
     """Main function for robotic arm teleoperation."""
     urdf_path = os.path.join(get_current_path(), "piper/piper.urdf")
     mesh_path = os.path.join(get_current_path(), "piper/meshes/")
 
     # Initialize low-level interface
-    robot = C_PiperInterface_V2()
+    robot = C_PiperInterface_V2(can_name=can_name)
 
     # Initialize control class
-    controller = Teleop(robot, urdf_path, mesh_path, "/base_link", "link6")
+    controller = Teleop(robot, urdf_path, mesh_path, "/base_link", "link6",
+                        visualization_backend=visualization_backend)
+    controller.movement_speed_index = controller.movement_speeds.index(movement_speed)
+    controller.speed_factor_index = controller.speed_factors.index(speed_factor)
 
     t1 = time.time()
 
